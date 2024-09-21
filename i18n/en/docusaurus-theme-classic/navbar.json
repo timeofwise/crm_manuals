@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "H-CRM Manuals",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "H-CRM Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  }
+}

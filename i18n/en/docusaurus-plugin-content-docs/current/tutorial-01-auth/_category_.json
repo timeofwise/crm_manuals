@@ -1,0 +1,8 @@
+{
+  "label": "User Authentication",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This section covers creating and authenticating user accounts and system permissions for use with the CRM system."
+  }
+}
