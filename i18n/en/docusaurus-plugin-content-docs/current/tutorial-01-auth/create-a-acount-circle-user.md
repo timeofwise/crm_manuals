@@ -2,75 +2,77 @@
 sidebar_position: 1
 ---
 
-# Creating a CRM Account (for Circle Users)
+# Creating a CRM account (for Circle users)
 
-Here are the steps for creating a CRM account in the intranet.
+사내망에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
 
-## System Access Path
+## 시스템 접속 경로
 
 ![001](./img/001.png)
 
-1. **H-CRM** link will be added to the work menu on the Circle main screen. **(Scheduled for the second half of `24)**
-- **In-house** access
-- Click **[Access Link](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=http://service-qas.hanwha-crm.com:8888/auth/slo)**. - **When accessing from outside**
-- Click **[Access link](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=https://service-qas.hanwha-crm.com/auth/slo)**.
+1. 서클 메인 화면의 업무 메뉴에 **H-CRM** 링크가 추가될 예정입니다. **(`24년 하반기 예정)**
+- **사내**에서 접속하는 경우
+  - **[접속링크](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=http://service-qas.hanwha-crm.com:8888/auth/slo)** 를 클릭하세요.
+- **사외**에서 접속하는 경우
+  - **[접속링크](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=https://service-qas.hanwha-crm.com/auth/slo)** 를 클릭하세요.
 
-## Account Creation Step 1
+## 계정생성 1단계
 
 ![002](./img/002.png)
 
-1. Enter the Circle User account registration screen. Circle User information is loaded by default, so please check the entered information.
-1. Email cannot be modified. Please check your mobile phone number and click the **Authentication** button to proceed with the authentication process. After authentication, the **Authentication Required** status will change to **Authentication Complete** status.<br/> ![004](./img/004.png) ![003](./img/003.png)
-    1. Please check your mobile phone number and click the **Send** button. The authentication number will be sent to the entered mobile phone number via text message.
-    2. Please enter the authentication number sent via text message and click the **Confirm** button.
-1. Please enter the password you will use according to the rules described below. The password you enter here will be used when accessing CRM from outside the company.
+1. 서클 유저의 계정등록 화면에 진입합니다. 서클 사용자 정보가 기본적으로 로드가 되며 입력된 정보를 확인해주세요.
+1. 이메일은 수정을 할 수 없습니다. 휴대폰 번호를 확인하시고 **인증** 버튼을 눌러 인증절차를 진행해주세요. 인증이 된 이후에는 **인증필요** 상태가 **인증완료** 상태로 변경됩니다.<br/>  ![004](./img/004.png) ![003](./img/003.png)
+    1. 휴대폰 번호를 확인하시고 **발송** 버튼을 눌러주세요. 인증번호 문자가 입력된 휴대폰 번호로 발송됩니다.
+    2. 문자로 발송된 인증번호를 입력하시고 **확인** 버튼을 눌러주세요.
+1. 아래 기재된 규칙에 맞게 사용하실 비밀번호를 입력해주세요. 이곳에 입력하신 비밀번호는 사외에서 CRM에 접속하실 때 사용됩니다.
     :::note
-      - Please enter 8 to 20 characters for a combination of 3 of the following: lowercase, uppercase, special characters, and numbers, and 10 to 20 characters for a combination of 2.
-      - Please refrain from using easy passwords such as numbers related to personal information such as date of birth, phone number, and consecutive numbers, as they can be easily figured out by others.
-      - Please use a different password from the password you have used or the password you are using on other sites. 
+    - 영소, 영대, 특수문자, 숫자 중 3가지 조합 시 8~20자, 2가지 조합 시 10~20자를 입력해주세요.
+    - 생년월일, 전화번호 등 개인정보와 관련된 숫자, 연속된 숫자와 같이 쉬운 비밀번호는 다른사람이 쉽게 알아낼 수 있으니 사용은 자제해 주세요.
+    - 사용했던 비밀번호나 타 사이트에 사용중인 비밀번호와는 다른 비밀번호를 사용해주세요.
     :::
-4. Click the **Next** button.
+4. **다음** 버튼을 눌러주세요.
 
-## Account Creation Step 2
+## 계정생성 2단계
 
-Apply for system usage rights. Please select the appropriate permissions for your work. **(Currently only dummy permissions are displayed - Development to be completed in October 2024)**
+시스템 사용 권한을 신청합니다. 업무에 맞는 권한을 선택해주세요. **(현재는 더미 권한만 표시됨 - `24년 10월 중 개발완료)**
 
 ![005](./img/005.png)
 
-1. Select a business unit.
-1. If there are many permissions in the permission list, you can search for only the necessary permissions through search.
-1. You can reset the search results.
-1. You can view in full screen.
-1. If there are many permissions to apply for, you can copy other people's permissions.
-1. Reset the selected permissions.
-1. A description of the selected permissions is displayed.
-1. Proceed to the next step.
+1. 사업부를 선택합니다.
+1. 권한 목록에 권한이 많은 경우 검색을 통해서 필요 권한만 검색할 수 있습니다.
+1. 검색된 결과를 초기화 할 수 있습니다.
+1. 전체 화면에서 볼 수 있습니다.
+1. 신청할 권한이 많은 경우, 다른 사람의 권한을 복사해 올 수 있습니다.
+1. 선택된 권한들을 초기화합니다.
+1. 선택한 권한에 대한 설명이 표시됩니다.
+1. 다음단계로 진행합니다.
 
-## Account Creation Step 3
+## 계정생성 3단계
 
-Apply for system usage rights. Please select the appropriate permissions for your work. **(Currently only dummy permissions are displayed - Development to be completed in October 2024)**
+시스템 사용 권한을 신청합니다. 업무에 맞는 권한을 선택해주세요. **(현재는 더미 권한만 표시됨 - `24년 10월 중 개발완료)**
 
 ![006](./img/006.png)
 
-1. Recheck the permissions applied in the previous step.
-1. To modify permissions, click the **Previous** button.
-2. If there are no problems, click the **Next** button.
+1. 앞 단계에서 신청한 권한을 재확인합니다.
+    1. 권한을 수정하려면 **이전** 버튼을 눌러주세요.
+    2. 이상이 없으면 **다음** 버튼을 눌러주세요.
 
-## Account Creation Step 4
+## 계정생성 4단계
 
-Create a circle approval document for creating an H-CRM account.
+H-CRM 계정 생성을 위한 서클 결재문서를 생성합니다.
 
 ![007](./img/007.png)
 
-1. Search for the approver. (Vice President Kim Se-hyeok)
-1. Select **Approval** as the approval type. **(Not set as 'Approval' by default - To be improved)**
-1. Enter your submission opinion.
-1. Click the **Submit** button.
+1. 결재자를 검색합니다. (김세혁차장)
+1. 결재구분을 **결재**로 선택합니다. **('결재'로 기본세팅이 되어 있지 않음 - 개선예정)**
+1. 상신 의견을 입력합니다.
+1. **상신** 버튼을 클릭합니다.
 
-## Account Creation Complete
+## 계정생성 완료
 
 ![008](./img/008.png)
 
-1. The message **Payment in progress** will be displayed until payment is completed.
-1. The payment document will be sent to the circle.
-1. If **rejected**, you will be taken back to the account application screen.
+1. 결재가 완료되기 전까지 **결재진행중** 메시지가 표시됩니다.
+1. 결재 문서가 서클로 전송됩니다.
+1. **반려** 시 다시 계정신청 화면으로 이동하게 됩니다.
+
