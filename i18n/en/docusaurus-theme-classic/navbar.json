@@ -7,8 +7,8 @@
     "message": "H-CRM Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.Manual": {
+    "message": "Manual",
+    "description": "Navbar item with label Manual"
   }
 }
