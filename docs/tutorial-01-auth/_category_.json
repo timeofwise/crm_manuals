@@ -1,8 +1,0 @@
-{
-  "label": "사용자 인증",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "CRM 시스템 사용을 위한 사용자 계정 생성과 인증, 시스템 권한에 관한 내용입니다."
-  }
-}

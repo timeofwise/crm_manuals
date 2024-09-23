@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# H-CRM User Manual
+# H-CRM 사용자 매뉴얼
 
-Hanwha Precision Machinery CRM system is newly developed. **(Scheduled to open in December 2024)**.
+한화정밀기계 CRM 시스템이 새롭게 개발됩니다. **(2024년 12월 오픈 예정)**.
 
-## Getting Started
+## 시작하기
 
-**Access [H-CRM](https://service-qas.hanwha-crm.com)** or https://service-qas.hanwha-crm.com.
+**[H-CRM](https://service-qas.hanwha-crm.com)** 또는 https://service-qas.hanwha-crm.com 에 접속하세요.
 
-If you cannot access the above address or are accessing it from within the company, access **[H-CRM (Internal Network)](http://service-qas.hanwha-crm.com:8888)** or http://service-qas.hanwha-crm.com:8888.
+위 주소로 접속이 되지 않거나 사내에서 접속하는 경우, **[H-CRM(사내망)](http://service-qas.hanwha-crm.com:8888)** 또는 http://service-qas.hanwha-crm.com:8888 에 접속하세요.

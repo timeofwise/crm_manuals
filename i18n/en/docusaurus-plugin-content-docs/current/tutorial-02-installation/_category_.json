@@ -1,8 +1,0 @@
-{
-  "label": "설치시운전",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "설치시운전 프로젝트 생성, 엔지니어 할당, 서비스 처리, 리포트 작성, 고객 검수 작업 등을 안내합니다."
-  }
-}
