@@ -4,15 +4,15 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.사용자 인증": {
-    "message": "사용자 인증",
+    "message": "User Authentication",
     "description": "The label for category 사용자 인증 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.사용자 인증.link.generated-index.description": {
-    "message": "CRM 시스템 사용을 위한 사용자 계정 생성과 인증, 시스템 권한에 관한 내용입니다.",
+    "message": "This section covers creating and authenticating user accounts and system permissions for use with the CRM system.",
     "description": "The generated-index page description for category 사용자 인증 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.설치시운전": {
-    "message": "설치시운전",
+    "message": "Installation",
     "description": "The label for category 설치시운전 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.설치시운전.link.generated-index.description": {
@@ -20,7 +20,7 @@
     "description": "The generated-index page description for category 설치시운전 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.서비스 주문": {
-    "message": "서비스 주문",
+    "message": "Service Order",
     "description": "The label for category 서비스 주문 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.서비스 주문.link.generated-index.description": {
@@ -28,7 +28,7 @@
     "description": "The generated-index page description for category 서비스 주문 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.스토어": {
-    "message": "스토어",
+    "message": "Store",
     "description": "The label for category 스토어 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.스토어.link.generated-index.description": {
@@ -36,7 +36,7 @@
     "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.예방활동": {
-    "message": "예방활동",
+    "message": "Courtesy Activity",
     "description": "The label for category 예방활동 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.예방활동.link.generated-index.description": {
@@ -52,7 +52,7 @@
     "description": "The generated-index page description for category DEMO in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.기술지원": {
-    "message": "기술지원",
+    "message": "Technical Support",
     "description": "The label for category 기술지원 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.기술지원.link.generated-index.description": {
@@ -60,7 +60,7 @@
     "description": "The generated-index page description for category 기술지원 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.교육": {
-    "message": "교육",
+    "message": "Training",
     "description": "The label for category 교육 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.교육.link.generated-index.description": {
@@ -68,7 +68,7 @@
     "description": "The generated-index page description for category 교육 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.뉴스센터": {
-    "message": "뉴스센터",
+    "message": "News Center",
     "description": "The label for category 뉴스센터 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.뉴스센터.link.generated-index.description": {
@@ -76,7 +76,7 @@
     "description": "The generated-index page description for category 뉴스센터 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.애프터마켓": {
-    "message": "애프터마켓",
+    "message": "Aftermarket",
     "description": "The label for category 애프터마켓 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.애프터마켓.link.generated-index.description": {
@@ -84,7 +84,7 @@
     "description": "The generated-index page description for category 애프터마켓 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.시스템 관리": {
-    "message": "시스템 관리",
+    "message": "System Management",
     "description": "The label for category 시스템 관리 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.시스템 관리.link.generated-index.description": {
