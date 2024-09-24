@@ -5,7 +5,16 @@ sidebar_position: 999
 
 # Change Logs
 
-## 0.0.2
+## 0.x
+
+### 0.0.3
+
+- 메뉴 보완
+    - 스토어
+        - [주문서 수정](./SMT/tutorial-04-store/edit-a-store-order-buyer.md) 절차 추가 (작성중)
+        - [주문서 작성 - 일반주문(유상PO, 법인용)](./SMT/tutorial-04-store/create-a-store-order-buyer.md#유상po-품의-기본정보-확인-✨) 추가
+
+### 0.0.2
 
 - 매뉴얼 구조 변경
     - 3개 사업부 사이드바 메뉴 구분
@@ -28,6 +37,6 @@ sidebar_position: 999
         - [BS 활동](./SMT/tutorial-06-courtesy-activity/02-bs.md) 추가
 
 
-## 0.0.1
+### 0.0.1
 
 - 최초 제정
