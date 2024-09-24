@@ -7,7 +7,19 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.0.4
+
+*2024년 9월 24일*
+
+- 메뉴 보완
+    - VOC
+        - [VOC 개요](./SMT/tutorial-05-voc/overview-voc.md) 현황판 추가
+        - [VOC 생성](./SMT/tutorial-05-voc/create-voc.md) 절차 추가
+        - [VOC 처리](./SMT/tutorial-05-voc/handle-voc.md) 절차 추가
+
 ### 0.0.3
+
+*2024년 9월 24일*
 
 - 메뉴 보완
     - 스토어
@@ -16,6 +28,8 @@ sidebar_position: 999
         - [주문서 작성 - 무상출고(본사용)](./SMT/tutorial-04-store/create-a-store-order-buyer.md#주문서-생성---무상출고품의본사용-✨) 추가
 
 ### 0.0.2
+
+*2024년 9월 23일*
 
 - 매뉴얼 구조 변경
     - 3개 사업부 사이드바 메뉴 구분
