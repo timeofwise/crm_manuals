@@ -1,0 +1,8 @@
+{
+  "label": "VOC",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "VOC 관련메뉴"
+  }
+}
