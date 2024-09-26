@@ -1,0 +1,8 @@
+{
+  "label": "VOC",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "고객 현장에서 트러블슈팅이 어려운 이슈사항들을 등록하고 관리하는 메뉴입니다."
+  }
+}

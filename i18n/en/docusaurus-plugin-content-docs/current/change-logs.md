@@ -7,6 +7,26 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.0.7
+
+*2024년 9월 26일*
+
+- 메뉴 보완
+    - 뉴스센터
+        - [공지사항](./SMT/tutorial-10-news-center/01-notice.md) 절차 추가
+        - [MSDS](./SMT/tutorial-10-news-center/03-msds.md) 절차 추가
+        - [자료실](./SMT/tutorial-10-news-center/02-archive.md) 절차 추가
+    - 예방활동
+        - [리트로핏](./SMT/tutorial-06-courtesy-activity/03-retrofit.md) 절차 추가
+
+### 0.0.6
+
+*2024년 9월 25일*
+
+- 메뉴 보완
+    - 스토어
+        - 자료 보완
+
 ### 0.0.5
 
 *2024년 9월 25일*
