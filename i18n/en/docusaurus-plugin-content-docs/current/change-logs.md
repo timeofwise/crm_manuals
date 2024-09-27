@@ -7,6 +7,20 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.0.9
+
+*2024년 9월 27일*
+
+- 메뉴 보완
+    - 교육
+        - [온라인교육과정](./SMT/tutorial-08-lecture/01-online-lecture.md) 절차 추가
+        - [오프라인교육과정](./SMT/tutorial-08-lecture/02-offline-lecture.md) 절차 추가
+    - DEMO
+        - [프로젝트 목록](./SMT/tutorial-07-demo/01-demo-list.md) 안내 추가
+        - [프로젝트 생성](./SMT/tutorial-07-demo/02-demo-add.md) 절차 추가
+        - [프로젝트 상세](./SMT/tutorial-07-demo/03-demo-detail.md) 절차 추가
+
+
 ### 0.0.8
 
 *2024년 9월 27일*
@@ -76,8 +90,8 @@ sidebar_position: 999
 - 메뉴 추가
     - [VOC](./SMT/tutorial-05-voc/create-voc.md)
     - [예방활동](./SMT/tutorial-06-courtesy-activity/01-overview.md)
-    - [DEMO](./SMT/tutorial-07-demo/01-create-demo.md)
-    - [교육](./SMT/tutorial-08-lecture/01-overview.md)
+    - [DEMO](./SMT/tutorial-07-demo/01-demo-list.md)
+    - [교육](./SMT/tutorial-08-lecture/01-online-lecture.md)
     - [기술지원](./SMT/tutorial-09-technical-support/01-overview.md)
     - [뉴스센터](./SMT/tutorial-10-news-center/01-notice.md)
     - [애프터마켓](./SMT/tutorial-11-aftermarket/01-performance.md)
