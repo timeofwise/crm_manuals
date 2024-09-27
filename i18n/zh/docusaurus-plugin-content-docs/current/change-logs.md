@@ -7,6 +7,17 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.0.8
+
+*2024년 9월 27일*
+
+- 메뉴 추가
+    - 업무메뉴관리
+- 메뉴 보완
+    - 업무메뉴관리
+        - [뉴스센터관리](./SMT/tutorial-13-task-management/01-manage-news-center.md) 절차 추가
+        - [교육관리](./SMT/tutorial-13-task-management/02-manage-training.md) 절차 추가
+
 ### 0.0.7
 
 *2024년 9월 26일*
