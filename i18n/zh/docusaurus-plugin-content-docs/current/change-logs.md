@@ -7,6 +7,14 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.0.11
+
+*2024년 10월 02일*
+
+- 메뉴 보완
+    - 애프터마켓
+        - [견적 및 실적 관리](./SMT/tutorial-11-aftermarket/01-performance.md) 메뉴 내용 보완
+
 ### 0.0.10
 
 *2024년 10월 02일*
