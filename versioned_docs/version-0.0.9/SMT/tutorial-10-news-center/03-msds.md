@@ -2,11 +2,11 @@
 sidebar_position: 3
 ---
 
-# MSDS ✨
+# MSDS
 
 서비스 부품 중 유해화학물질에 해당하는 제품들의 물질안전보건자료(MSDS: Material Safety Data Sheet)를 공지하는 메뉴입니다.
  
-## 목록 ✨
+## 목록
 
 ![004](./img/004.png)
 

@@ -7,6 +7,19 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.0.10
+
+*2024년 10월 02일*
+
+- 메뉴 추가
+    - 기술지원
+        - [Q&A](./SMT/tutorial-09-technical-support/01-qna.md) 메뉴 추가
+        - [특수 노즐](./SMT/tutorial-09-technical-support/02-special-nozzle.md) 메뉴 추가
+        - [장착정도 인증서](./SMT/tutorial-09-technical-support/03-cpk-certificate.md) 메뉴 추가
+- 메뉴 보완
+    - 사용자인증
+        - [CRM 계정생성(그외사용자)](./SMT/tutorial-01-auth/create-a-acount-non-circle-user.md#일반-사용자-계정-생성-) 페이지 내 일반 사용자 계정 생성 시나리오 부문에 메뉴만 추가해둠
+
 ### 0.0.9
 
 *2024년 9월 27일*
