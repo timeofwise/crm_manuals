@@ -105,7 +105,7 @@ sidebar_position: 999
     - [예방활동](./SMT/tutorial-06-courtesy-activity/01-overview.md)
     - [DEMO](./SMT/tutorial-07-demo/01-demo-list.md)
     - [교육](./SMT/tutorial-08-lecture/01-online-lecture.md)
-    - [기술지원](./SMT/tutorial-09-technical-support/01-overview.md)
+    - [기술지원](./SMT/tutorial-09-technical-support/01-qna.md)
     - [뉴스센터](./SMT/tutorial-10-news-center/01-notice.md)
     - [애프터마켓](./SMT/tutorial-11-aftermarket/01-performance.md)
     - [시스템 관리](./SMT/tutorial-12-system-management/01-task-manage.md)
