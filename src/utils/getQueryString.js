@@ -39,7 +39,7 @@ function setCookie(cname, cvalue, exdays) {
 
 
 
-export default function ValidateTextByToken({dispTargetViewer=false, validTokenList, children}) {
+export default function ValidateTextByToken({dispTargetViewer=false, dispCaution=true, validTokenList, children}) {
 
     //const [token, setToken] = useState(getCookie('crmManualToken'));
 
@@ -111,10 +111,11 @@ export default function ValidateTextByToken({dispTargetViewer=false, validTokenL
                     }else{
                         return <>
                             {targetViewer}
-                            <ul>
+                            {dispCaution ? (<ul>
                                 <li>열람 권한이 없습니다. 페이지 새로고침 버튼을 눌러 다시 진행해주세요.</li>
                                 <li>입력된 토큰으로 계속 진행되지 않는 경우, hg.bak@hanwha.com 으로 문의주세요.</li>
-                            </ul>
+                            </ul>) : (<></>)}
+                            
                         </>
                     }
                 }
