@@ -2,13 +2,13 @@
 sidebar_position: 4
 ---
 
-
+import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # 이메일 찾기
 
 계정의 이메일을 분실하였을 경우 사용하는 메뉴에 대한 안내입니다.
 
-
+<ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch', 'agent', 'customer']}>
 
 ## 페이지 이동
 
@@ -35,3 +35,4 @@ sidebar_position: 4
 1. 이메일을 확인합니다.
 1. 로그인 또는 비밀번호 초기화 작업을 수행합니다.
 
+</ValidateTextByToken>
