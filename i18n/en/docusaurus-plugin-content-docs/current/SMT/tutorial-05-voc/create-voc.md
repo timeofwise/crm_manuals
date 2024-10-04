@@ -2,18 +2,30 @@
 sidebar_position: 2
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # VOC 등록
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 VOC로 등록하고자 하는 이슈를 VOC 메뉴에서 등록하는 절차에 대해 안내합니다.
 
+</ValidateTextByToken>
+
 ## VOC 목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![001](./img/001.png)
 
 1. 사이드바의 [VOC]를 클릭합니다.
 2. 하단의 VOC 목록에서 [+] 버튼을 클릭합니다.
 
+</ValidateTextByToken>
+
 ## VOC 상세
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ### 설비 정보 입력
 
@@ -83,3 +95,5 @@ VOC로 등록하고자 하는 이슈를 VOC 메뉴에서 등록하는 절차에 
 ![007](./img/007.png) 
 
 - VOC 접수 완료와 동시에 관리자에게 이메일로 이미지와 같이 알림 메일이 발송됩니다.
+
+</ValidateTextByToken>

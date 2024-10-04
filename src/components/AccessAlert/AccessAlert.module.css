@@ -1,0 +1,9 @@
+.agentBadge {
+    margin-left: 0.5em;
+    background-color: red;
+    font-size: 2em;
+}
+
+.badgeDiv {
+    float: right;
+}

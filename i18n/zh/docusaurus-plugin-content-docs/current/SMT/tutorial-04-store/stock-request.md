@@ -2,12 +2,20 @@
 sidebar_position: 4
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 
 # 서비스부품 출고 요청
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch']}>
+
 서비스부품 입출고 요청과 승인 절차가 필요한 경우 사용절차에 대해 안내합니다.
 
+</ValidateTextByToken>
+
 ## 부품 출고 요청
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 부품 출고 요청 절차에 대해 안내합니다.
 
@@ -57,3 +65,5 @@ sidebar_position: 4
 1. 추가된 부품을 삭제하기 위해 사용합니다.
 1. [추가] 버튼을 눌러 출고 요청서를 생성합니다.
     - 요청서 생성과 동시에 **출고 승인 담당자** 에게 알림 메일이 발송됩니다.
+
+</ValidateTextByToken>

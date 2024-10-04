@@ -3,16 +3,17 @@ sidebar_position: 1
 ---
 
 import qrImage from "./img/009.png";
+import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # CRM 계정 생성 (서클사용자)
 
 사내망에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
 
+<ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch']}>
 
 ## 시스템 접속 경로
 
 ![001](./img/001.png)
-
 
 1. 서클 메인 화면의 업무 메뉴에 **H-CRM** 링크가 추가될 예정입니다. **(`24년 하반기 예정)**
 - **사내**에서 접속하는 경우
@@ -80,3 +81,4 @@ H-CRM 계정 생성을 위한 서클 결재문서를 생성합니다.
 1. 결재 문서가 서클로 전송됩니다.
 1. **반려** 시 다시 계정신청 화면으로 이동하게 됩니다.
 
+</ValidateTextByToken>

@@ -2,9 +2,15 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 프로젝트 목록
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch']}>
+
 데모 평가 프로젝트의 등록 및 관리, 리포팅 절차에 대해 안내합니다.
+
+
 
 ![001](./img/001.png)
 
@@ -16,3 +22,5 @@ sidebar_position: 1
 1. 상세검색 : 여러 조건을 한 번에 검색할 수 있습니다.
 1. 테이블 설정 : 엑셀 출력, 테이블 관리를 할 수 있습니다. 
 1. 프로젝트명 : 프로젝트의 상세로 이동합니다.
+
+</ValidateTextByToken>

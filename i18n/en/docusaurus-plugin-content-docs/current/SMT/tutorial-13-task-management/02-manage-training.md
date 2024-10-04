@@ -2,9 +2,13 @@
 sidebar_position: 2
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 교육 관리
 
 교육 관리
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ## 온라인 교육
 
@@ -182,3 +186,5 @@ sidebar_position: 2
 1. [톱니바퀴] 버튼을 클릭하여 테이블 관리, 엑셀다운로드를 할 수 있습니다.
 1. 이름 클릭시, 수강자 정보 모달이 열립니다. 수강신청에 대한 승인여부를 결정할 수 있습니다. 거절을 선택시, 거절사유를 입력할 수 있습니다.승인 또는 거절을 한 후, 이를 변경할 수 없으며 거절을 당한 수강자는 재신청을 해야 합니다.  
 1. 승인 또는 거절을 결정한 수강자명을 다시 클릭 시, 승인여부가 텍스트로 표기된 수강자 정보 모달이 열립니다. 
+
+</ValidateTextByToken>

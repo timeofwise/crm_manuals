@@ -2,7 +2,11 @@
 sidebar_position: 2
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 프로젝트 생성
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch']}>
 
 데모평가 프로젝트를 생성하는 절차를 안내합니다.
 
@@ -96,3 +100,4 @@ sidebar_position: 2
 1. [`X`] 버튼을 누르면 첨부할 파일을 삭제할 수 있습니다.
 1. 생성 버튼을 누르면 프로젝트가 생성됩니다.
 
+</ValidateTextByToken>

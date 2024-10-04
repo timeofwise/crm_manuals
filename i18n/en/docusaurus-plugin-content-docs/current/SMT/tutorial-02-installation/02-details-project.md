@@ -2,24 +2,39 @@
 sidebar_position: 2
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
+
 # 프로젝트 상세
 
 고객사에 인도된 자산의 설치시운전 작업을 수행하기 위한 절차를 안내합니다.
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}></ValidateTextByToken>
+
 ## 프로젝트 목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![001](./img/001.png)
 
 1. **설치시운전** 메뉴를 선택합니다.
 1. 설치시운전 프로젝트 목록이 표시됩니다.
 
+</ValidateTextByToken>
+
 ## 프로젝트 상세 진입
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![005](./img/005.png)
 
 1. 추가된 **설치시운전 프로젝트**를 클릭합니다.
 
-## 프로젝트 상세 - 개요
+</ValidateTextByToken>
+
+## 상세 - 개요
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![006](./img/006.png)
 
@@ -30,7 +45,11 @@ sidebar_position: 2
     :::
 - 각 메뉴에 대한 설명은 [공통사항](#프로젝트-상세---공통사항)을 참조하시기 바랍니다.
 
-## 프로젝트 상세 - 개요 - 자산추가
+</ValidateTextByToken>
+
+### 자산추가
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![007](./img/007.png)
 
@@ -39,7 +58,11 @@ sidebar_position: 2
     ※ 보증기간을 관리해야할 자산은 모두 등록이 되어야 합니다.
     :::
 
-## 프로젝트 상세 - 개요 - 자산추가 - 판매주문으로 추가하기
+</ValidateTextByToken>
+
+#### 판매주문으로 추가하기
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ![008](./img/008.png)
 
@@ -49,7 +72,11 @@ sidebar_position: 2
 1. 추가될 자산을 확인 후 **저장**버튼을 누릅니다.
     - 여기서 추가된 자산은 [판매주문으로 자산이 추가된 경우 납품목록 조회](#프로젝트-상세페이지---개요---납품목록---판매주문으로-자산이-추가된-경우) 와 같이 표시됩니다.
 
-## 프로젝트 상세 - 개요 - 자산추가 - 자산목록에서 추가하기
+</ValidateTextByToken>
+
+#### 자산목록에서 추가하기
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![009](./img/009.png)
 
@@ -63,7 +90,11 @@ sidebar_position: 2
 1. 추가하는 경우 **\>** 버튼을 누릅니다. (선택된 곳에서 뺄때는 **\<** 버튼)
 1. 추가될 자산을 확인 후 **저장** 버튼을 누릅니다.
 
-## 프로젝트 상세 - 개요 - 자산추가 - 직접 등록하기
+</ValidateTextByToken>
+
+#### 직접 등록하기
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![011](./img/011.png)
 
@@ -77,12 +108,19 @@ sidebar_position: 2
 1. 모델을 선택해준 뒤 확인 버튼을 누릅니다.
 1. 더 이상 추가할 자산이 없는 경우 **저장**버튼을 누릅니다.
 
+</ValidateTextByToken>
 
-## 프로젝트 상세 - 개요 - 납품목록
+### 납품목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 자산을 추가하게 되면 **납품목록** 필드에 자산이 목록에 추가된 것을 확인할 수 있습니다.
 
-## 프로젝트 상세 - 개요 - 납품목록 - 판매주문으로 자산이 추가된 경우
+</ValidateTextByToken>
+
+#### 판매주문으로 자산이 추가된 경우
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ※ **대기열** 이 존재하므로 유의하시기 바랍니다.
 
@@ -99,17 +137,25 @@ sidebar_position: 2
 1. 시리얼번호가 매핑되지 않거나 기타의 사유로 설치 대상/비대상으로 분류되지 못한 자산은 대기열에 잔류하기 되며, 대기열에 존재하는 자산이 1개라도 잇으면 다음단계 진행이 어렵습니다.
 1. 액션버튼 클릭 또는 S/N을 더블클릭하여 S/N을 수정/입력하게되면 바로 설치대상 또는 비대상으로 이동합니다.
 
-## 프로젝트 상세 - 개요 - 납품목록 - 보유자산목록에서 추가 또는 직접 자산을 등록한 경우
+</ValidateTextByToken>
+
+#### 보유자산목록에서 추가 또는 직접 자산을 등록한 경우
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![014](./img/014.png)
 
 1. 이 경우에는 대기열이 존재하지 않습니다. 나머지는 [앞 페이지](#프로젝트-상세페이지---개요---납품목록---판매주문으로-자산이-추가된-경우)와 동일한 프로세스를 따릅니다.
 
-## 프로젝트 상세 - 프리미팅
+</ValidateTextByToken>
+
+## 상세 - 프리미팅
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 설치시운전 작업을 수행하기 전 고객사 사전 방문 미팅을 수행하는 경우 사용합니다.
 
-## 프로젝트 상세 - 프리미팅 - 추가
+### 추가
 
 ![015](./img/015.png)
 
@@ -120,14 +166,14 @@ sidebar_position: 2
 1. 프리미팅 진행 엔지니어를 선택하고 **저장** 버튼을 누릅니다.
 
 
-## 프로젝트 상세 - 프리미팅 - 소요시간 등록
+### 소요시간 등록
 
 ![016](./img/016.png)
 
 1. 미팅에 소요된 시간을 입력하기 위해(비용정산용) **+** 버튼을 누릅니다.
 1. 작업 담당자, 작업구분, 시간대를 입력한 뒤 저장 버튼을 누릅니다.
 
-## 프로젝트 상세 - 프리미팅 - 저장
+### 저장
 
 ![017](./img/017.png)
 
@@ -135,7 +181,11 @@ sidebar_position: 2
 1. 프리미팅 결과 보고서 파일을 첨부합니다.
 1. 프리미팅을 저장하기 위해 **저장** 버튼을 누릅니다.
 
-## 프로젝트 상세 - 설치환경 체크 (for HTAA)
+</ValidateTextByToken>
+
+## 상세 - 설치환경 체크 (for HTAA)
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['branch']}>
 
 ![018](./img/018.png)
 
@@ -143,7 +193,11 @@ sidebar_position: 2
 1. 고객에게 필요한 유틸리티 사양알 제공하고 점검이 끝난 경우 체크합니다.
 1. 고객과 주고받은 자료(예 점검시트지 등)가 있다면 첨부합니다.
 
-## 프로젝트 상세 - 업그레이드 (for HTAA)
+</ValidateTextByToken>
+
+## 상세 - 업그레이드 (for HTAA)
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['branch']}>
 
 ![019](./img/019.png)
 
@@ -154,20 +208,24 @@ sidebar_position: 2
 1. 업그레이드 현황을 업데이트하기 위해 시리얼번호를 클릭합니다.
 1. 상태를 업데이트하고 저장 버튼을 누릅니다.
 
-## 프로젝트 상세 - 출하 (for HTAA)
+</ValidateTextByToken>
+
+## 상세 - 출하 (for HTAA)
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['branch']}>
 
 ![020](./img/020.png)
 
 1. 출하관리가 필요한 경우(미국)에 사용합니다
 1. 패킹리스트/인보이스 발행을 위해 + 단추를 클릭합니다.
 
-## 프로젝트 상세 - 출하 - 패킹리스트 & 인보이스 생성 (1/3) (for HTAA)
+### 패킹리스트 & 인보이스 생성 (1/3) (for HTAA)
 
 ![021](./img/021.png)
 
 1. 선적정보를 입력합니다.
 
-## 프로젝트 상세 - 출하 - 패킹리스트 & 인보이스 생성 (2/3) (for HTAA)
+### 패킹리스트 & 인보이스 생성 (2/3) (for HTAA)
 
 ![022](./img/022.png)
 
@@ -177,14 +235,18 @@ sidebar_position: 2
 1. 수량을 편집합니다.
 1. **추가** 버튼을 누릅니다.
 
-## 프로젝트 상세 - 출하 - 패킹리스트 & 인보이스 생성 (3/3) (for HTAA)
+### 패킹리스트 & 인보이스 생성 (3/3) (for HTAA)
 
 ![023](./img/023.png)
 
 1. 패킹정보 입력후 임시저장을 위해 누릅니다
 1. 정보입력이 모두 끝난 경우 최종 저장버튼을 누릅니다.
 
-## 프로젝트 상세 - 설치시운전
+</ValidateTextByToken>
+
+## 상세 - 설치시운전
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![024](./img/024.png)
 
@@ -193,8 +255,7 @@ sidebar_position: 2
 1. 작업에 할애된 소요시간을 입력합니다. (비용정산목적)
     - 프리미팅의 [소요시간 등록](#프로젝트-상세---프리미팅---소요시간-등록) 참조해주시기 바랍니다.
 
-
-## 프로젝트 상세 - 설치시운전 - 설치대상 선택
+### 설치대상 선택
 
 ![025](./img/025.png)
 
@@ -202,20 +263,23 @@ sidebar_position: 2
 1. 자산이 많은 경우 S/N검색을 수행할 수 있습니다. (like 검색이 될수 있어야 합니다.)
 - 대상을 클릭하시면 체크리스트를 작성할 수 있습니다. [체크리스트 작성](#프로젝트-상세---설치시운전---체크리스트-작성) 으로 이동
 
-## 프로젝트 상세 - 설치시운전 - 사용부품 추가 (@HTAA)
+
+### 사용부품 추가 (@HTAA)
+
 
 ![026](./img/026.png)
 
 1. 수리가 필요한 부품이 있는 경우, **+** 단추를 눌러 부품을 추가합니다.
 1. 내부적으로 출고관리가 필요한 경우(미주법인) **출고 요청**버튼을 누릅니다.
 
-## 프로젝트 상세 - 설치시운전 - 체크리스트 작성
+
+### 체크리스트 작성
 
 ![027](./img/027.png)
 
 1. 각 스텝을 오픈하여 점검 결과를입력합니다.
 
-## 프로젝트 상세 - 설치시운전 - 고객 검수 (@HTS)
+### 고객 검수 (@HTS)
 
 ![028](./img/028.png)
 
@@ -228,14 +292,15 @@ sidebar_position: 2
     ※ 중국의 경우 전자서명의 법적 효력이 없으므로 자필서명 스캔본을 첨부하여 등록합니다.
     :::
 
-## 프로젝트 상세 - 공통사항
+</ValidateTextByToken>
+
+## 상세 - 공통사항
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![029](./img/029.png)
 
 1. 리포트를 클릭하면 다운로드받을 수 있습니다.
 1. 담당자들 간에 작업하는 동안 발생한 특이사항에 대해 공유할 수 있습니다.
 
-
-
-
-
+</ValidateTextByToken>

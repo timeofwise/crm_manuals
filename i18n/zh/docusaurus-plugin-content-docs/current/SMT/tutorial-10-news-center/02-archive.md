@@ -2,11 +2,17 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 기술자료실
 
 서비스 부품 및 제품의 기술 자료를 게시하는 메뉴입니다.
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}></ValidateTextByToken>
+
 ## 목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![005](./img/005.png)
 
@@ -24,7 +30,11 @@ sidebar_position: 1
 1. [제목]를 클릭하여 [자료 상세]페이지로 이동합니다.
 1. 뒤로가기를 클릭하여 이전 페이지로 이동 가능합니다.
 
+</ValidateTextByToken>
+
 ## 자료실
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ### 자료 상세
 
@@ -45,7 +55,11 @@ sidebar_position: 1
 1. 신규 댓글을 작성할 수 있습니다.
 1. 댓글 작성시, 첨부파일을 추가할 수 있습니다.
 
+</ValidateTextByToken>
+
 ## 기술자료실
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![009](./img/009.png)
 
@@ -56,8 +70,11 @@ sidebar_position: 1
 1. 등록된 기술자료 목록을 볼 수 있습니다.
 1. [제목]를 클릭하여 [기술자료 상세]페이지로 이동합니다.
 
+</ValidateTextByToken>
 
 ## 나의 자료실
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![010](./img/010.png)
 
@@ -67,3 +84,5 @@ sidebar_position: 1
 1. Selectbox의 유형을 선택 후, 원하는 검색어로 검색할 수 있습니다.
 1. 등록된 기술자료 목록을 볼 수 있습니다.
 1. [제목]를 클릭하여 [기술자료 상세]페이지로 이동합니다.
+
+</ValidateTextByToken>

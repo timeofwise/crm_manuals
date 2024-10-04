@@ -2,7 +2,11 @@
 sidebar_position: 3
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 프로젝트 상세
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch']}>
 
 데모평가 프로젝트 상세 페이지에 대해 안내합니다.
 
@@ -301,3 +305,6 @@ sidebar_position: 3
     :::info
     - 수정 페이지는 이슈 추가 페이지와 모양이 동일하며, 해당 내용을 수정할 수 있습니다.
     :::
+
+
+</ValidateTextByToken>

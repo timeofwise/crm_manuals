@@ -2,9 +2,13 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 견적 & 실적 관리
 
 서비스 / 애프터마켓 견적서 발행 및 실적 관리 페이지를 안내합니다.
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head']}>
 
 ## 실적 목록
 
@@ -133,3 +137,4 @@ sidebar_position: 1
 1. [추가]버튼을 클릭하여 복사 대상을 변경할 수 있습니다. 검색하거나, 직접 입력 후 신규 등록하여 고객사를 특정할 수 있습니다.
 
 
+</ValidateTextByToken>

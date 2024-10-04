@@ -1,9 +1,11 @@
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import AccessibleAgents from "../components/AccessibleAgents";
+import AccessAlert from "../components/AccessAlert/AccessAlert";
 
 const passwords = {
     'init123!!':'head',
     'test':'branch',
+    'seller_agent':'seller',
     'agent':'agent',
     'dealer':'dealer',
     'customer':'customer',
@@ -88,6 +90,7 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
 
                         head={validTokenList.indexOf('head') !== -1} // 본사
                         branch={validTokenList.indexOf('branch') !== -1} // 법인
+                        seller={validTokenList.indexOf('seller') !== -1} // 대리점이면서 자재거점
                         agent={validTokenList.indexOf('agent') !== -1} // 대리점
                         customer={validTokenList.indexOf('customer') !== -1} // 고객
                     />
@@ -97,6 +100,20 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
                     return (
                         <>
                             {targetViewer}
+                            {!dispTargetViewer && (
+                                validTokenList.map((agent) => (
+                                    <span style={{
+                                        marginLeft: '0.5em',
+                                        backgroundColor: 'rgb(230, 167, 0)',
+                                        padding: '0.2em 0.4em',
+                                        borderRadius:'0.3em',
+                                        fontFamily:"Pretendard",
+                                        color:'white',
+                                        fontStyle:'normal!important',
+                                        fontSize:'0.8em',
+                                    }}>{agent.toUpperCase()}</span>
+                                ))
+                            )}
                             {children}
                         </>
                     );
@@ -105,16 +122,27 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
                         return (
                             <>
                                 {targetViewer}
+                                {!dispTargetViewer && (
+                                    validTokenList.map((agent) => (
+                                        <span style={{
+                                            marginLeft: '0.5em',
+                                            backgroundColor: 'rgb(230, 167, 0)',
+                                            padding: '0.2em 0.4em',
+                                            borderRadius:'0.3em',
+                                            fontFamily:"Pretendard",
+                                            color:'white',
+                                            fontStyle:'normal!important',
+                                            fontSize:'0.8em',
+                                        }}>{agent.toUpperCase()}</span>
+                                    ))
+                                )}
                                 {children}
                             </>
                         );
                     }else{
                         return <>
                             {targetViewer}
-                            {dispCaution ? (<ul>
-                                <li>열람 권한이 없습니다. 페이지 새로고침 버튼을 눌러 다시 진행해주세요.</li>
-                                <li>입력된 토큰으로 계속 진행되지 않는 경우, hg.bak@hanwha.com 으로 문의주세요.</li>
-                            </ul>) : (<></>)}
+                            {dispCaution ? (<AccessAlert accessibleAgents={validTokenList} />) : (<></>)}
                             
                         </>
                     }

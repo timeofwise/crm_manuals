@@ -2,11 +2,19 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 특수 노즐
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 특수 노즐의 선정과 설계 요청 업무와 관련한 메뉴를 안내합니다.
 
+</ValidateTextByToken>
+
 ## 목록 페이지
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ### 조회 / 작성 권한 보유 시
 
@@ -20,8 +28,11 @@ sidebar_position: 1
 1. 등록된 Q&A 목록을 볼 수 있습니다.
 1. [제목]를 클릭하여 [Q&A 상세]페이지로 이동합니다.
 
+</ValidateTextByToken>
 
 ### 관리 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
 
 ![012](./img/012.png)
 
@@ -34,10 +45,12 @@ sidebar_position: 1
 1. 등록된 특수노즐 목록을 볼 수 있습니다.
 1. [NO]를 클릭하여 [특수노즐 상세]페이지로 이동합니다.
 
-
+</ValidateTextByToken>
 
 
 ## 등록 페이지
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![013](./img/013.png)
 
@@ -51,16 +64,24 @@ sidebar_position: 1
 1. 요청내용을 입력해주세요.
 1. 부품자료를 여러개 추가할 수 있습니다. 
 
+</ValidateTextByToken>
+
 ## 상세 페이지
 
 ### 조회 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![014](./img/014.png)
 
 1. 부품자료를 다운로드할 수 있습니다. 
 1. 특수노즐 문의에 대한 담당자 답변을 확인할 수 있습니다.
 
+</ValidateTextByToken>
+
 ### 작성 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![015](./img/015.png)
 
@@ -70,8 +91,11 @@ sidebar_position: 1
 1. 특수노즐 문의에 대한 담당자 답변을 확인할 수 있습니다.
 1. 코멘트 작성, 삭제가 가능합니다. 담당자와 코멘트를 주고받을 수 있습니다. 
 
+</ValidateTextByToken>
 
 ### 관리 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
 
 ![016](./img/016.png)
 
@@ -109,7 +133,4 @@ sidebar_position: 1
 1. 코멘트 작성, 삭제가 가능합니다. 작성자와 코멘트를 주고받을 수 있습니다. 
 
 
-
-
-
-
+</ValidateTextByToken>

@@ -2,9 +2,14 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
+
 # 프로젝트 생성
 
 고객사에 인도된 자산의 설치시운전 작업을 수행하기 위한 절차를 안내합니다.
+
+<ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch', 'agent']}>
 
 ## 프로젝트 목록
 
@@ -39,3 +44,4 @@ sidebar_position: 1
 
 1. 설치시운전 프로젝트의 **저장** 버튼을 누릅니다.
 
+</ValidateTextByToken>

@@ -2,13 +2,21 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # Q&A
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
+
 서비스와 관련된 질문과 응답을 작성하고 관리하는 메뉴에 대한 안내입니다.
+
+</ValidateTextByToken>
 
 ## 목록 페이지
 
 ### 조회 / 작성 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![001](./img/001.png)
 
@@ -20,7 +28,11 @@ sidebar_position: 1
 1. 등록된 Q&A 목록을 볼 수 있습니다.
 1. [제목]를 클릭하여 [Q&A 상세]페이지로 이동합니다.
 
+</ValidateTextByToken>
+
 ### 관리 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ![002](./img/002.png)
 
@@ -40,8 +52,11 @@ sidebar_position: 1
 1. [톱니바퀴] 버튼을 클릭하여 Q&A 삭제, 테이블 관리를 할 수 있습니다.
 1. [제목]를 클릭하여 [Q&A 상세]페이지로 이동합니다.
 
+</ValidateTextByToken>
 
 ## 등록 페이지
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ### 오프라인 교육
 
@@ -54,6 +69,8 @@ sidebar_position: 1
 1. 첨부파일을 추가할 수 있습니다. 
 
 ### 온라인 교육
+
+
 ![004](./img/004.png)
 
 1. 문의유형을 선택해주세요. (현재 : 온라인교육 선택)
@@ -62,7 +79,9 @@ sidebar_position: 1
 1. 문의 내용을 입력해주세요.
 1. 첨부파일을 추가할 수 있습니다. 
 
+
 ### 기술지원
+
 
 ![005](./img/005.png)
 
@@ -73,7 +92,9 @@ sidebar_position: 1
 1. 문의 내용을 입력해주세요.
 1. 첨부파일을 추가할 수 있습니다.
 
+
 ### 서비스 부품
+
 
 ![006](./img/006.png)
 
@@ -86,6 +107,7 @@ sidebar_position: 1
 
 ### 기타
 
+
 ![007](./img/007.png)
 
 1. 문의유형을 선택해주세요. (현재 : 기타 선택)
@@ -93,17 +115,23 @@ sidebar_position: 1
 1. 문의 내용을 입력해주세요.
 1. 첨부파일을 추가할 수 있습니다. 
 
+</ValidateTextByToken>
 
 ## 상세 페이지
 
 ### 조회 권한 보유 시
 
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
+
 ![008](./img/008.png)
 
 1. 첨부파일을 클릭하여 자료를 다운받을 수 있습니다.
 
+</ValidateTextByToken>
 
 ### 작성 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![009](./img/009.png)
 
@@ -115,7 +143,11 @@ sidebar_position: 1
 1. [삭제] 버튼 클릭시, 답변을 삭제할 수 있습니다.
 1. 신규 답변을 작성할 수 있습니다. 답변 작성시, 첨부파일을 추가할 수 있습니다.
 
+</ValidateTextByToken>
+
 ### 관리 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ![010](./img/010.png)
 
@@ -130,3 +162,4 @@ sidebar_position: 1
 1. 해당 Q&A건에 한하여 담당자를 추가할 수 있습니다. 
 1. 관리권한을 가진 사용자는 코멘트를 조회/작성할 수 있습니다. 
 
+</ValidateTextByToken>

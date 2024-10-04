@@ -2,11 +2,17 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 공지사항
 
 제품 서비스 정책 및 각종 안내사항을 공지하는 메뉴입니다.
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}></ValidateTextByToken>
+
 ## 공지사항 목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
  
 ![001](./img/001.png)
 
@@ -15,8 +21,11 @@ sidebar_position: 1
 1. 등록된 공지사항 목록을 볼 수 있습니다.
 1. [제목]를 클릭하여 [공지사항 상세]페이지로 이동합니다.
 
+</ValidateTextByToken>
 
 ## 공지사항 상세
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![002](./img/002.png)
 
@@ -31,3 +40,5 @@ sidebar_position: 1
 1. [삭제] 버튼 클릭시, 댓글을 삭제할 수 있습니다.
 1. 신규 댓글을 작성할 수 있습니다.
 1. 댓글 작성시, 첨부파일을 추가할 수 있습니다.
+
+</ValidateTextByToken>

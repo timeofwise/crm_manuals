@@ -2,11 +2,19 @@
 sidebar_position: 3
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 주문서 처리
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
+
 접수된 주문서의 처리 절차에 대해 안내합니다.
+
+</ValidateTextByToken>
  
 ## 주문서 목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![011](./img/011.png)
 
@@ -14,8 +22,11 @@ sidebar_position: 3
 1. 주문서 목록에서 주문서의 상태를 확인합니다.
 1. 주문번호를 눌러 상세페이지로 진입합니다.
 
+</ValidateTextByToken>
 
 ## 주문서 목록 - 주문서 상태
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![012](./img/012.png)
 
@@ -28,7 +39,11 @@ sidebar_position: 3
 - 완료: 모든 주문 아이템에 DO번호가 부여가 되면 완료로 표시됩니다.
 - 취소: 취소된 주문건입니다.
 
+</ValidateTextByToken>
+
 ## 주문서 상세
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![014](./img/014.png)
 
@@ -39,8 +54,11 @@ sidebar_position: 3
     - 거절: 주문서가 반려/취소됩니다.
     - 수정요청: 주문서를 수정할 것을 요청합니다.(수량변경, 판가변경, 부품코드 변경등의 사유)
 
+</ValidateTextByToken>
 
-## 주문서 상세 - 승인
+### 승인
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ![015](./img/015.png)
 
@@ -49,7 +67,11 @@ sidebar_position: 3
     - 완료처리: 주문서를 완료 상태로 처리합니다. 구매자에게는 이 주문서가 **완료** 상태로 표시됩니다.
     - 판매주문 생성: 이 주문서를 바탕으로 판매주문을 발행할 수 있습니다.
 
-## 주문서 상세 - 승인 - 백오더
+</ValidateTextByToken>
+
+### 백오더
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller']}>
 
 :::note
 - 구매자의 주문 요청건을 대응하고 난 뒤, 대응한 수량만큼의 재고를 다시 충당하기 위해 본사로 주문을 해야하는 경우 간편히 사용할 수 있습니다.
@@ -58,7 +80,7 @@ sidebar_position: 3
 > *1 법인 또는 자재거점(Amtest)
 :::
 
-## 주문서 상세 - 승인 - 백오더 - 생성
+#### 백오더 생성
 
 ![016](./img/016.png)
 
@@ -69,3 +91,5 @@ sidebar_position: 3
         :::note 
         ※ 선택 수량을 더블클릭하여 변경할 수 있습니다.
         :::
+
+</ValidateTextByToken>

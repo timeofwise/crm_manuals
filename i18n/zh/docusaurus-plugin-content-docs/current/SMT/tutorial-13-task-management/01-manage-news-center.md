@@ -2,9 +2,13 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 뉴스센터 관리
 
 BS 및 리트로핏 등 고장예방을 위한 서비스 활동을 수행하는 절차를 안내합니다.
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head']}>
 
 ## 공지사항
  
@@ -195,3 +199,4 @@ BS 및 리트로핏 등 고장예방을 위한 서비스 활동을 수행하는 
 1. [제목]를 클릭하여 [기술자료 상세]페이지로 이동합니다.
 1. 기술자료와 자료의 차이점은 자료 유형으로, 그 외 등록 플로우는 동일합니다.
 
+</ValidateTextByToken>

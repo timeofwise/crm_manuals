@@ -2,11 +2,19 @@
 sidebar_position: 3
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 리트로핏 활동
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 리트로핏 대상 자산을 등록하고 등록된 자산의 리트로핏 작업 수행 여부를 관리합니다.
 
+</ValidateTextByToken>
+
 ## 프로젝트 목록
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![015](./img/015.png)
 
@@ -20,8 +28,11 @@ sidebar_position: 3
 1. [ID]를 클릭하여 [프로젝트 상세]페이지로 이동합니다.
 1. 프로젝트 관리자, 프로젝트 생성자는 본인이 할당된 프로젝트를 조회할 수 있습니다. 각 영역을 클릭하여 [프로젝트 상세]페이지로 이동할 수 있습니다.
 
+</ValidateTextByToken>
 
 ## 프로젝트 생성
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
 
 ![014](./img/014.png)
 
@@ -31,7 +42,11 @@ sidebar_position: 3
 1. [첫 번째 아이콘]을 클릭하여 추가에 실패한 설비만 삭제할 수 있습니다. [두 번째 아이콘]을 클릭하여 목록을 초기화할 수 있습니다. [세 번째 아이콘]을 클릭하여 선택한 설비만 삭제할 수 있습니다.
 1. [자산 추가]버튼을 클릭하여 직접 설비를 입력하여 추가할 수 있습니다.
 
+</ValidateTextByToken>
+
 ## 프로젝트 상세
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![016](./img/016.png)
 
@@ -46,9 +61,11 @@ sidebar_position: 3
 1. [시리얼 번호]를 클릭하여 [리트로핏 처리 (단건 또는 일괄)]페이지로 이동합니다.
 1. BS 상세와 동일 : 첨부파일, 프로젝트 삭제, 즐겨찾기 기능
 
-## 프로젝트 상세 - 취소된 프로젝트
+### 취소된 프로젝트
 
 ![017](./img/017.png)
 
 1. 취소 여부와 사유를 확인할 수 있습니다.
 1. 모든 기능이 불가합니다.
+
+</ValidateTextByToken>

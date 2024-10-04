@@ -2,19 +2,28 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # 주문서 작성
 
 구매하고자 하는 서비스 부품의 주문서 작성 절차에 대해 안내합니다.
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']} ></ValidateTextByToken>
+
 ## 주문서 목록
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![001](./img/001.png)
 
 1. **스토어** - **내 주문** 메뉴를 선택합니다.
 1. 주문 목록을 조회합니다.
 
+</ValidateTextByToken>
+
 ## 주문서 목록 - 주문서 상태
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![010](./img/010.png)
 
@@ -26,7 +35,11 @@ sidebar_position: 1
 - 완료: 주문자에게 납품이 완료된 상태의 주문서입니다.
 - 취소: 주문자에 의해 취소된 상태의 주문서입니다.
 
+</ValidateTextByToken>
+
 ## 주문서 생성
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![002](./img/002.png)
 
@@ -38,7 +51,11 @@ sidebar_position: 1
     - 무상출고: (본사전용) 서클에서 작성하는 일반적인 무상출고 품의를 CRM에서 생성하는 것으로 생각해주시면 됩니다.
 1. 유형을 선택 후 **주문** 버튼을 클릭합니다.
 
+</ValidateTextByToken>
+
 ## 주문서 생성 - 서비스 연계 주문 🚧
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 **서비스주문/설치시운전 프로젝트**에서 사용된 부품에 대한 유/무상 주문서를 생성합니다
 
@@ -51,7 +68,11 @@ TBD
 TBD
 :::
 
+</ValidateTextByToken>
+
 ## 주문서 생성 - 일반 주문(유상PO)
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 일반적인 유상 서비스 부품 주문서를 생성하는 메뉴입니다.
 
@@ -123,7 +144,13 @@ TBD
 - 판매자의 주문서 승인처리 전까지는 주문서를 취소할 수 있습니다.
 :::
 
+</ValidateTextByToken>
+
 ## 주문서 생성 - 일반주문(유상 PO / 법인용)
+
+
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch']}>
 
 :::info
 기존의 서클에서 발행하던 유상 PO 품의를 CRM에서 생성하는 것을 추천합니다. <br />
@@ -193,7 +220,11 @@ TBD
     [임시저장] 버튼은 동작하지 않습니다. [이전] 버튼으로 대체될 예정입니다.
     :::
 
+</ValidateTextByToken>
+
 ## 주문서 생성 - 무상출고품의(본사용)
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch']}>
 
 :::info
 기존의 서클에서 발행하던 무상출고품의를 CRM에서 생성하는 것을 추천합니다. <br />
@@ -272,3 +303,5 @@ TBD
 ![030](./img/030.png)
 
 1. 결재문서를 작성 후 [다음] 버튼을 눌러 품의를 상신합니다.
+
+</ValidateTextByToken>

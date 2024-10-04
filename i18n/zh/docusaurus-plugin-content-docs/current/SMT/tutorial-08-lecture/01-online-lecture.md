@@ -2,11 +2,19 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 온라인 교육
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 온라인 교육과정의 소개와 수강 절차에 대해 안내합니다.
 
+</ValidateTextByToken>
+
 ## 온라인 강의
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![001](./img/001.png)
 
@@ -17,8 +25,11 @@ sidebar_position: 1
 1. [유튜브 채널 바로가기] 버튼을 클릭하여 한화정밀기계 유튜브 채널로 이동할 수 있습니다.
 1. [오프라인 교육 바로가기] 버튼을 클릭하여 오프라인교육 페이지로 이동할 수 있습니다.
 
+</ValidateTextByToken>
 
 ## 코스 상세
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ### 수강 신청 전
 
@@ -55,8 +66,11 @@ sidebar_position: 1
 1. 코스소개 / 커리큘럼 / 자료실 탭을 선택해 이동할 수 있습니다.
 1. 코스 소개글을 볼 수 있습니다.
 
+</ValidateTextByToken>
 
 ## 나의 강의실
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![005](./img/005.png)
 
@@ -67,7 +81,7 @@ sidebar_position: 1
 1. [♡] 버튼으로 눌러 찜한 코스 목록입니다.  
 1. 수강인원이 많은 코스를 추천해주고 있습니다. 
 
-
+</ValidateTextByToken>
 
 
 

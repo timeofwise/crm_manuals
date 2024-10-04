@@ -4,12 +4,19 @@ sidebar_position: 5
 
 import img043 from "./img/043.png";
 import img046 from "./img/046.png";
+import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # 서비스부품 출고 승인 및 관리
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch']}>
+
 서비스부품 입출고 요청과 승인 절차가 필요한 경우 사용절차에 대해 안내합니다.
 
+</ValidateTextByToken>
+
 ## 출고 요청 내용 확인
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 ![033](./img/033.png)
 
@@ -147,3 +154,4 @@ import img046 from "./img/046.png";
     :::
 
 
+</ValidateTextByToken>

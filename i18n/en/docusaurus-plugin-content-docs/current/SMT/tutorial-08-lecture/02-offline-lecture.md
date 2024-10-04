@@ -2,11 +2,19 @@
 sidebar_position: 2
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 오프라인 교육
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 오프라인 교육 과정의 소개와 수강 절차에 대해 안내합니다.
 
+</ValidateTextByToken>
+
 ## 메인 페이지
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![006](./img/006.png)
 
@@ -19,7 +27,11 @@ sidebar_position: 2
 1. 연간 일정을 한 눈에 볼 수 있습니다. 버튼을 클릭하여 상세페이지로 이동이 가능합니다. 
 1. 연도별 연간일정을 조회할 수 있습니다. 
 
+</ValidateTextByToken>
+
 ## 상세 페이지
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent', 'customer']}>
 
 ![007](./img/007.png)
 
@@ -37,4 +49,4 @@ sidebar_position: 2
 1. 개인정보 수집 및 이용에 동의해야 합니다.
 1. 필수값을 모두 입력 후, [교육신청] 버튼을 클릭 시, 오프라인교육 신청이 완료됩니다. 신청에 대한 결과는 관리자 심사를 거쳐 신청자 메일로 전송됩니다. 
 
-
+</ValidateTextByToken>

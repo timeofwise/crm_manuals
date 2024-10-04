@@ -3,12 +3,19 @@ sidebar_position: 3
 ---
 
 import mmiQrImg from "./img/011.png";
+import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # VOC 처리
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head']}>
+
 VOC 처리 및 관리자들을 대상으로 등록된 VOC 요청건들에 대한 검토와 후속 작업에 대해 안내합니다.
 
+</ValidateTextByToken>
+
 ## VOC 접수 조회
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
 
 ### 시스템에서 조회
 
@@ -23,7 +30,11 @@ VOC 처리 및 관리자들을 대상으로 등록된 VOC 요청건들에 대한
 
 1. 수신된 이메일의 링크를 클릭합니다.
 
+</ValidateTextByToken>
+
 ## VOC 상세
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
 
 ### VOC 접수 내용
 
@@ -37,7 +48,11 @@ VOC 처리 및 관리자들을 대상으로 등록된 VOC 요청건들에 대한
     :::
 1. 버튼을 클릭시 CRM 시스템의 언어에 맞게 번역된 결과를 표시합니다.
 
+</ValidateTextByToken>
+
 ## VOC 처리
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
 
 ### 승인 / 기각
 
@@ -83,3 +98,5 @@ VOC 처리 및 관리자들을 대상으로 등록된 VOC 요청건들에 대한
 ![017](./img/017.png) 
 
 - VOC 건과 관련하여 발송된 이메일 이력을 표시합니다.
+
+</ValidateTextByToken>

@@ -2,13 +2,21 @@
 sidebar_position: 1
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # 장착 정도 인증서
 
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
+
 칩마운터 설비의 장착정도 측정 결과에 대한 인증서 발행 서비스 업무 절차에 대해 안내합니다.
+
+</ValidateTextByToken>
 
 ## 목록 페이지
 
 ### 조회 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![019](./img/019.png)
 
@@ -19,8 +27,11 @@ sidebar_position: 1
 1. [NO]를 클릭하여 [제품인증 상세]페이지로 이동합니다.
 1. [인증서] 버튼을 클릭하여 인증서를 볼 수 있습니다. 
 
+</ValidateTextByToken>
 
 ### 작성 / 관리 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ![020](./img/020.png)
 
@@ -59,8 +70,11 @@ sidebar_position: 1
 1. [이메일전송] 링크를 통해 인증서에 접근한 사용자가 비회원일 시, 이름 대신 이메일이 표시됩니다.
 
 
+</ValidateTextByToken>
 
 ## 등록 페이지
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 ### 기본정보 입력
 
@@ -96,10 +110,13 @@ sidebar_position: 1
 1. [인증서 발급] 버튼 클릭 시, 상세페이지로 이동됩니다. 상세페이지 내의 [인증서] 버튼을 클릭하여 웹PDF로 인증서를 볼 수 있습니다. 
 1. 자산이관이 필요한 자산이 포함된 경우 => [인증서발급] 버튼을 클릭 시, 자산이관 동의여부를 묻는 컨펌창이 출력됩니다. 동의할 시, 이관이 진행됩니다. 이관 완료 토스트가 뜨면 [인증서 발급] 버튼을 재클릭해주세요.
 
+</ValidateTextByToken>
 
 ## 상세 페이지
 
 ### 조회 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 :::warning 수정이 불가한 상세페이지 입니다.
 - 조회 권한을 가진 사용자가 목록에서 NO를 클릭하여 상세페이지 진입
@@ -110,7 +127,11 @@ sidebar_position: 1
 1. [인증서] 버튼 클릭시, 인증서를 볼 수 있습니다.
 1. 첨부파일을 클릭하여 다운로드 할 수 있습니다. 
 
+</ValidateTextByToken>
+
 ### 작성 / 관리 권한 보유 시
+
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 :::warning 수정 가능한 상세페이지는 2가지 방법으로 접근이 가능합니다. 
 - 작성/관리 권한을 가진 사용자가 제품인증 등록 페이지에서 [인증서발급]버튼을 클릭하여 상세페이지 진입
@@ -124,7 +145,7 @@ sidebar_position: 1
 1. 등록된 제품을 체크박스로 선택해 삭제할 수 있으며 첨부파일을 클릭하여 다운로드 할 수 있습니다. 
 1. [저장] 버튼 클릭 시, 목록으로 이동되며 변경사항이 있을 시 변경사항을 반영한 인증서로 업데이트가 됩니다. 
 
-
+</ValidateTextByToken>
 
 
 

@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
 # CRM 계정 생성 (그 외 사용자)
 
 **사외망**에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
@@ -10,7 +12,7 @@ sidebar_position: 2
 서클 사용자는 서클 사용자 대상의 계정 생성 절차를 따라주시기 바랍니다.
 :::
 
-
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent', 'customer']}>
 
 ## 개요
 
@@ -20,10 +22,16 @@ sidebar_position: 2
    - **일반 고객 사용자**: CRM 시스템에서 직접 계정을 생성할 수 있습니다.
 :::
 
+</ValidateTextByToken>
+
+
+
 ## 서비스 대리점 사용자 계정 생성
 
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
+
 :::info
-계정 생성 권한을 별도로 설정할 예정이며, 권한을 가진 사용자만 계정 생성 작업을 수행할 수 있습니다.
+계정 생성 권한을 별도로 부여할 예정이며, 권한을 가진 사용자만 계정 생성 작업을 수행할 수 있습니다.
 :::
 
 ### 페이지 이동
@@ -140,16 +148,28 @@ sidebar_position: 2
    보통 1일내에 승인 작업이 이루어집니다. 빠른 승인이 필요한 경우 smtcs@hanwha.com 으로 연락해주시기 바랍니다.
    :::
 
+</ValidateTextByToken>
+
 ### 사용자 계정 승인 🚧
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['head']}>
 
 :::info
 TBD (화면작업중)
 :::
 
+</ValidateTextByToken>
+
+
+
 ## 일반 사용자 계정 생성 🚧
+
+<ValidateTextByToken dispTargetViewer={false} validTokenList={['customer']}>
 
 ### 페이지 이동 🚧
 
 :::info
 TBD (화면작업중)
 :::
+
+</ValidateTextByToken>

@@ -3,12 +3,13 @@ sidebar_position: 3
 ---
 
 import loginWindow from "./img/019.png";
+import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # 비밀번호 초기화
 
 **사외망**에서 로그인 시, 비밀번호를 분실하였을 때 비밀번호 초기화 작업 절차를 안내합니다.
 
-
+<ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch', 'agent', 'customer']}>
 
 ## 페이지 이동
 
@@ -43,3 +44,4 @@ import loginWindow from "./img/019.png";
 1. 신규 비밀번호를 입력합니다.
 2. [확인] 버튼을 누릅니다.
 
+</ValidateTextByToken>
