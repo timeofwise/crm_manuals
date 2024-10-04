@@ -1,7 +1,6 @@
-import { GrInfo } from "react-icons/gr";
-import GetTokenBtn from "./getTokenBtn/GetTokenBtn";
+import GetTokenBtn from "../getTokenBtn/GetTokenBtn";
 import BrowserOnly from "@docusaurus/BrowserOnly";
-
+import styles from './AccessibleAgents.module.css';
 
 export default function AccessibleAgents({
     handleInputToken,
@@ -18,7 +17,7 @@ export default function AccessibleAgents({
 
     return <BrowserOnly>{
         () => (
-            <div  style={{marginBottom:'1em!important'}}>
+            <div className={styles.alertContainer} style={{marginBottom:'1em!important'}}>
                 <div className="theme-admonition theme-admonition-note admonition_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module alert alert--secondary">
                     <div className="admonitionHeading_node_modules-@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module">
 

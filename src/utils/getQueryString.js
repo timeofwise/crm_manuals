@@ -1,5 +1,5 @@
 import BrowserOnly from "@docusaurus/BrowserOnly";
-import AccessibleAgents from "../components/AccessibleAgents";
+import AccessibleAgents from "../components/AccessibleAgents/AccessibleAgents";
 import AccessAlert from "../components/AccessAlert/AccessAlert";
 
 const passwords = {
