@@ -8,6 +8,20 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.1.1
+
+*2024년 10월 08일*
+
+- 메뉴추가
+    - 기준정보 관리
+        - [제품 및 부품 데이터 관리](./SMT/tutorial-14-manage-master-data/01-products.md) 메뉴 추가
+        - [고객사 데이터 관리](./SMT/tutorial-14-manage-master-data/02-customers.md) 메뉴 추가
+        - [사용자 데이터 관리](./SMT/tutorial-14-manage-master-data/03-users.md) 메뉴 추가
+        - [서비스 센터 관리](./SMT/tutorial-14-manage-master-data/04-centers.md) 메뉴 추가
+        - [자산 관리 관리](./SMT/tutorial-14-manage-master-data/05-assets.md) 메뉴 추가
+        - [판매주문 데이터 관리](./SMT/tutorial-14-manage-master-data/06-sales-orders.md) 메뉴 추가
+
+
 ### 0.1.0
 
 *2024년 10월 03일*
