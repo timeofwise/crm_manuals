@@ -139,7 +139,7 @@ sidebar_position: 999
     - [기술지원](./SMT/tutorial-09-technical-support/01-qna.md)
     - [뉴스센터](./SMT/tutorial-10-news-center/01-notice.md)
     - [애프터마켓](./SMT/tutorial-11-aftermarket/01-performance.md)
-    - [시스템 관리](./SMT/tutorial-12-system-management/01-task-manage.md)
+    - [시스템 관리](./SMT/tutorial-12-system-management/01-model-manage.md)
 - 메뉴 보완
     - 사용자 인증
         - [CRM 계정생성 (비 서클 사용자) 등록 절차](./SMT/tutorial-01-auth/create-a-acount-non-circle-user.md) (95%)
