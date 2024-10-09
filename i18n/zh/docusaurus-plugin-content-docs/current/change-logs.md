@@ -8,6 +8,15 @@ sidebar_position: 999
 
 ## 0.x
 
+### 0.1.2
+
+*2024년 10월 08일*
+
+- 내용 보완
+    - 기준정보 관리
+        - [제품 및 부품 데이터 관리](./SMT/tutorial-14-manage-master-data/01-products.md) 내용 보완
+
+
 ### 0.1.1
 
 *2024년 10월 08일*
