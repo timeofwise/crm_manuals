@@ -9,7 +9,7 @@ function StrongTextParser(text) {
                     console.log(text0)
                     return <a href={text0[1]} target="_blank">{text0[0]}</a> 
                 }else{
-                    return <span>{text}</span>;
+                    return <>{text}</>;
                 }
             }else{
                 if(text.indexOf('](') !== -1){
