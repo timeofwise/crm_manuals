@@ -1,0 +1,15 @@
+{
+    "projectList01":"Select the **Installation** menu.",
+    "projectList02":"The list of Installation projects appears.",
+    "step1CreateProject01":"Press the **+** button from the list.",
+    "step1CreateProject02":"Enter the content.",
+    "step1CreateProject03":"Select the center that will handle and carry out the project.",
+    "step1CreateProject04":"Select the project manager for the selected center.",
+    "step2CreateProject01":"Select the client that will be the installation target.",
+    "step2CreateProject02":"Select the location where the installation will take place.",
+    "step2CreateProject03":"If there is no installation address, press the **Add** button to register it.",
+    "step2CreateProject04":"Enter the address information.",
+    "step2CreateProject05":"After entering the address, when you click on the **Search** button, it will appear on the map.",
+    "step2CreateProject06":"Press the **Save** button.",
+    "step3CreateProject01":"Press the **Save** button for the commissioning project."
+}

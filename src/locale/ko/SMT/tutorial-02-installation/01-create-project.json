@@ -1,0 +1,15 @@
+{
+    "projectList01":"选择**安装调试**菜单。",
+    "projectList02":"显示安装调试项目列表。",
+    "step1CreateProject01":"在列表中点击**+**按钮。",
+    "step1CreateProject02":"输入内容。",
+    "step1CreateProject03":"选择将管理并进行安装调试的中心。",
+    "step1CreateProject04":"选择所选中心的项目管理员。",
+    "step2CreateProject01":"选择需要进行安装调试的客户公司。",
+    "step2CreateProject02":"选择拟进行安装工作的地点。",
+    "step2CreateProject03":"如果没有安装地址，点击**添加**按钮注册地址。",
+    "step2CreateProject04":"输入地址信息。",
+    "step2CreateProject05":"完成输入后，点击**查询**按钮，地址将显示在地图上。",
+    "step2CreateProject06":"点击**保存**按钮。",
+    "step3CreateProject01":"点击安装调试项目的**保存**按钮。"
+}

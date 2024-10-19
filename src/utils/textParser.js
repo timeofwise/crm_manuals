@@ -2,7 +2,7 @@ export default function StrongTextParser({text}) {
 
     const strongText = text.split("**");
 
-    return <>
+    return <div>
         {strongText.map((text, i) => {
             if(i%2==0){
                 if(text.indexOf('](#') !== -1){
@@ -40,5 +40,5 @@ export default function StrongTextParser({text}) {
                 }
             }
         })}
-    </>;
+    </div>;
 };

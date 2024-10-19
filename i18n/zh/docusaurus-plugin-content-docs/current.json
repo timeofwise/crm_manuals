@@ -16,11 +16,11 @@
     "description": "The generated-index page description for category 사용자 인증 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.설치시운전": {
-    "message": "설치시운전",
+    "message": "安装调试",
     "description": "The label for category 설치시운전 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.설치시운전.link.generated-index.description": {
-    "message": "설치시운전 프로젝트 생성, 엔지니어 할당, 서비스 처리, 리포트 작성, 고객 검수 작업 등을 안내합니다.",
+    "message": "我们指导您完成安装和调试项目创建、工程师分配、服务处理、报告编写和客户检查任务。",
     "description": "The generated-index page description for category 설치시운전 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.서비스 주문": {
