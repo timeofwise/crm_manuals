@@ -46,6 +46,8 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
     //const [token, setToken] = useState(getCookie('crmManualToken'));
     //console.log(children)
 
+    
+
 
     //const [auth, setAuth] = useState(passwords[token].toUpperCase());
 
@@ -78,12 +80,20 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
                 //console.log('token');
                 //console.log(token);
 
+                let language = 'ko';
+                if (window.location.pathname.split('/')[1] === 'en'){
+                    language = 'en'
+                }else if(window.location.pathname.split('/')[1] === 'zh'){
+                    language = 'zh'
+                };
+
                 let targetViewer = <></>;
 
                 if (dispTargetViewer === true){
 
                 
                     targetViewer = <AccessibleAgents 
+                        language={language}
                         handleInputToken={inputToken}
                         token={token}
                         auth={auth}
@@ -142,7 +152,7 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
                     }else{
                         return <>
                             {targetViewer}
-                            {dispCaution ? (<AccessAlert accessibleAgents={validTokenList} />) : (<></>)}
+                            {dispCaution ? (<AccessAlert accessibleAgents={validTokenList} language={language} />) : (<></>)}
                             
                         </>
                     }
