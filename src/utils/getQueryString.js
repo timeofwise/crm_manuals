@@ -44,7 +44,7 @@ function setCookie(cname, cvalue, exdays) {
 export default function ValidateTextByToken({dispTargetViewer=false, dispCaution=true, validTokenList, children}) {
 
     //const [token, setToken] = useState(getCookie('crmManualToken'));
-
+    console.log(children)
 
 
     //const [auth, setAuth] = useState(passwords[token].toUpperCase());

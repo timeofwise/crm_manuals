@@ -10,8 +10,8 @@
  */
 
 // @ts-check
-
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
@@ -19,17 +19,18 @@ const sidebars = {
   ],
 
   // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
+
+  
+  //tutorialSidebar: [
+  //  'intro',
+  //  'change-logs',
+  //  {
+  //    type: 'category',
+  //    label: 'Tutorial',
+  //    items: ['SMT/tutorial-01-auth/create-a-acount-circle-user'],
+  //  },
+  //],
+   
 };
 
 export default sidebars;

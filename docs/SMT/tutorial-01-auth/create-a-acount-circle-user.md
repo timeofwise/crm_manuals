@@ -4,10 +4,14 @@ sidebar_position: 1
 
 import qrImage from "./img/009.png";
 import ValidateTextByToken from "/src/utils/getQueryString.js";
+import StrongTextParser from "/src/utils/textParser.js";
+import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
+
 
 # CRM 계정 생성 (서클사용자)
 
-사내망에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
+<StrongTextParser text={text.intro} />
+
 
 <ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch']}>
 
@@ -15,20 +19,20 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 ![001](./img/001.png)
 
-1. 서클 메인 화면의 업무 메뉴에 **H-CRM** 링크가 추가될 예정입니다. **(`24년 하반기 예정)**
-- **사내**에서 접속하는 경우
-  - **[접속링크](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=http://service-qas.hanwha-crm.com:8888/auth/slo)** 를 클릭하세요.
-- **사외**에서 접속하는 경우
-  - **[접속링크](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=https://service-qas.hanwha-crm.com/auth/slo)** 를 클릭하거나 아래의 QR코드를 스캔하세요.<br/> <img src={qrImage} alt="009" width="100px" height="100px"/>
+1. <StrongTextParser text={text.systemAccessPath01} />
+- <StrongTextParser text={text.systemAccessPath02} />
+  - <StrongTextParser text={text.systemAccessPath03} />
+- <StrongTextParser text={text.systemAccessPath04} />
+  - <StrongTextParser text={text.systemAccessPath05} /><br/> <img src={qrImage} alt="009" width="100px" height="100px"/>
 
 ## 계정생성 1단계
 
 ![002](./img/002.png)
 
-1. 서클 유저의 계정등록 화면에 진입합니다. 서클 사용자 정보가 기본적으로 로드가 되며 입력된 정보를 확인해주세요.
-1. 이메일은 수정을 할 수 없습니다. 휴대폰 번호를 확인하시고 **인증** 버튼을 눌러 인증절차를 진행해주세요. 인증이 된 이후에는 **인증필요** 상태가 **인증완료** 상태로 변경됩니다.<br/>  ![004](./img/004.png) ![003](./img/003.png)
-    1. 휴대폰 번호를 확인하시고 **발송** 버튼을 눌러주세요. 인증번호 문자가 입력된 휴대폰 번호로 발송됩니다.
-    2. 문자로 발송된 인증번호를 입력하시고 **확인** 버튼을 눌러주세요.
+1. <StrongTextParser text={text.step1AccountCreation01} />
+1. <StrongTextParser text={text.step1AccountCreation02} /><br/>  ![004](./img/004.png) ![003](./img/003.png)
+    1. <StrongTextParser text={text.step1AccountCreation03} />
+    2. <StrongTextParser text={text.step1AccountCreation04} />
 1. 아래 기재된 규칙에 맞게 사용하실 비밀번호를 입력해주세요. 이곳에 입력하신 비밀번호는 사외에서 CRM에 접속하실 때 사용됩니다.
     :::note
     - 영소, 영대, 특수문자, 숫자 중 3가지 조합 시 8 ~ 20자, 2가지 조합 시 10 ~ 20자를 입력해주세요.
