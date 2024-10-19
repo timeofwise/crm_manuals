@@ -8,14 +8,15 @@ import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 
-# CRM 계정 생성 (서클사용자)
+# 创建CRM账户（Circle用户）
 
-<StrongTextParser text={text.intro} />
+<!-- 메뉴단에서 번역이 안되므로 여기 하드코딩해야 함 #가 달린 헤더와 함께 -->
+将介绍在内部网络中创建CRM使用账户的流程。
 
 
 <ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch']}>
 
-## 시스템 접속 경로
+## 系统访问路径
 
 ![001](./img/001.png)
 
@@ -25,7 +26,7 @@ import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-circle-use
 - <StrongTextParser text={text.systemAccessPath04} />
   - <StrongTextParser text={text.systemAccessPath05} /><br/> <img src={qrImage} alt="009" width="100px" height="100px"/>
 
-## 계정생성 1단계
+## 账户创建第一步
 
 ![002](./img/002.png)
 
@@ -41,7 +42,7 @@ import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-circle-use
     :::
 4. <StrongTextParser text={text.step1AccountCreation09} />
 
-## 계정생성 2단계
+## 账户创建第二步
 
 <StrongTextParser text={text.step2AccountCreation01} />
 
@@ -56,7 +57,7 @@ import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-circle-use
 1. <StrongTextParser text={text.step2AccountCreation08} />
 1. <StrongTextParser text={text.step2AccountCreation09} />
 
-## 계정생성 3단계
+## 账户创建第三步
 
 <StrongTextParser text={text.step3AccountCreation01} />
 
@@ -66,7 +67,7 @@ import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-circle-use
     1. <StrongTextParser text={text.step3AccountCreation03} />
     2. <StrongTextParser text={text.step3AccountCreation04} />
 
-## 계정생성 4단계
+## 账户创建第四步
 
 <StrongTextParser text={text.step4AccountCreation01} />
 
@@ -77,7 +78,7 @@ import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-circle-use
 1. <StrongTextParser text={text.step4AccountCreation04} />
 1. <StrongTextParser text={text.step4AccountCreation05} />
 
-## 계정생성 완료
+## 完成账户创建
 
 ![008](./img/008.png)
 

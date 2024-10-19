@@ -8,14 +8,15 @@ import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/en/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 
-# CRM 계정 생성 (서클사용자)
+# Create a CRM Account (Circle User)
 
-<StrongTextParser text={text.intro} />
+<!-- 메뉴단에서 번역이 안되므로 여기 하드코딩해야 함 #가 달린 헤더와 함께 -->
+This is a guide to creating a CRM account in the intranet.
 
 
 <ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch']}>
 
-## 시스템 접속 경로
+## System Access Path
 
 ![001](./img/001.png)
 
@@ -25,7 +26,7 @@ import text from "/src/locale/en/SMT/tutorial-01-auth/create-a-acount-circle-use
 - <StrongTextParser text={text.systemAccessPath04} />
   - <StrongTextParser text={text.systemAccessPath05} /><br/> <img src={qrImage} alt="009" width="100px" height="100px"/>
 
-## 계정생성 1단계
+## Step 1 of Account Creation
 
 ![002](./img/002.png)
 
@@ -41,7 +42,7 @@ import text from "/src/locale/en/SMT/tutorial-01-auth/create-a-acount-circle-use
     :::
 4. <StrongTextParser text={text.step1AccountCreation09} />
 
-## 계정생성 2단계
+## Step 2 of Account Creation
 
 <StrongTextParser text={text.step2AccountCreation01} />
 
@@ -56,7 +57,7 @@ import text from "/src/locale/en/SMT/tutorial-01-auth/create-a-acount-circle-use
 1. <StrongTextParser text={text.step2AccountCreation08} />
 1. <StrongTextParser text={text.step2AccountCreation09} />
 
-## 계정생성 3단계
+## Step 3 of Account Creation
 
 <StrongTextParser text={text.step3AccountCreation01} />
 
@@ -66,7 +67,7 @@ import text from "/src/locale/en/SMT/tutorial-01-auth/create-a-acount-circle-use
     1. <StrongTextParser text={text.step3AccountCreation03} />
     2. <StrongTextParser text={text.step3AccountCreation04} />
 
-## 계정생성 4단계
+## Step 4 of Account Creation
 
 <StrongTextParser text={text.step4AccountCreation01} />
 
@@ -77,7 +78,7 @@ import text from "/src/locale/en/SMT/tutorial-01-auth/create-a-acount-circle-use
 1. <StrongTextParser text={text.step4AccountCreation04} />
 1. <StrongTextParser text={text.step4AccountCreation05} />
 
-## 계정생성 완료
+## Account Creation Completed
 
 ![008](./img/008.png)
 

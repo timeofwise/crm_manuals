@@ -8,11 +8,11 @@
     "description": "The label for category SMT in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.사용자 인증": {
-    "message": "사용자 인증",
+    "message": "CRM账户",
     "description": "The label for category 사용자 인증 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.사용자 인증.link.generated-index.description": {
-    "message": "CRM 시스템 사용을 위한 사용자 계정 생성과 인증, 시스템 권한에 관한 내용입니다.",
+    "message": "这包括用户帐户创建、身份验证以及使用 CRM 系统的系统权限。",
     "description": "The generated-index page description for category 사용자 인증 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.설치시운전": {

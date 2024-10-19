@@ -8,9 +8,10 @@ import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 
-# CRM 계정 생성 (서클사용자)
+# CRM 계정 생성 (서클사용자) 
 
-<StrongTextParser text={text.intro} />
+<!-- 메뉴단에서 번역이 안되므로 여기 하드코딩해야 함 #가 달린 헤더와 함께 -->
+사내망에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
 
 
 <ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch']}>
