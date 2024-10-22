@@ -2,6 +2,33 @@ import GetTokenBtn from "../getTokenBtn/GetTokenBtn";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import styles from './AccessibleAgents.module.css';
 
+const TEXT = {
+    ko: {
+        targetViewer:"열람 대상은 다음과 같습니다.",
+        hq:'본사',
+        branch:'법인',
+        seller:'자재거점',
+        agent:'대리점',
+        customer:'고객',
+    },
+    en: {
+        targetViewer:"The list of readers is as follows",
+        hq:'Head Office',
+        branch:'Branch',
+        seller:'Service Parts Base',
+        agent:'Service Agent',
+        customer:'Customer',
+    },
+    zh: {
+        targetViewer:"读者名单如下",
+        hq:'总部',
+        branch:'HTS',
+        seller:'配件销售基地',
+        agent:'代理商',
+        customer:'客户',
+    },
+}
+
 export default function AccessibleAgents({
     language,
     handleInputToken,
@@ -18,32 +45,7 @@ export default function AccessibleAgents({
 
     //console.log('language');
     //console.log(language);
-    const TEXT = {
-        ko: {
-            targetViewer:"열람 대상은 다음과 같습니다.",
-            hq:'본사',
-            branch:'법인',
-            seller:'자재거점',
-            agent:'대리점',
-            customer:'고객',
-        },
-        en: {
-            targetViewer:"The list of readers is as follows",
-            hq:'Head Office',
-            branch:'Branch',
-            seller:'Service Parts Base',
-            agent:'Service Agent',
-            customer:'Customer',
-        },
-        zh: {
-            targetViewer:"读者名单如下",
-            hq:'总部',
-            branch:'HTS',
-            seller:'配件销售基地',
-            agent:'代理商',
-            customer:'客户',
-        },
-    }
+    
 
     const userText = TEXT[language];
     
