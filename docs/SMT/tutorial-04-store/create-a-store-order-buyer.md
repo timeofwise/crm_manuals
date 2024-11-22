@@ -3,6 +3,8 @@ sidebar_position: 1
 ---
 
 import ValidateTextByToken from "/src/utils/getQueryString.js";
+import StrongTextParser from "/src/utils/textParser.js";
+import text from "/src/locale/ko/SMT/tutorial-03-store/01-create-order-buyer.json";
 
 # 주문서 작성
 
@@ -16,8 +18,8 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 ![001](./img/001.png)
 
-1. **스토어** - **내 주문** 메뉴를 선택합니다.
-1. 주문 목록을 조회합니다.
+1. <StrongTextParser text={text.list01} />
+1. <StrongTextParser text={text.list02} />
 
 </ValidateTextByToken>
 

@@ -4,62 +4,62 @@ sidebar_position: 2
 
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 
-# 주문서 수정
+# Order Modification ✨
 
 <ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
-구매하고자 하는 서비스 부품의 주문서 수정 절차에 대해 안내합니다.
+Here is how to modify the order for the service parts you wish to purchase.
 
 </ValidateTextByToken>
 
-## 주문서 목록
+## Order List
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![001](./img/001.png)
 
-1. **스토어** - **내 주문** 메뉴를 선택합니다.
-1. 주문 목록을 조회합니다.
+1. Go to the **Store** and select the **My Order** menu.
+1. View the order list.
 
 </ValidateTextByToken>
 
-## 주문서 목록 - 주문서 상태
+## Order List - Order Status
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![010](./img/010.png)
 
-- 저장: 주문서가 임시저장된 상태입니다.
-- 수정 요청: 판매자가 주문자에게 수정할 것을 요청한 상태의 주문서입니다.
-- 주문 접수: 주문자가 주문서를 생성하여 판매자에게 접수된 상태의 주문서입니다.
-- 승인: 판매자에 의해 승인된 상태의 주문서입니다.
-- 진행중: 승인된 주문서가 주문자에게 납품되는 중에 있는 상태의 주문서입니다.
-- 완료: 주문자에게 납품이 완료된 상태의 주문서입니다.
-- 취소: 주문자에 의해 취소된 상태의 주문서입니다.
+- Saved: An order has been temporarily saved.
+- Modification requested: The seller has asked the buyer to correct the order.
+- Order submitted: The buyer placed an order and submitted to the seller.
+- Approved: The order has been approved by the seller.
+- In progress: The approved order is being delivered to the buyer.
+- Completed: The order has been delivered to the buyer.
+- Cancelled: The order has been cancelled by the buyer.
 
 </ValidateTextByToken>
 
-## 주문서 유형 확인
+## Check Order Type
 
-### 서비스연계 주문(유무상 PO) 🚧
+### Service-linked order 🚧
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 </ValidateTextByToken>
 
-### 일반주문(유상 PO) 🚧
+### General order (paid PO) 🚧
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 </ValidateTextByToken>
 
-### 일반주문(유상 PO, 법인용) 🚧
+### General order (paid PO, for corporation) 🚧
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 
 </ValidateTextByToken>
 
-### 무상출고 품의(본사용) 🚧
+### Free delivery request (for head office) 🚧
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 

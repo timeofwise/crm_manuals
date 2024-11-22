@@ -81,5 +81,6 @@
     "installationInspection05":"Sign and click Save.",
     "installationInspection06":"※ Electronic signatures are not legally binding in **China**. Please attach a scanned copy of your handwritten signature.",
     "common01":"You can download the report by clicking on it.",
-    "common02":"You can share any special remarks that arose while working with the people in charge."
+    "common02":"You can share any special remarks that arose while working with the people in charge.",
+    "common03":"[중요] 체크박스를 선택후 코멘트를 작성하시면 해당 프로젝트에 등록된 담당자들에게 이메일이 전송됩니다."
 }

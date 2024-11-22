@@ -1,15 +1,15 @@
 {
-    "projectList01":"选择**安装调试**菜单。",
-    "projectList02":"显示安装调试项目列表。",
-    "step1CreateProject01":"在列表中点击**+**按钮。",
-    "step1CreateProject02":"输入内容。",
-    "step1CreateProject03":"选择将管理并进行安装调试的中心。",
-    "step1CreateProject04":"选择所选中心的项目管理员。",
-    "step2CreateProject01":"选择需要进行安装调试的客户公司。",
-    "step2CreateProject02":"选择拟进行安装工作的地点。",
-    "step2CreateProject03":"如果没有安装地址，点击**添加**按钮注册地址。",
-    "step2CreateProject04":"输入地址信息。",
-    "step2CreateProject05":"完成输入后，点击**查询**按钮，地址将显示在地图上。",
-    "step2CreateProject06":"点击**保存**按钮。",
-    "step3CreateProject01":"点击安装调试项目的**保存**按钮。"
+    "projectList01":"**설치시운전** 메뉴를 선택합니다.",
+    "projectList02":"설치시운전 프로젝트 목록이 표시됩니다.",
+    "step1CreateProject01":"목록에서 **+** 버튼을 누릅니다.",
+    "step1CreateProject02":"내용을 입력하세요",
+    "step1CreateProject03":"설치시운전을 관리하고 진행할 주체가 될 센터를 선택합니다.",
+    "step1CreateProject04":"선택된 센터의 프로젝트 관리자를 고릅니다.",
+    "step2CreateProject01":"설치시운전 대상이 되는 고객사를 선택합니다.",
+    "step2CreateProject02":"설치작업을 수행할 위치를 선택합니다.",
+    "step2CreateProject03":"설치 주소가 없는 경우 **추가** 버튼을 눌러 주소를 등록합니다.",
+    "step2CreateProject04":"주소 정보를 입력합니다.",
+    "step2CreateProject05":"입력을 마친 뒤 **조회** 버튼을 누르면 주소가 지도에 표시됩니다.",
+    "step2CreateProject06":"**저장** 버튼을 누릅니다.",
+    "step3CreateProject01":"설치시운전 프로젝트의 **저장** 버튼을 누릅니다."
 }

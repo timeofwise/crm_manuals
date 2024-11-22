@@ -303,5 +303,7 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 
 1. <StrongTextParser text={text.common01} />
 1. <StrongTextParser text={text.common02} />
-
+    :::tip
+    - <StrongTextParser text={text.common03} />
+    :::
 </ValidateTextByToken>

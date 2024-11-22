@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "0.1.6",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.SMT": {
+    "message": "SMT",
+    "description": "The label for category SMT in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자 인증": {
+    "message": "CRM账户",
+    "description": "The label for category 사용자 인증 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자 인증.link.generated-index.description": {
+    "message": "这包括用户帐户创建、身份验证以及使用 CRM 系统的系统权限。",
+    "description": "The generated-index page description for category 사용자 인증 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치시운전": {
+    "message": "安装调试",
+    "description": "The label for category 설치시운전 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치시운전.link.generated-index.description": {
+    "message": "我们指导您完成安装和调试项目创建、工程师分配、服务处理、报告编写和客户检查任务。",
+    "description": "The generated-index page description for category 설치시운전 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.서비스 주문": {
+    "message": "서비스 주문",
+    "description": "The label for category 서비스 주문 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.서비스 주문.link.generated-index.description": {
+    "message": "제품에 대한 고객의 서비스 주문에 대한 접수 및 처리 절차에 대해 안내합니다.",
+    "description": "The generated-index page description for category 서비스 주문 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.스토어": {
+    "message": "스토어",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.스토어.link.generated-index.description": {
+    "message": "서비스 부품의 검색과 주문서 작성 및 주문서 처리에 대한 절차를 안내합니다.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  }
+}

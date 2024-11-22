@@ -15,6 +15,7 @@
     "step1AccountCreation08":"사용했던 비밀번호나 타 사이트에 사용중인 비밀번호와는 다른 비밀번호를 사용해주세요.",
     "step1AccountCreation09":"**다음** 버튼을 눌러주세요.",
     "step2AccountCreation01":"시스템 사용 권한을 신청합니다. 업무에 맞는 권한을 선택해주세요. **(현재는 더미 권한만 표시됨 - `24년 10월 중 개발완료)**",
+    "step2AccountCreation011":"`For the test period in December 24th, please apply by selecting all user permissions to explore more.",
     "step2AccountCreation02":"사업부를 선택합니다.",
     "step2AccountCreation03":"권한 목록에 권한이 많은 경우 검색을 통해서 필요 권한만 검색할 수 있습니다.",
     "step2AccountCreation04":"검색된 결과를 초기화 할 수 있습니다.",

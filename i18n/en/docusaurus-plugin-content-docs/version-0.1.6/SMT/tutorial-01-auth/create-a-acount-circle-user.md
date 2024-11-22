@@ -48,6 +48,10 @@ This is a guide to creating a CRM account in the intranet.
 
 ![005](./img/005.png)
 
+:::tip 
+  - <StrongTextParser text={text.step2AccountCreation011} />
+:::
+
 1. <StrongTextParser text={text.step2AccountCreation02} />
 1. <StrongTextParser text={text.step2AccountCreation03} />
 1. <StrongTextParser text={text.step2AccountCreation04} />

@@ -15,6 +15,7 @@
     "step1AccountCreation08":"请使用与之前使用过的密码或其他网站上正在使用的密码不同的密码。",
     "step1AccountCreation09":"点击**下一步**按钮。",
     "step2AccountCreation01":"申请系统使用权限。选择与工作相关的权限。**（目前仅显示虚拟（Dummy）权限 - 预计于2024年10月完成开发）**",
+    "step2AccountCreation011":"For the test period in December 2024, please apply by selecting all user permissions to explore more.",
     "step2AccountCreation02":"选择事业部。",
     "step2AccountCreation03":"如果权限列表中的权限很多，可以通过搜索来查找所需的权限。",
     "step2AccountCreation04":"可以重置搜索结果。",

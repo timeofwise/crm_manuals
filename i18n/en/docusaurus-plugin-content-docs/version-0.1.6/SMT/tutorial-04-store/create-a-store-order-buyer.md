@@ -4,304 +4,306 @@ sidebar_position: 1
 
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 
-# 주문서 작성
+# Create an Order
 
-구매하고자 하는 서비스 부품의 주문서 작성 절차에 대해 안내합니다.
+This is the process for drafting the order form for the service parts you wish to buy.
 
 <ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']} ></ValidateTextByToken>
 
-## 주문서 목록
+## Order List
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![001](./img/001.png)
 
-1. **스토어** - **내 주문** 메뉴를 선택합니다.
-1. 주문 목록을 조회합니다.
+1. Go to the **Store** and select the **My Order** menu.
+1. View the order list.
 
 </ValidateTextByToken>
 
-## 주문서 목록 - 주문서 상태
+## Order List - Order Status
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![010](./img/010.png)
 
-- 저장: 주문서가 임시저장된 상태입니다.
-- 수정 요청: 판매자가 주문자에게 수정할 것을 요청한 상태의 주문서입니다.
-- 주문 접수: 주문자가 주문서를 생성하여 판매자에게 접수된 상태의 주문서입니다.
-- 승인: 판매자에 의해 승인된 상태의 주문서입니다.
-- 진행중: 승인된 주문서가 주문자에게 납품되는 중에 있는 상태의 주문서입니다.
-- 완료: 주문자에게 납품이 완료된 상태의 주문서입니다.
-- 취소: 주문자에 의해 취소된 상태의 주문서입니다.
+- Saved: An order has been temporarily saved.
+- Modification requested: The seller has asked the buyer to correct the order.
+- Order submitted: The buyer placed an order and submitted to the seller.
+- Approved: The order has been approved by the seller.
+- In progress: The approved order is being delivered to the buyer.
+- Completed: The order has been delivered to the buyer.
+- Cancelled: The order has been cancelled by the buyer.
 
 </ValidateTextByToken>
 
-## 주문서 생성
+## Place an Order
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![002](./img/002.png)
 
-1. **+** 버튼을 눌러 주문서를 생성합니다.
-1. 4가지 유형의 주문서 생성 방식 중에서 1가지를 선택합니다.
-    - 서비스 연계주문 : 서비스 주문서에 사용된 부품을 주문시 (특히 무상자재 요청시) 활용합니다.
-    - 일반주문(1번째): 일반 유상 PO 생성 시 사용합니다.
-    - 일반주문(2번쨰): 법인사용자를 위한 메뉴입니다. 법인의 유상 PO 생성시 사용하는 메뉴입니다.
-    - 무상출고: (본사전용) 서클에서 작성하는 일반적인 무상출고 품의를 CRM에서 생성하는 것으로 생각해주시면 됩니다.
-1. 유형을 선택 후 **주문** 버튼을 클릭합니다.
+1. Press the **+** button to create an order.
+1. Select one of the four order creation methods.
+    - Service linked order: This option is used to order parts for a service order (especially when requesting free materials).
+    - General order (1st): This option is used when creating a general paid PO.
+    - General order (2nd): This menu is for corporate users. This menu is used when creating a paid PO for a corporation.
+    - Free delivery: (For head offices only) Consider establishing a general free delivery request drafted in a circle in CRM.
+1. After selecting the type, click the **Order** button.
 
 </ValidateTextByToken>
 
-## 주문서 생성 - 서비스 연계 주문 🚧
+## Place an Order - Service Linked Order 🚧
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
-**서비스주문/설치시운전 프로젝트**에서 사용된 부품에 대한 유/무상 주문서를 생성합니다
+Create a paid or free order for parts used in the **Service Order / Commissioning Project**.
 
 :::note
 TBD
 :::
 
-### 서비스 주문 불러오기 🚧
+### Load Service Order 🚧
 :::note
 TBD
 :::
 
 </ValidateTextByToken>
 
-## 주문서 생성 - 일반 주문(유상PO)
+## Place an Order - General Order (Paid PO)
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
-일반적인 유상 서비스 부품 주문서를 생성하는 메뉴입니다.
+This menu generates a general paid service parts order.
 
-### 주문할 부품 추가
+### Add Parts to Order
 
 ![003](./img/003.png)
 
-1. 부품코드를 검색해서 PO 신청 부품을 추가할 수 있습니다.
-    - ![004](./img/004.png) → 정상적으로 검색됨
-    - ![005](./img/005.png) → 정상적으로 검색지 않음 **(진행 불가)**
-1. 수량을 입력합니다
-1. 신청할 부품과 관련된 특이사항을 입력합니다. 
-1. **추가** 버튼을 누르면 추가됩니다.
-1. 엑셀로 일괄 업로드가 가능합니다.
-1. 엑셀 양식을 받을 수 있습니다.
-1. 업로드 결과를 확인 후 **적용** 버튼을 누릅니다.
+1. You can add parts to your PO application by searching by parts code.
+    - ![004](./img/004.png) → Searched successfully
+    - ![005](./img/005.png) → No search results **(cannot proceed)**
+1. Enter the quantity.
+1. Enter the parts for application and any special remarks. 
+1. Click the **Add** button to add it to the order.
+1. You can batch upload it via Excel.
+1. You can download the Excel form.
+1. After confirming the upload results, click the **Apply** button.
 
-### 주문 목록 확인
+### Confirm Order List
 
 ![006](./img/006.png)
 
-1. 상태 열의 값이 SNA/DNA 인 경우 주문서 진행이 불가합니다. 
-    - 상태가 **정보없음** 인 경우 자재 담당자의 업데이트가 아직 안된 것으로 판단하여 진행이 가능하도록 하였습니다.
-1. SNA/DNA의 경우 개선품을 확인할 수 있습니다. **(TBD)**
-1. 주문수량을 확인하고 **더블 클릭** 하여 수정할 수 있습니다.
-1. 비고란을 더블클릭하여 수정할 수 있습니다.
-1. **판매자 센터**의 재고 수량을 확인할 수 있습니다.
+1. If the status column shows SNA/DNA, the order cannot be processed. 
+    - If the status is **No information**, it indicates that the material manager has not yet updated. However you can proceed.
+1. For SNA/DNA, you can confirm enhanced products. **(TBD)**
+1. After confirming the order quantity, you can modify it by **double-clicking** it.
+1. You can modify the special remarks section by double-clicking it.
+1. You can check the inventory level of the **Seller Center**.
 
-### 추가 정보 입력 및 주문서 생성
+### Enter Additional Information and Create an Order Form
 
 ![007](./img/007.png)
 
-1. 주문서의 전체적인 비고사항을 입력합니다.
-1. 첨부파일이 있는 경우 파일을 추가합니다.
-1. 주문서가 확정적이지 않은경우 임시 저장을 누릅니다. 
+1. Enter general remarks about the order.
+1. Upload an attachment file, if any.
+1. If your order has not been confirmed, press Save Draft. 
 
 :::note
-임시저장상태에서 판매자와 소통이 가능합니다.<br/>
-예시: 부품확정을 하기 어려운 경우 구매할 부품을 확정하기 위해, 개설된 구매자-판매자 간의 소통창구를 활용할 수 있음<br/>
-[대화하기](#주문서-생성---일반-주문---임시저장-시)의 4번 절차를 참고해주세요.
+You may contact the seller with the draft saved.<br/>
+Example: If it is difficult to confirm the parts, you may utilize the communication channel between buyer and seller to confirm the parts you wish to purchase.<br/>
+Please refer to step 4 of [Chat](#Create-Order---General-Order---Draft-Saved).
 :::
 
-4. 주문서를 생성하려면 **주문** 버튼을 누릅니다.
+4. To place an order, click the **Order** button.
 
-### 임시 저장
+### Save Draft
 
 ![008](./img/008.png)
 
-1. 임시저장된 주문서의 경우, 목록에서 **저장** 단계에 머무르게 됩니다.
-1. 저장된 주문서를 확인할 수 있습니다.
-1. 주문 목록과 비고란은 수정할 수 없습니다. 수정하기 위해서는 하단의 **수정** 버튼을 누릅니다.
-1. 판매자와 소통을 위한 메시지를 입력합니다.
-1. 주문정보가 표시됩니다.
-1. 임시저장된 주문서를 주문처리하기 위해서는 **수정**버튼을 누른 뒤 보이는 수정페이지에서 **주문**버튼을 누릅니다.
+1. Temporarily saved orders remain at the **Saved** stage in the list.
+1. You can view the saved order form.
+1. The order list and special remarks section are not editable. To make changes, click the **Edit** button at the bottom.
+1. Enter a message to communicate with the seller.
+1. The order information is displayed.
+1. To process a temporarily saved order, click the **Edit** button and then the **Order** button on the modification page that appears.
 
 
-### 주문 완료
+### Order Completed
 
 ![009](./img/009.png)
 
-1. 주문을 완료한 주문서의 경우, 목록에서 **주문접수** 단계에 머무르게 됩니다.
-1. 주문서를 확인할 수 있습니다.
-1. 판매자와 소통을 위한 메시지를 입력합니다.
-1. 판매자의 주문서 승인처리 전까지는 주문서를 수정할 수 있습니다.
-1. 판매자의 주문서 승인처리 전까지는 주문서를 취소할 수 있습니다.
+1. Placed orders remain at the **Order submitted** stage in the list.
+1. You can view the order form.
+1. Enter a message to communicate with the seller.
+1. You may edit the order form until the seller accepts it.
+1. You may cancel the order form until the seller accepts it.
 
 :::note
-- 판매자의 주문서 승인처리 전까지는 주문서를 수정할 수 있습니다.
-- 판매자의 주문서 승인처리 전까지는 주문서를 취소할 수 있습니다.
+- You may edit the order form until the seller accepts it. 
+- You may cancel the order form until the seller accepts it.
 :::
 
 </ValidateTextByToken>
 
-## 주문서 생성 - 일반주문(유상 PO / 법인용)
+## Place an Order - General Order (Paid PO / Corporate) ✨
 
 
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch']}>
 
 :::info
-기존의 서클에서 발행하던 유상 PO 품의를 CRM에서 생성하는 것을 추천합니다. <br />
-간소해진 CRM에서의 유상 PO 품의 절차에 대해 안내합니다.
+We recommend creating a paid PO request that was previously issued from a circle in CRM. <br />
+This is a guide to the simplified paid PO request process in CRM.
 :::
 
-[주문서 생성](#주문서-생성) 페이지에서 시작합니다.
+Start on the [Place an Order](#Place order) page.
 
 ![017](./img/017.png)
 
-1. 세번째 [일반주문] 버튼을 클릭합니다.
-1. [주문] 버튼을 클릭합니다.
+1. Click the third [General Order] button.
+1. Click the [Order] button.
  
-### 주문 부품 등록하기
+### Register Parts for Order ✨
 
 ![018](./img/018.png)
 
-1. 부품코드를 검색해서 PO 신청 부품을 추가할 수 있습니다.
-    - ![004](./img/004.png) → 정상적으로 검색됨
-    - ![005](./img/005.png) → 정상적으로 검색지 않음 **(진행 불가)**
-1. 수량을 입력합니다
-1. 신청할 부품과 관련된 특이사항을 입력합니다. 
-    - 비고1: 주로 관련 문서, 부품 특이사항 등을 입력합니다.
-    - 비고2: 주로 배송지와 관련된 내용을 입력합니다.
-1. **추가** 버튼을 누르면 추가됩니다.
-1. 엑셀로 일괄 업로드가 가능합니다.
-1. 엑셀 양식을 받을 수 있습니다.
-1. 엑셀 파일을 첨부합니다.
-1. 업로드 결과를 확인 후 **적용** 버튼을 누릅니다.
+1. You can add parts to your PO application by searching by parts code.
+    - ![004](./img/004.png) → Searched successfully
+    - ![005](./img/005.png) → No search results **(cannot proceed)**
+1. Enter the quantity.
+1. Enter the parts for application and any special remarks. 
+    - Remark 1: Enter related documents, special remarks about the parts, etc.
+    - Remark 2: Enter information about the delivery address.
+1. Click the **Add** button to add it to the order.
+1. You can batch upload it via Excel.
+1. You can download the Excel form.
+1. Attach an Excel file.
+1. After confirming the upload results, click the **Apply** button.
 
-### 주문 목록 확인
+### Confirm Order List ✨
 
 ![006](./img/006.png)
 
-1. 상태 열의 값이 SNA/DNA 인 경우 주문서 진행이 불가합니다. 
-    - 상태가 **정보없음** 인 경우 자재 담당자의 업데이트가 아직 안된 것으로 판단하여 진행이 가능하도록 하였습니다.
-1. SNA/DNA의 경우 개선품을 확인할 수 있습니다. **(TBD)**
-1. 주문수량을 확인하고 **더블 클릭** 하여 수정할 수 있습니다.
-1. 비고란을 더블클릭하여 수정할 수 있습니다.
-1. **판매자 센터**의 재고 수량을 확인할 수 있습니다.
+1. If the status column shows SNA/DNA, the order cannot be processed. 
+    - If the status is **No information**, it indicates that the material manager has not yet updated. However you can proceed.
+1. For SNA/DNA, you can confirm enhanced products. **(TBD)**
+1. After confirming the order quantity, you can modify it by **double-clicking** it.
+1. You can modify the special remarks section by double-clicking it.
+1. You can check the inventory level of the **Seller Center**.
 
-### 유상PO 품의 기본정보 확인
+### Confirm Basic Information of Paid PO Request ✨
 
 ![019](./img/019.png)
 
-- 주문자(기안자) 정보를 확인합니다.
-- PO 발행사유 및 특이사항을 입력합니다.
+- Check the orderer (drafter) information.
+- Enter the purpose of issuing the PO and any special remarks.
 
 ![020](./img/020.png)
 
-1. 첨부파일을 첨부합니다.
-1. 계약서 정보에 입력될 텍스트를 입력합니다.
-    - 입력된 정보는 아래와 같이 문서 생성에 사용됩니다. ![021](./img/021.png) 
-        :::note
-        문서는 PDF 형식으로 출력됩니다.
+1. Upload attachment files.
+1. Enter the texts that will appear in the contract information.
+    - The entered information will be used to create the document as follows. ![021](./img/021.png) 
+        :::note 
+            The document is printed in PDF format. 
         :::
-1. [임시 저장] 또는 [다음] 버튼을 누릅니다.
+1. Click the [Save Draft] or [Next] button.
 
-### 품의 상신 (서클 결재)
+### Submit Request (Circle Approval) ✨
 
 ![022](./img/022.png)
 
-1. 결재선을 검색합니다.(서클사용자들이 검색됩니다.)
-1. 품의 상신 의견을 입력합니다.
-1. [다음] 버튼을 눌러 결재문서를 서클로 전송합니다.
-    :::warning
-    [임시저장] 버튼은 동작하지 않습니다. [이전] 버튼으로 대체될 예정입니다.
+1. Search lines of approval. (Circle users are searched.)
+1. Enter your opinions on requesting submission.
+1. Click the [Next] button to send the approval document to the circle. 
+    :::warning 
+        The [Save Draft] button does not work. It will be replaced by the [Previous] button. 
     :::
+
 
 </ValidateTextByToken>
 
-## 주문서 생성 - 무상출고품의(본사용)
+## Place an Order - Free Delivery Request (For Head Office) ✨
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch']}>
 
-:::info
-기존의 서클에서 발행하던 무상출고품의를 CRM에서 생성하는 것을 추천합니다. <br />
-간소해진 CRM에서의 무상출고품의 절차에 대해 안내합니다.
+:::info 
+    We recommend creating a free delivery request that was previously issued from a circle in CRM. <br />
+    This is a guide to the simplified free delivery item process in CRM. 
 :::
 
-[주문서 생성](#주문서-생성) 페이지에서 시작합니다.
+Start on the [Place an Order](#Place order) page.
 
 ![023](./img/023.png)
 
-1. 네번째 [무상출고품의]를 선택합니다.
-1. [주문] 버튼을 누릅니다. 
+1. Select the fourth \[Free Delivery Request].
+1. Click the \[Order] button. 
 
-### 주문할 부품 추가
+### Add Parts to Order ✨
 
 ![003](./img/003.png)
 
-1. 부품코드를 검색해서 PO 신청 부품을 추가할 수 있습니다.
-    - ![004](./img/004.png) → 정상적으로 검색됨
-    - ![005](./img/005.png) → 정상적으로 검색지 않음 **(진행 불가)**
-1. 수량을 입력합니다
-1. 신청할 부품과 관련된 특이사항을 입력합니다. 
-1. **추가** 버튼을 누르면 추가됩니다.
-1. 엑셀로 일괄 업로드가 가능합니다.
-1. 엑셀 양식을 받을 수 있습니다.
-1. 업로드 결과를 확인 후 **적용** 버튼을 누릅니다.
+1. You can add parts to your PO application by searching by parts code.
+    - ![004](./img/004.png) → Searched successfully
+    - ![005](./img/005.png) → No search results **(cannot proceed)**
+1. Enter the quantity.
+1. Enter the parts for application and any special remarks. 
+1. Click the **Add** button to add it to the order.
+1. You can batch upload it via Excel.
+1. You can download the Excel form.
+1. After confirming the upload results, click the **Apply** button.
 
-### 주문 부품 목록 확인
+### Confirm Parts List for Order ✨
 
 ![024](./img/024.png)
 
-1. 원가는 더블클릭하여 수정이 가능합니다.
-    :::note
-        🚧 원가는 향후에 원가/판가 관리 CRM 모듈로부터 가져올 예정입니다.
+1. You can modify the raw cost by double-clicking it. 
+    :::note 🚧 
+        The cost will eventually be imported from the raw cost/sales price management CRM module. 
     :::
-1. 주문 수량과 비고란도 더블클릭하여 수정이 가능합니다.
-1. 사내 시스템과 연동되어 주문자(기안자)의 **자재승인센터**의 재고, MOQ, L/T(Lead Time) 조회를 하실 수 있습니다.
+1. You may also edit the order quantity and the special remarks section by double-clicking it.
+1. In conjunction with the intranet system, you can look up the order’s (drafter’s) inventory level at the **Inventory Approval Center**, MOQ, and lead time (L/T).
 
-### 기본사항 입력
+### Enter Basic Information ✨
 
 ![025](./img/025.png)
 
-- 비고란에 비고사항을 입력하고 주문자(기안자) 정보를 확인합니다.
+- Enter your remarks in the special remarks section and confirm the orderer (drafter) information.
 
-### 추가정보 입력
+### Enter Additional Information ✨
+
 
 ![026](./img/026.png)
 
-1. 고객사 정보가 없으면 토글 버튼을 활성화합니다.
-2. 고객사 정보를 [선택] 버튼을 눌러 불러옵니다. (필수값) - [고객사 선택 화면 보기](#추가정보-입력---고객사-선택-✨)
-3. 고객사의 담당자 정보를 [선택] 버튼을 눌러 불러옵니다. (옵션값) - [고객담당자 선택 화면 보기](#추가정보-입력---고객담당자-선택-✨)
+1. If there is no client information, the toggle button is activated.
+2. Load the client information by clicking the \[Select] button. (Required) - [View Client Selection Screen](#Enter additional information---Select client-✨)
+3. Load the client contact person information by clicking the \[Select] button. (Optional) - [View Client Contact Person Selection Screen](#Enter additional information---Select client contact person-✨)
 
-### 추가정보 입력 - 고객사 선택
+### Enter Additional Information - Select Client ✨
 
 ![027](./img/027.png)
 
-1. 고객명을 입력하여 검색합니다.
-1. [저장] 버튼을 누릅니다.
+1. Search by entering the client name.
+1. Click the \[Save] button.
 
-### 추가정보 입력 - 고객담당자 선택
+### Enter Additional Information - Select Client Contact Person ✨
 
 ![028](./img/028.png)
 
-1. 목록에 담당자 정보가 없는 경우 고객담당자 정보를 입력하여 등록합니다.
-1. 목록에서 추가된 담당자를 선택합니다.
+1. If there is no contact person information on the list, enter and register the client contact person information.
+1. Select the contact person added to the list.
 
-### 품의 작성
+### Draft a Request ✨
 
 ![029](./img/029.png)
 
-1. 품의 정보를 입력합니다.
-2. 첨부파일이 있는 경우 파일을 첨부합니다.
+1. Enter the request form information.
+2. Upload attachment files, if any.
 
-### 품의 상신
+### Submit Request ✨
 
 ![030](./img/030.png)
 
-1. 결재문서를 작성 후 [다음] 버튼을 눌러 품의를 상신합니다.
+1. After completing the approval document, click the \[Next] button to submit the request.
 
 </ValidateTextByToken>

@@ -15,6 +15,7 @@
     "step1AccountCreation08":"Please use a password that is different from what you have previously used or that you are currently using on other websites.",
     "step1AccountCreation09":"Please click the **Next** button.",
     "step2AccountCreation01":"Request permission to use the system. Please select the appropriate permission for the work. **(Currently, only dummy permissions are displayed. Development to be completed in October 2024.)**",
+    "step2AccountCreation011":"For the test period in December 2024, please apply by selecting all user permissions to explore more.",
     "step2AccountCreation02":"Select a business unit.",
     "step2AccountCreation03":"If the permission list contains a large number of permissions, you can search only the ones you need.",
     "step2AccountCreation04":"You can reset the search results.",
