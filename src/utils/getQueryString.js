@@ -89,6 +89,12 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
 
                 let targetViewer = <></>;
 
+                if (validTokenList.indexOf('agent') !== -1){
+                    if(validTokenList.indexOf('seller') === -1){
+                        validTokenList.splice(validTokenList.indexOf('agent'),0,'seller')
+                    };
+                }
+
                 if (dispTargetViewer === true){
 
                 
@@ -100,7 +106,7 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
 
                         head={validTokenList.indexOf('head') !== -1} // 본사
                         branch={validTokenList.indexOf('branch') !== -1} // 법인
-                        seller={validTokenList.indexOf('seller') !== -1} // 대리점이면서 자재거점
+                        seller={validTokenList.indexOf('seller') !== -1 || validTokenList.indexOf('agent') !== -1} // 대리점이면서 자재거점
                         agent={validTokenList.indexOf('agent') !== -1} // 대리점
                         customer={validTokenList.indexOf('customer') !== -1} // 고객
                     />

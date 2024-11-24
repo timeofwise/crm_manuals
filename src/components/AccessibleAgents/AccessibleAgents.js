@@ -48,6 +48,10 @@ export default function AccessibleAgents({
     
 
     const userText = TEXT[language];
+
+    if (agent){
+        seller = true;
+    };
     
 
     return <BrowserOnly>{
