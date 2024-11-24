@@ -5,7 +5,7 @@ import AccessAlert from "../components/AccessAlert/AccessAlert";
 const passwords = {
     'init123!!':'head',
     'test':'branch',
-    'seller_agent':'seller',
+    'hcrm00':'seller',
     'agent':'agent',
     'dealer':'dealer',
     'customer':'customer',
