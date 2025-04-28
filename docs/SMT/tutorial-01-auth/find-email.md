@@ -21,7 +21,6 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 ![023](./img/023.png)
 
 1. 계정에 등록된 휴대폰 번호를 입력합니다.
-1. 향후에 CAPTCHA가 반영될 예정입니다.
 1. 번호를 입력하고 [확인] 버튼을 누릅니다.
 
 ![025](./img/025.png)

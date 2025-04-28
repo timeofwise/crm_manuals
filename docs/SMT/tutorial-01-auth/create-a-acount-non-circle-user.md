@@ -74,11 +74,7 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 
 1. <StrongTextParser text={text.step1AddDept01} />
 1. <StrongTextParser text={text.step1AddDept02} />
-1. <StrongTextParser text={text.step1AddDept03} />
-1. <StrongTextParser text={text.step1AddDept04} />
-1. <StrongTextParser text={text.step1AddDept05} />
-1. <StrongTextParser text={text.step1AddDept06} />
-1. <StrongTextParser text={text.step1AddDept07} />
+
 
 ### 사용자 추가 (2/3)
 

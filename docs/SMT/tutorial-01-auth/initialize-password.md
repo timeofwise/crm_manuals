@@ -25,17 +25,13 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
     :::tip
     아이디(이메일)을 분실한 경우 [아이디(이메일) 찾기](./find-email.md) 페이지를 참조해주세요.
     :::
-1. 향후에 CAPTCHA가 반영될 예정입니다.
 1. 이메일 주소를 입력하고 [확인] 버튼을 누릅니다.
 
 
 ![021](./img/021.png)
 
 1. 수신된 이메일의 링크를 클릭합니다.
-    :::warning
-    사내 개발서버( http://service-qas.hanwha-crm.com:8888 )에서 사용하는 경우에는 수신된 이메일의 링크 주소를<br />
-    https://service-qas.hanwha-crm.com 에서 http://service-qas.hanwha-crm.com:8888 로 변경해주시기 바랍니다.
-    :::
+
 
 ## 비밀번호 초기화
 

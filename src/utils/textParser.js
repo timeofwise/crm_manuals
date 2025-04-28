@@ -1,9 +1,18 @@
 export default function StrongTextParser({text}) {
+    let parsedText = text;
+    if(text === undefined){
+        parsedText = '';
+    };
 
-    const strongText = text.split("**");
 
+    const strongText = parsedText.split("**");
+    console.log('strongText',strongText);
+
+
+    
     return <div>
         {strongText.map((text, i) => {
+            //console.log('text',text);
             if(i%2==0){
                 if(text.indexOf('](#') !== -1){
                     let text0 = text.split('](#');

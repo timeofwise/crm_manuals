@@ -8,7 +8,7 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 <ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
-BS 및 리트로핏 등 고장예방을 위한 서비스 활동을 수행하는 절차를 안내합니다.
+BS 및 Retrofit과 같은 고장예방을 위한 서비스 활동의 수행 절차를 안내합니다.
 
 </ValidateTextByToken>
 
@@ -18,7 +18,7 @@ BS 및 리트로핏 등 고장예방을 위한 서비스 활동을 수행하는 
 
 ![001](./img/001.png)
 
-1. **BS**, **리트로핏** 두 개의 서비스 탭이 있습니다. BS 활동 탭이 기본적으로 선택되어 있습니다.
+1. **BS**, **리트로핏** 두 개의 서비스 탭이 있습니다. 기본적으로 Retrofit 탭이 선택되어 있습니다.
 1. 프로젝트 관리자, 프로젝트 생성자는 본인이 할당된 프로젝트를 조회할 수 있습니다. 각 영역을 클릭하여 [프로젝트 상세]페이지로 이동할 수 있습니다.
 
 </ValidateTextByToken>
