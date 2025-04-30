@@ -42,9 +42,11 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 1. <StrongTextParser text={text.overview01} />
 1. <StrongTextParser text={text.overview02} />
     :::warning 
-    <StrongTextParser text={text.overview03} link="자산추가" />
+    보증기간 관리는 [**다음단계**](#자산추가)의 설치 대상 자산을 추가한 후 활용이 가능합니다.
     :::
-- <StrongTextParser text={text.overview04} link="상세 - 공통사항" />
+- 각 메뉴에 대한 설명은 [**공통사항**](#상세---공통사항) 을 참조하시기 바랍니다.
+
+
 
 </ValidateTextByToken>
 
@@ -71,7 +73,7 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 1. <StrongTextParser text={text.overviewAddAssetBySalesOrder02} />
 1. <StrongTextParser text={text.overviewAddAssetBySalesOrder03} />
 1. <StrongTextParser text={text.overviewAddAssetBySalesOrder04} />
-    - <StrongTextParser text={text.overviewAddAssetBySalesOrder05} link="판매주문으로 자산이 추가된 경우" />
+    - 여기에 추가된 자산은 [**판매주문으로 자산이 추가된 경우 납품목록 조회**](#판매주문으로-자산이-추가된-경우)와 같이 표시됩니다.
 
 </ValidateTextByToken>
 
@@ -128,11 +130,11 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 ![013](./img/013.png)
 
 1. <StrongTextParser text={text.serveListBySalesOrder02} />
-    :::note
+    :::info
     <StrongTextParser text={text.serveListBySalesOrder03} />
     :::
 1. <StrongTextParser text={text.serveListBySalesOrder04} />
-    :::note
+    :::info
     <StrongTextParser text={text.serveListBySalesOrder05} />
     :::
 1. <StrongTextParser text={text.serveListBySalesOrder06} />
@@ -146,7 +148,7 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 
 ![014](./img/014.png)
 
-1. <StrongTextParser text={text.serveListByOtherWay01} link="판매주문으로 자산이 추가된 경우" />
+1. 이 경우에는 대기열이 존재하지 않습니다. 나머지는 [**판매주문으로 자산이 추가된 경우**](#판매주문으로-자산이-추가된-경우)와 동일한 프로세스를 따릅니다.
 
 </ValidateTextByToken>
 
@@ -154,7 +156,7 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
-<StrongTextParser text={text.premeeting01} />
+설치시운전 작업 수행 전, 고객사와 사전 미팅을 수행하는 경우 사용합니다.
 
 ### 추가
 
@@ -171,16 +173,20 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 
 ![016](./img/016.png)
 
-1. <StrongTextParser text={text.premeetingWorktime01} />
-1. <StrongTextParser text={text.premeetingWorktime02} />
+1. 미팅에 소요된 시간 입력을 위해(비용 정산용) **+** 버튼을 누릅니다.
+1. 엔지니어, 작업 구분, 작업 시간을 입력한 뒤 **저장 후 닫기**를 누릅니다.
+    :::info
+    **저장 후 계속 입력** 버튼은 임시저장 버튼으로 저장후에도 팝업창이 유지됩니다. 
+    :::
+
 
 ### 저장
 
 ![017](./img/017.png)
 
-1. <StrongTextParser text={text.premeetingSave01} />
-1. <StrongTextParser text={text.premeetingSave02} />
-1. <StrongTextParser text={text.premeetingSave03} />
+1. 추가된 일정을 스케줄에 등록하려면 **추가한 소요시간을 캘린더에 반영하겠습니다.** 를 체크합니다. 센터 내 동료들에게 해당 스케줄이 보이게됩니다.
+1. 프리미팅 결과 보고서를 첨부합니다.
+1. **저장**을 눌러 미팅 내용을 저장합니다.
 
 </ValidateTextByToken>
 
@@ -190,9 +196,9 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/02-details-project
 
 ![018](./img/018.png)
 
-1. <StrongTextParser text={text.facility01} />
-1. <StrongTextParser text={text.facility02} />
-1. <StrongTextParser text={text.facility03} />
+1. **설치환경 체크**에 대한 관리가 필요한 경우 사용하는 탭 입니다. (예 : 미주 법인)
+1. 고객이 필요한 유틸리티 사양을 제공하고 점검이 끝난 경우 체크합니다.
+1. 고객과 주고받은 자료를 첨부합니다. (예 : 점검시트지 등)
 
 </ValidateTextByToken>
 

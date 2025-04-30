@@ -1,10 +1,10 @@
 {
     "intro":"사내망에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.",
     "systemAccessPath01":"서클 메인 화면의 업무 메뉴에 H-CRM 링크를 선택하세요.",
-    "systemAccessPath02":"**사내**에서 접속하는 경우",
-    "systemAccessPath03":"**[접속링크](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=http://service-qas.hanwha-crm.com:8888/auth/slo)** 를 클릭하세요.",
+    "systemAccessPath02":"**사내망에서** 접속하는 경우",
+    "systemAccessPath03":"**[접속링크](http://ep.circle.hanwha.com/api/branch/common/slo/goSloTarget.mvc?authType=1&destination=https://service.hanwha-crm.com/auth/slo )** 를 클릭하세요. 서클과 연동하여 자동 로그인이 됩니다.",
     "systemAccessPath04":"**사외**에서 접속하는 경우",
-    "systemAccessPath05":"**[접속링크](http://ep.circle.hanwha.com/neo/branch/common/slo/goSloTarget.mvc?authType=1&destination=https://service-qas.hanwha-crm.com/auth/slo)** 를 클릭하거나 아래의 QR코드를 스캔하세요.",
+    "systemAccessPath05":"**[접속링크](https://service.hanwha-crm.com)** 를 클릭하거나 아래의 QR코드를 스캔하세요.",
     "step1AccountCreation01":"서클 유저의 계정등록 화면에 진입합니다. 서클 사용자 정보가 기본적으로 로드가 되며 입력된 정보를 확인해주세요.",
     "step1AccountCreation02":"이메일은 수정을 할 수 없습니다. 휴대폰 번호를 확인하시고 **인증** 버튼을 눌러 인증절차를 진행해주세요. 인증이 된 이후에는 **인증필요** 상태가 **인증완료** 상태로 변경됩니다.",
     "step1AccountCreation03":"휴대폰 번호를 확인하시고 **발송** 버튼을 눌러주세요. 인증번호 문자가 입력된 휴대폰 번호로 발송됩니다.",

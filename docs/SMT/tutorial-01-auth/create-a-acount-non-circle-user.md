@@ -6,7 +6,7 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle-user.json";
 
-# CRM 계정 생성 (그 외 사용자)
+# CRM 계정 생성 (대리점)
 
 <!-- 메뉴단에서 번역이 안되므로 여기 하드코딩해야 함 #가 달린 헤더와 함께 -->
 **사외망**에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
@@ -15,7 +15,7 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 <StrongTextParser text={text.warning} />
 :::
 
-<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent', 'customer']}>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
 ## 개요
 
@@ -147,29 +147,5 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
    :::tip
    <StrongTextParser text={text.finalConfirm02} />
    :::
-
-</ValidateTextByToken>
-
-### 사용자 계정 승인 🚧
-
-<ValidateTextByToken dispTargetViewer={false} validTokenList={['head']}>
-
-:::info
-TBD (화면작업중)
-:::
-
-</ValidateTextByToken>
-
-
-
-## 일반 사용자 계정 생성 🚧
-
-<ValidateTextByToken dispTargetViewer={false} validTokenList={['customer']}>
-
-### 페이지 이동 🚧
-
-:::info
-TBD (화면작업중)
-:::
 
 </ValidateTextByToken>

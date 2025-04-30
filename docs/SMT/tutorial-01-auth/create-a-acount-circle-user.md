@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-import qrImage from "./img/009.png";
+
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 
-# CRM 계정 생성 (서클사용자) 
+# CRM 계정 생성 (임직원) 
 
 <!-- 메뉴단에서 번역이 안되므로 여기 하드코딩해야 함 #가 달린 헤더와 함께 -->
 사내망에서 CRM 사용 계정을 생성하기 위한 절차를 안내합니다.
@@ -24,7 +24,8 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-use
 - <StrongTextParser text={text.systemAccessPath02} />
   - <StrongTextParser text={text.systemAccessPath03} />
 - <StrongTextParser text={text.systemAccessPath04} />
-  - <StrongTextParser text={text.systemAccessPath05} /><br/> <img src={qrImage} alt="009" width="100px" height="100px"/>
+  - <StrongTextParser text={text.systemAccessPath05} /><br/> ![001](./img/qrcode.png)
+
 
 ## 계정생성 1단계
 
