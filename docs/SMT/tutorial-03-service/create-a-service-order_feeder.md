@@ -1,11 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+import StrongTextParser from "/src/utils/textParser.js";
+import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 # 피더 수리
 
 고객사의 피더 수리 요청을 등록하고 처리하는 절차를 안내합니다. 
-
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
 ## 서비스 목록
 
@@ -43,3 +46,4 @@ sidebar_position: 3
 1. **엑셀업로드**를 선택하여 입력한 양식을 등록합니다. 
 1. 입력된 데이터를 확인하고, **실적등록** 버튼을 눌러 접수를 완료합니다. 
 
+</ValidateTextByToken>

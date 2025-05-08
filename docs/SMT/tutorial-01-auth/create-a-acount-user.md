@@ -5,6 +5,7 @@ sidebar_position: 2
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle-user.json";
+import MMIMobile from "./img/035.png";
 
 # CRM 계정 생성 (고객사)
 
@@ -56,7 +57,7 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 1. 이메일에 전송된 인증번호를 입력합니다.  
 1. **확인**을 클릭하여 이메일 등록을 완료합니다. 
 :::info
-![029](./img/029.png)
+![029](./img/029.png)  
 인증이 완료되면 **인증** 버튼이 **인증완료**로 변경됩니다.
 :::
 
@@ -85,11 +86,12 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 
 1. QR코드 선택 시 사용중인 장비에서 QR코드 인식, 식별번호 발급이 필요합니다. 
 :::info
-   ![034](./img/034.png)
+   ![034](./img/034.png)  
    장비의 MMI화면에서 다음과 같은 QR코드를 확인 할 수 있습니다. 
    휴대폰으로 QR코드를 인식합니다. 
 
-   ![035](./img/035.png)
+
+    <div><img src={MMIMobile} width="60%" alt="035" /></div>
    1. 위치정보수집 동의를 선택합니다.
    1. **확인**을 선택합니다.
    1. 화면에 나타난 식별번호를 확인하고 추가인증 QR코드란에 입력합니다.
@@ -97,12 +99,12 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 :::
 
 ### 등록 사유 선택
-![034](./img/034.png)
+![035](./img/035.png)
 1. 등록 사유를 선택합니다. 
 1. **다음**을 선택합니다.
 
 ### 서비스CRM 약관 동의
-![035](./img/035.png)
+![036](./img/036.png)
 1. 약관을 확인 후 동의를 체크합니다.
 :::warning 
    - 필수 약관에 동의 없이는 회원가입이 불가합니다. 

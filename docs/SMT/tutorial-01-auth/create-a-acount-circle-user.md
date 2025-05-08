@@ -32,11 +32,14 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-use
 ![002](./img/002.png)
 
 1. <StrongTextParser text={text.step1AccountCreation01} />
-1. <StrongTextParser text={text.step1AccountCreation02} /><br/>  ![004](./img/004.png) ![003](./img/003.png)
-    1. <StrongTextParser text={text.step1AccountCreation03} />
-    2. <StrongTextParser text={text.step1AccountCreation04} />
-1. <StrongTextParser text={text.step1AccountCreation05} />
+1. <StrongTextParser text={text.step1AccountCreation02} /><br/>
     :::note
+    ![004](./img/004.png) ![003](./img/003.png)
+      1. <StrongTextParser text={text.step1AccountCreation03} />
+      2. <StrongTextParser text={text.step1AccountCreation04} />
+    :::
+1. <StrongTextParser text={text.step1AccountCreation05} />
+    :::info
     - <StrongTextParser text={text.step1AccountCreation06} />
     - <StrongTextParser text={text.step1AccountCreation07} />
     - <StrongTextParser text={text.step1AccountCreation08} />

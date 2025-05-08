@@ -1,11 +1,14 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+import StrongTextParser from "/src/utils/textParser.js";
+import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 # 실적등록
 
 고객사의 요청에 따라 서비스를 접수하고 처리하기 위한 절차를 안내합니다.
-
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
 ## 서비스 목록
 
@@ -72,5 +75,5 @@ sidebar_position: 2
 1. 등록된 부품을 확인합니다. 
 1. 저장 버튼을 눌러 조치 내용을 저장합니다. 
 
-
+</ValidateTextByToken>
 
