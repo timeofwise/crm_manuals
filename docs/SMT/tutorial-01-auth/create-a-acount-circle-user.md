@@ -6,7 +6,7 @@ sidebar_position: 1
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
-
+import Phon from "./img/004.png";
 
 # CRM 계정 생성 (임직원) 
 
@@ -27,14 +27,14 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-use
   - <StrongTextParser text={text.systemAccessPath05} /><br/> ![001](./img/qrcode.png)
 
 
-## 계정생성 1단계
+## 계정생성 - 기본정보 등록
 
 ![002](./img/002.png)
 
 1. <StrongTextParser text={text.step1AccountCreation01} />
 1. <StrongTextParser text={text.step1AccountCreation02} /><br/>
     :::note
-    ![004](./img/004.png) ![003](./img/003.png)
+    <div><img src={Phon} width="50%" alt="004" /></div>
       1. <StrongTextParser text={text.step1AccountCreation03} />
       2. <StrongTextParser text={text.step1AccountCreation04} />
     :::
@@ -46,48 +46,29 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-use
     :::
 4. <StrongTextParser text={text.step1AccountCreation09} />
 
-## 계정생성 2단계
+## 계정생성 - 권한 등록
 
 <StrongTextParser text={text.step2AccountCreation01} />
-
 ![005](./img/005.png)
 
-1. <StrongTextParser text={text.step2AccountCreation02} />
-1. <StrongTextParser text={text.step2AccountCreation03} />
-1. <StrongTextParser text={text.step2AccountCreation04} />
-1. <StrongTextParser text={text.step2AccountCreation05} />
-1. <StrongTextParser text={text.step2AccountCreation06} />
-1. <StrongTextParser text={text.step2AccountCreation07} />
-1. <StrongTextParser text={text.step2AccountCreation08} />
-1. <StrongTextParser text={text.step2AccountCreation09} />
+1. 해당되는 사업부를 선택합니다. 
+1. 필요한 권한을 선택합니다.
+1. 선택한 권한을 초기화 할 수 있습니다.
+1. 다음단계로 진행합니다.
 
-## 계정생성 3단계
+## 계정생성 - 확인 및 등록
 
 <StrongTextParser text={text.step3AccountCreation01} />
 
 ![006](./img/006.png)
 
-1. <StrongTextParser text={text.step3AccountCreation02} />
-    1. <StrongTextParser text={text.step3AccountCreation03} />
-    2. <StrongTextParser text={text.step3AccountCreation04} />
+1. 앞 단계에서 신청한 권한을 재확인하고 **등록**을 클릭합니다.
 
-## 계정생성 4단계
-
-<StrongTextParser text={text.step4AccountCreation01} />
-
-![007](./img/007.png)
-
-1. <StrongTextParser text={text.step4AccountCreation02} />
-1. <StrongTextParser text={text.step4AccountCreation03} />
-1. <StrongTextParser text={text.step4AccountCreation04} />
-1. <StrongTextParser text={text.step4AccountCreation05} />
 
 ## 계정생성 완료
 
 ![008](./img/008.png)
 
-1. <StrongTextParser text={text.step5AccountCreation01} />
-1. <StrongTextParser text={text.step5AccountCreation02} />
-1. <StrongTextParser text={text.step5AccountCreation03} />
+관리자의 승인 대기 화면이 나타나며, 승인 완료 시 **이메일로 알림이 발송**되며 로그인이 가능합니다.
 
 </ValidateTextByToken>
