@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
 
 import ValidateTextByToken from "/src/utils/getQueryString.js";
@@ -39,42 +39,19 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 </ValidateTextByToken>
 
-## 주문서 유형 확인
+## 주문서 수정
 
-### 서비스연계 주문(유무상 PO) 🚧
 
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![047](./img/047.png)
-1. 수정이 필요한 **주문번호**를 선택합니다.
+1. 수정이 필요한 **주문번호**를 선택합니다. 주문서 수정은 저장 및 주문 접수 상태에서만 가능합니다.
 
 ![048](./img/048.png)
 1. 주문 수정을 위해 상세 페이지 하단의 **수정** 버튼을 선택하여 작성 내용을 **수정**, **저장** 할 수 있습니다. 
+    :::warning
+        수정된 주문서는 반드시 "**주문**" 버튼을 클릭해야만 주문이 진행됩니다. 
+    ::: 
 
 </ValidateTextByToken>
 
-### 일반주문(유상 PO) 🚧
-
-<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
-
-일반 주문의 주문서 수정은 저장 및 주문 접수 상태에서만 수정이 가능합니다. 
-
-![047](./img/047.png)
-1. 수정이 필요한 **주문번호**를 선택합니다.
-
-![049](./img/049.png)
-1. 주문 수정을 위해 상세 페이지 하단의 **수정** 버튼을 선택하여 작성 내용을 **수정**, **저장** 할 수 있습니다. 
-
-</ValidateTextByToken>
-
-### 일반주문(유상 PO, 법인용) 🚧
-
-<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
-
-</ValidateTextByToken>
-
-### 무상출고 품의(본사용) 🚧
-
-<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
-
-</ValidateTextByToken>

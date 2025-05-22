@@ -6,8 +6,8 @@ import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-circle-user.json";
 
 # 실적등록
-
-고객사의 요청에 따라 서비스를 접수하고 처리하기 위한 절차를 안내합니다.
+서비스 등록 후 처리 내용을 추후에 입력할 수 있는 기본 절차와 달리, 
+서비스 접수/등록/처리를 한번에 입력 할 수 있는 실적등록 탭을 안내합니다. 
 <ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
 ## 서비스 목록

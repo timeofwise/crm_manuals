@@ -78,7 +78,7 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 
 ### 사용자 추가 (2/3)
 
-![014](./img/014.png)
+![037](./img/037.png)
 
 1. <StrongTextParser text={text.step2AddUser01} />
 1. <StrongTextParser text={text.step2AddUser02} />
@@ -96,7 +96,7 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 
 ### 사용자 추가 (3/3)
 
-![015](./img/015.png)
+![038](./img/038.png)
 
 1. <StrongTextParser text={text.step3AddUser01} />
 1. <StrongTextParser text={text.step3AddUser02} />
