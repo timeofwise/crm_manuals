@@ -4,176 +4,125 @@ sidebar_position: 2
 
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
-import text from "/src/locale/zh/SMT/tutorial-01-auth/create-a-acount-non-circle-user.json";
+import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle-user.json";
 
-# 创建CRM账户（其他用户）
+# 创建 CRM 账户（零售）
 
 <!-- 메뉴단에서 번역이 안되므로 여기 하드코딩해야 함 #가 달린 헤더와 함께 -->
-将为您介绍在**外部网络**中创建CRM使用账户的流程。
+我们将引导您完成在**外部网络**上创建 CRM 用户帐户的步骤。
 
 :::danger
-<StrongTextParser text={text.warning} />
+请 Circle 用户遵循员工帐户创建程序。
 :::
 
-<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent', 'customer']}>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
-## 概要
+## 大纲
 
-<StrongTextParser text={text.overview01} />
+经销商用户的 CRM 帐户创建场景如下
+
 :::warning 
-   - <StrongTextParser text={text.overview02} />
-   - <StrongTextParser text={text.overview03} />
+   - **服务代理用户**：此结构由管理员代表用户创建用户账户。
+   - **一般客户用户**：可直接在 CRM 系统中创建账户。
 :::
-
 </ValidateTextByToken>
+<br/>
+<br/>
 
-
-
-## 创建CRM账户 (代理商)
+## 创建服务代理用户帐户
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 :::info
-<StrongTextParser text={text.createAgentAccount01} />
+我们将授予单独的账户创建权限，只有拥有权限的用户才可以执行账户创建任务。
 :::
+<br/>
+<br/>
 
-### 页面跳转
+### 移动页面
 
 ![010](./img/010.png)
 
-1. <StrongTextParser text={text.createAgentAccount02} />
-2. <StrongTextParser text={text.createAgentAccount03} />
+1. 在侧边栏选择【标准信息】-【客户】或【中心】菜单。
+1. 选择要添加账户的公司（客户或中心）的公司代码，进入详情页面。
+<br/>
+<br/>
 
 ![011](./img/011.png)
 
-1. <StrongTextParser text={text.createAgentAccount04} />
-2. <StrongTextParser text={text.createAgentAccount05} />
-3. <StrongTextParser text={text.createAgentAccount06} />
+1. 从底部的选项卡中选择[用户]选项卡。
+1. 显示属于所选公司（客户或中心）的用户帐户列表。
+1. 点击“+”按钮进入“添加用户”屏幕。
+<br/>
+<br/>
 
-### 用户添加（1/3）
+### 添加用户 (1/4)
 
 ![012](./img/012.png)
 
-1. <StrongTextParser text={text.step1AddUser01} />
-   - <StrongTextParser text={text.step1AddUser02} />
-   - <StrongTextParser text={text.step1AddUser03} />
-   - <StrongTextParser text={text.step1AddUser04} />
-   - <StrongTextParser text={text.step1AddUser05} />
-2. <StrongTextParser text={text.step1AddUser06} />
+1. 输入用户信息。
+   - 名称（本地）：输入本地语言名称。
+   - 名称（全球）：输入英文显示的名称。
+   - 电子邮件地址：输入账户用户的电子邮件地址。
+   - 手机号码：输入账户用户的手机号码。（可选）
+1. 确认公司名称。默认为代表用户注册账户的用户所属机构信息。
    :::note
-   <StrongTextParser text={text.step1AddUser07} />
+   拥有账户管理权限的管理员可以更改其所属公司。
    :::
-3. <StrongTextParser text={text.step1AddUser08} />
+3. 添加您自己的部门或从已保存的部门列表中选择。请参阅部门设置步骤。
    :::tip
-   <StrongTextParser text={text.step1AddUser09} />
+   在 CRM 系统中，很多情况下都需要使用部门。设置部门可以让后续工作更加轻松。
    :::
+1. 转至下一页。
+<br/>
+<br/>
 
-### 用户添加（1/3） - 部门注册
+### 添加用户 (2/4) - 부서 등록
 
 ![013](./img/013.png)
 
-1. <StrongTextParser text={text.step1AddDept01} />
-1. <StrongTextParser text={text.step1AddDept02} />
-1. <StrongTextParser text={text.step1AddDept03} />
-1. <StrongTextParser text={text.step1AddDept04} />
-1. <StrongTextParser text={text.step1AddDept05} />
-1. <StrongTextParser text={text.step1AddDept06} />
-1. <StrongTextParser text={text.step1AddDept07} />
+1. 点击**设置**按钮，加载已保存部门列表。如果已注册的部门较多，可以使用搜索功能。在已保存部门列表中，点击您想使用的部门名称。点击**保存**按钮设置部门。
+1. 点击**添加部门**按钮，添加部门。输入部门名称，并在部门描述字段中输入部门描述。点击**保存**按钮，保存部门信息。
 
-### 用户添加（2/3）
 
-![014](./img/014.png)
+### 添加用户 (3/4)
 
-1. <StrongTextParser text={text.step2AddUser01} />
-1. <StrongTextParser text={text.step2AddUser02} />
-1. <StrongTextParser text={text.step2AddUser03} />
-1. <StrongTextParser text={text.step2AddUser04} />
-1. <StrongTextParser text={text.step2AddUser05} />
-1. <StrongTextParser text={text.step2AddUser06} />
-1. <StrongTextParser text={text.step2AddUser07} />
-1. <StrongTextParser text={text.step2AddUser08} />
+![037](./img/037.png)
+
+1. 选择一个业务部门。
+1. 选择您想要分配的权限。
    :::warning
-      - <StrongTextParser text={text.step2AddUser09} />
-      - <StrongTextParser text={text.step2AddUser10} />
+      - 请注意仅分配必要的权限。 
+      - 根据安全管理员的审核结果，在帐户的最终批准阶段，可能会拒绝批准。
    :::
-1. <StrongTextParser text={text.step2AddUser11} />
+1. 您可以初始化所选权限。
+1. 继续下一步。
+<br/>
+<br/>
 
-### 用户添加（3/3）
+### 添加用户 (4/4)
 
-![015](./img/015.png)
+![038](./img/038.png)
 
-1. <StrongTextParser text={text.step3AddUser01} />
-1. <StrongTextParser text={text.step3AddUser02} />
+- 申请权限列表按事业部显示。
+- 账户使用者为**Hanwha Semitec合作公司员工**，本人确认所输入的信息没有问题。
    :::danger
-   <StrongTextParser text={text.step3AddUser03} />
+   请注意不要让您的帐户被错误发行。
    :::
-1. <StrongTextParser text={text.step3AddUser04} />
-   - <StrongTextParser text={text.step3AddUser05} />
-   - <StrongTextParser text={text.step3AddUser06} />
+1. 点击**确认**按钮。
+   - 系统将向管理员发送最终批准请求通知，以便用户可以使用已创建的帐户。
+   - 系统将向帐户用户发送一封额外的身份验证电子邮件。请参阅“额外身份验证”。
+<br/>
+<br/>
 
-### 用户额外认证(1/2)
+### 用户身份验证
 
 ![016](./img/016.png)
 
-1. <StrongTextParser text={text.step1AdditionalAuth01} />
+1. 账户用户请检查邮箱，点击收到的**账户注册指南邮件**。
    :::tip
-   <StrongTextParser text={text.step1AdditionalAuth02} />
+   如果您没有收到电子邮件，请联系代表您创建帐户的人员。
    :::
-1. <StrongTextParser text={text.step1AdditionalAuth03} />
-   :::note
-   <StrongTextParser text={text.step1AdditionalAuth04} />
-   :::
-
-### 用户额外认证(2/2)
-
-![017](./img/017.png)
-
-1. <StrongTextParser text={text.step2AdditionalAuth01} />
-1. <StrongTextParser text={text.step2AdditionalAuth02} />
-1. <StrongTextParser text={text.step2AdditionalAuth03} />
-1. <StrongTextParser text={text.step2AdditionalAuth04} />
-1. <StrongTextParser text={text.step2AdditionalAuth05} />
-   :::note
-   <StrongTextParser text={text.step2AdditionalAuth06} />
-   :::
-1. <StrongTextParser text={text.step2AdditionalAuth07} />
-1. <StrongTextParser text={text.step2AdditionalAuth08} />
-   :::note
-   - <StrongTextParser text={text.step2AdditionalAuth09} />
-   - <StrongTextParser text={text.step2AdditionalAuth10} />
-   - <StrongTextParser text={text.step2AdditionalAuth11} />
-   :::
-1. <StrongTextParser text={text.step2AdditionalAuth12} />
-
-![018](./img/018.png)
-
-- <StrongTextParser text={text.finalConfirm01} />
-   :::tip
-   <StrongTextParser text={text.finalConfirm02} />
-   :::
-
-</ValidateTextByToken>
-
-### 批准用户 🚧
-
-<ValidateTextByToken dispTargetViewer={false} validTokenList={['head']}>
-
-:::info
-TBD (화면작업중)
-:::
-
-</ValidateTextByToken>
-
-
-
-## 创建CRM账户 (客户) 🚧
-
-<ValidateTextByToken dispTargetViewer={false} validTokenList={['customer']}>
-
-### 页面跳转 🚧
-
-:::info
-TBD (화면작업중)
-:::
+1. 单击身份验证链接。
 
 </ValidateTextByToken>

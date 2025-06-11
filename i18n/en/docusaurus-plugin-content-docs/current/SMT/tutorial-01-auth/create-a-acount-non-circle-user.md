@@ -81,17 +81,12 @@ We will grant separate account creation authority, and only users with authority
 ![037](./img/037.png)
 
 1. Select a business unit.
-1. If there are many permissions in the permission list, you can search for only the necessary permissions.
-1. You can reset the search results.
-1. You can view it in full screen.
-1. If you have a lot of permissions to apply for, you can copy permissions from other people.
-1. Resets selected permissions.
-1. A description of the selected permission is displayed.
 1. Select the permissions you want to assign.
    :::warning
       - Please be careful to assign only the permissions that are absolutely necessary.
       - Approval may be denied at the final approval stage of your account based on review by a security administrator.
    :::
+1. Resets selected permissions.
 1. Proceed to the next step.
 
 ### Add User (3/3)

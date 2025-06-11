@@ -5,43 +5,39 @@ sidebar_position: 3
 import loginWindow from "./img/019.png";
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 
-# 비밀번호 초기화
+# 重置密码
 
-**사외망**에서 로그인 시, 비밀번호를 분실하였을 때 비밀번호 초기화 작업 절차를 안내합니다.
+**从外部网络登录时**，如果您忘记了密码，我们将指导您完成密码重置过程。
 
 <ValidateTextByToken dispTargetViewer={true} validTokenList={['head', 'branch', 'agent', 'customer']}>
 
-## 페이지 이동
+## 移动页面
 
 <img src={loginWindow} alt="019"  width="500px" />
 
-1. 로그인 화면에서 [비밀번호 찾기] 버튼을 누릅니다.
+1.在登录屏幕上，点击[查找密码]按钮。
 
-## 사용자 이메일 입력
+## 输入您的用户电子邮件
 
 ![020](./img/020.png)
 
-1. 초기화할 계정의 이메일 주소를 입력합니다.
+1. 输入您要初始化的帐户的电子邮件地址。
     :::tip
-    아이디(이메일)을 분실한 경우 [아이디(이메일) 찾기](./find-email.md) 페이지를 참조해주세요.
+    如果您丢失了ID（邮箱），请参阅[查找ID（邮箱）](./find-email.md)页面。
     :::
-1. 향후에 CAPTCHA가 반영될 예정입니다.
-1. 이메일 주소를 입력하고 [확인] 버튼을 누릅니다.
+1. 输入您的电子邮件地址，然后单击**确认**按钮。
 
 
 ![021](./img/021.png)
 
-1. 수신된 이메일의 링크를 클릭합니다.
-    :::warning
-    사내 개발서버( http://service-qas.hanwha-crm.com:8888 )에서 사용하는 경우에는 수신된 이메일의 링크 주소를<br />
-    https://service-qas.hanwha-crm.com 에서 http://service-qas.hanwha-crm.com:8888 로 변경해주시기 바랍니다.
-    :::
+1. 单击您收到的电子邮件中的链接。
 
-## 비밀번호 초기화
+
+## 重置密码
 
 ![022](./img/022.png)
 
-1. 신규 비밀번호를 입력합니다.
-2. [확인] 버튼을 누릅니다.
+1. 输入您的新密码。
+1. 点击**确认**按钮。
 
 </ValidateTextByToken>

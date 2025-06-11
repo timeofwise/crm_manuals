@@ -81,25 +81,20 @@ import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle
 ![037](./img/037.png)
 
 1. <StrongTextParser text={text.step2AddUser01} />
-1. <StrongTextParser text={text.step2AddUser02} />
-1. <StrongTextParser text={text.step2AddUser03} />
-1. <StrongTextParser text={text.step2AddUser04} />
-1. <StrongTextParser text={text.step2AddUser05} />
-1. <StrongTextParser text={text.step2AddUser06} />
-1. <StrongTextParser text={text.step2AddUser07} />
-1. <StrongTextParser text={text.step2AddUser08} />
+1. 할당할 권한을 선택합니다. 
    :::warning
       - <StrongTextParser text={text.step2AddUser09} />
       - <StrongTextParser text={text.step2AddUser10} />
    :::
+1. 선택된 권한을 초기화 할 수 있습니다.
 1. <StrongTextParser text={text.step2AddUser11} />
 
 ### 사용자 추가 (3/3)
 
 ![038](./img/038.png)
 
-1. <StrongTextParser text={text.step3AddUser01} />
-1. <StrongTextParser text={text.step3AddUser02} />
+- <StrongTextParser text={text.step3AddUser01} />
+-  <StrongTextParser text={text.step3AddUser02} />
    :::danger
    <StrongTextParser text={text.step3AddUser03} />
    :::

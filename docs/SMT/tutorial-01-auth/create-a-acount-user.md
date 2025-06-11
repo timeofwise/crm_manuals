@@ -5,7 +5,7 @@ sidebar_position: 2
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle-user.json";
-import MMIMobile from "./img/035.png";
+import MMIMobile from "./img/039.png";
 
 # CRM 계정 생성 (고객사)
 
@@ -41,8 +41,6 @@ import MMIMobile from "./img/035.png";
 
 ### 회원가입 화면 이동
 
-![027](./img/027.png)
-
 1. **회원가입**을 클릭합니다.
 
 
@@ -77,26 +75,23 @@ import MMIMobile from "./img/035.png";
 
 ### 추가인증 - 인증수단 없음
 ![032](./img/032.png)
-반도체장비 및 공작기계 고객사의 경우 **인증수단 없음** 을 선택하시고,
-산업용장비 고객사의 경우 **인증수단 없음** 또는 **QR코드**를 선택하세요.
+1. 반도체장비 및 공작기계 고객사의 경우 **인증수단 없음** 을 선택하시고, 산업용장비 고객사의 경우 **인증수단 없음** 또는 **QR코드**를 선택하세요.
 
 ### 추가인증 - QR코드 인증
 
 ![033](./img/033.png)
 
 1. QR코드 선택 시 사용중인 장비에서 QR코드 인식, 식별번호 발급이 필요합니다. 
-:::info
-   ![034](./img/034.png)  
-   장비의 MMI화면에서 다음과 같은 QR코드를 확인 할 수 있습니다. 
-   휴대폰으로 QR코드를 인식합니다. 
+   :::info
+      ![034](./img/034.png)  
+      장비의 MMI화면에서 다음과 같은 QR코드를 확인 할 수 있습니다. 
+      휴대폰으로 QR코드를 인식합니다. 
+      <div><img src={MMIMobile} width="60%" alt="039" /></div>
+      1. 위치정보수집 동의를 선택합니다.
+      1. **확인**을 선택합니다.
+      1. 화면에 나타난 식별번호를 확인하고 추가인증 QR코드란에 입력합니다.
 
-
-    <div><img src={MMIMobile} width="60%" alt="035" /></div>
-   1. 위치정보수집 동의를 선택합니다.
-   1. **확인**을 선택합니다.
-   1. 화면에 나타난 식별번호를 확인하고 추가인증 QR코드란에 입력합니다.
-
-:::
+   :::
 
 ### 등록 사유 선택
 ![035](./img/035.png)

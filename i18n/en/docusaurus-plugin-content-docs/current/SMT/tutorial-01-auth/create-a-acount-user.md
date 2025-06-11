@@ -5,7 +5,7 @@ sidebar_position: 2
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-01-auth/create-a-acount-non-circle-user.json";
-import MMIMobile from "./img/035.png";
+import MMIMobile from "./img/039.png";
 
 # Create a CRM account (client)
 
@@ -93,7 +93,7 @@ Industrial equipment customers, please select No authentication method or QR cod
    You can check the following QR code on the MMI screen of the device. Recognize the QR code with your mobile phone.
 
 
-    <div><img src={MMIMobile} width="60%" alt="035" /></div>
+    <div><img src={MMIMobile} width="60%" alt="039" /></div>
    1. Select consent to collect location information.
    1. Select Next.
    1. Check the identification number displayed on the screen and enter it in the additional authentication QR code field.
