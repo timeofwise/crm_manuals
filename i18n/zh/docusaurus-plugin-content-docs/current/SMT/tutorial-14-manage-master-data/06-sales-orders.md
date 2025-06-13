@@ -4,11 +4,14 @@ sidebar_position: 6
 
 import ValidateTextByToken from "/src/utils/getQueryString.js";
 
-# 판매주문 관리
+# Sales Order Management
 
-판매주문 데이터 관리에 대한 안내입니다.
+This is a guide to managing sales order data.
 
-<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}></ValidateTextByToken>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
-## 목록
- 
+![100](./img/100.png)
+
+
+</ValidateTextByToken>
+

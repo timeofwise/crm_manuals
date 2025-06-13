@@ -1,0 +1,118 @@
+{
+  "version.label": {
+    "message": "0.1.7",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.SMT": {
+    "message": "SMT",
+    "description": "The label for category SMT in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자 인증": {
+    "message": "User Authentication",
+    "description": "The label for category User Authentication in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자 인증.link.generated-index.description": {
+    "message": "This section covers creating and authenticating user accounts and system permissions for use with the CRM system.",
+    "description": "The generated-index page description for category 사용자 인증 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치시운전": {
+    "message": "Installation",
+    "description": "The label for category 설치시운전 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치시운전.link.generated-index.description": {
+    "message": "We guide you through creating installation and commissioning projects, assigning engineers, processing services, writing reports, and conducting customer reviews.",
+    "description": "The generated-index page description for category 설치시운전 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.서비스 주문": {
+    "message": "Service Order",
+    "description": "The label for category 서비스 주문 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.서비스 주문.link.generated-index.description": {
+    "message": "We guide you through the process of receiving and processing customer service orders for products.",
+    "description": "The generated-index page description for category 서비스 주문 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.스토어": {
+    "message": "Store",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.스토어.link.generated-index.description": {
+    "message": "Guides you through the process of searching for service parts, creating an order form, and processing the order form.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VOC": {
+    "message": "VOC",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.예방활동": {
+    "message": "Courtesy Service",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.예방활동.link.generated-index.description": {
+    "message": "We guide you through the process of performing service activities to prevent failures, such as BS and retrofit.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DEMO": {
+    "message": "DEMO Evaluation",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DEMO.link.generated-index.description": {
+    "message": "Register your DEMO evaluation project and manage issues and evaluation indicators.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.교육": {
+    "message": "Training",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.교육.link.generated-index.description": {
+    "message": "Register for online and offline training courses to provide technically educational content to customers.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기술지원": {
+    "message": "Technical Support",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기술지원.link.generated-index.description": {
+    "message": "Register for online and offline training courses to provide technically educational content to customers.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.뉴스센터": {
+    "message": "News Center",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.뉴스센터.link.generated-index.description": {
+    "message": "Post and distribute notices and technical materials related to the Service.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.애프터마켓": {
+    "message": "Quotation and Performance",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.애프터마켓.link.generated-index.description": {
+    "message": "Issue service quotes and manage sales performance.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.시스템 관리": {
+    "message": "System Management",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.시스템 관리.link.generated-index.description": {
+    "message": "Responsible for system settings and approval of various tasks.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.업무메뉴 관리": {
+    "message": "Content Management",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.업무메뉴 관리.link.generated-index.description": {
+    "message": "Responsible for various contents for operating system",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기준정보 관리": {
+    "message": "Master Data",
+    "description": "The label for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기준정보 관리.link.generated-index.description": {
+    "message": "Manages various standard information required for services.",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  }
+}

@@ -6,51 +6,51 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-03-store/01-create-order-buyer.json";
 
-# 내 주문
+# 我的订单
 
-스토어의 내 주문 메뉴를 안내합니다.
+商店中“我的订单”菜单的指南。
 
 <ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']} ></ValidateTextByToken>
 
-## 주문서 목록
+## 订单列表
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![001](./img/001.png)
 
-1. <StrongTextParser text={text.list01} />
-1. <StrongTextParser text={text.list02} />
+1. **商店** - 选择**我的订单**。
+1. 查看您的订单列表。
 
 </ValidateTextByToken>
 
-## 주문서 목록 - 주문서 상태
+## 订单列表 - 订单状态
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![010](./img/010.png)
 
-- 저장: 주문서가 임시저장된 상태입니다.
-- 수정 요청: 판매자가 주문자에게 수정할 것을 요청한 상태의 주문서입니다.
-- 주문 접수: 주문자가 주문서를 생성하여 판매자에게 접수된 상태의 주문서입니다.
-- 승인: 판매자에 의해 승인된 상태의 주문서입니다.
-- 진행중: 승인된 주문서가 주문자에게 납품되는 중에 있는 상태의 주문서입니다.
-- 완료: 주문자에게 납품이 완료된 상태의 주문서입니다.
-- 취소: 주문자에 의해 취소된 상태의 주문서입니다.
+- 已保存：订单已暂时保存。
+- 修改请求：订单处于卖家请求客户修改的状态。
+- 订单已收到：订单处于客户已创建订单并从卖家处收到的状态。
+- 已批准：订单处于卖家已批准的状态。
+- 处理中：订单处于已批准的订单正在向客户发货的状态。
+- 已完成：订单处于已完成向客户发货的状态。
+- 已取消：订单处于客户已取消的状态。
 
 </ValidateTextByToken>
 
-## 주문서 생성
+## 创建订单
 
 <ValidateTextByToken dispTargetViewer={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![002](./img/002.png)
 
-1. **+** 버튼을 눌러 주문서를 생성합니다.
-1. 4가지 유형의 주문서 생성 방식 중에서 1가지를 선택합니다.
-    - 서비스 연계주문 : 서비스 주문서에 사용된 부품을 주문시 (특히 무상자재 요청시) 활용합니다.
-    - 일반주문: 일반 유상 PO 생성 시 사용합니다.
-    - 구매품의: 법인사용자를 위한 메뉴입니다. 법인의 유상 PO 생성시 사용하는 메뉴입니다.
-    - 무상출고: (본사전용) 서클에서 작성하는 일반적인 무상출고 품의를 CRM에서 생성하는 것으로 생각해주시면 됩니다.
-1. 유형을 선택 후 **주문** 버튼을 클릭합니다.
+1. 点击 **+** 按钮创建订单。
+1. 从四种订单创建方式中选择一种。
+- 服务关联订单：用于订购服务订单中使用的零件（尤其是申请免费物料时）。
+- 通用订单：用于创建通用付费采购订单。
+- 采购询价：这是面向企业用户的菜单。用于为企业创建付费采购订单。
+- 免运费：（仅限总部）您可以将其视为在 CRM 中创建一个圈起来的通用免运费询价。
+1. 选择一种类型，然后点击 **订单** 按钮。
 
 </ValidateTextByToken>
