@@ -1,6 +1,7 @@
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import AccessibleAgents from "../components/AccessibleAgents/AccessibleAgents";
 import AccessAlert from "../components/AccessAlert/AccessAlert";
+import useRouteContext from "@docusaurus/useRouteContext";
 
 const passwords = {
     'init123!!':'head',
@@ -12,6 +13,8 @@ const passwords = {
 };
 
 const MASTER_KEY = 'init123!!';
+
+console.log('asdasdadasasd');
 
 
 function getCookie(cname) {
@@ -37,6 +40,22 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 };
 
+function base64Decode(str) {
+    try {
+        return decodeURIComponent(Array.prototype.map.call(atob(str), function(c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+    } catch (e) {
+        return atob(str); // ASCII 문자열인 경우
+    }
+}
+
+function base64Encode(str) {
+    return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+        return String.fromCharCode('0x' + p1);
+    }));
+}
+
 
 
 
@@ -45,9 +64,6 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
 
     //const [token, setToken] = useState(getCookie('crmManualToken'));
     //console.log(children)
-
-    
-
 
     //const [auth, setAuth] = useState(passwords[token].toUpperCase());
 
@@ -70,15 +86,60 @@ export default function ValidateTextByToken({dispTargetViewer=false, dispCaution
         }
     };
 
+    function parseToken(validateToken, getToken, localToken){
+        let inputToken = getToken;
+        let savedToken = localToken;
+        //console.log('savedToken',savedToken);
+        if(savedToken){
+            //console.log('savedToken2','??');
+        }else{
+            //console.log('savedToken2','!!', inputToken, validateToken);
+            if (inputToken !== null && validateToken){
+                setCookie('crmManualToken', inputToken, 7);
+                setCookie('crmManualUser', inputToken, 7);
+                //setToken(inputToken);
+                if (passwords[inputToken]){
+                    setCookie('crmManualUser', passwords[inputToken].toUpperCase(), 7);
+                    //setAuth(passwords[inputToken].toUpperCase());
+                }else{
+                    //setAuth('UNKNOWN');
+                    setCookie('crmManualUser', 'UNKNOWN', 7);
+                };
+                window.location.reload();
+            }
+        }
+    
+    };
+
     
 
     return <BrowserOnly>
         {
             () => {
+
+                const crmToken = new URLSearchParams(location.search).get('token');
+
+                //console.log('crmToken',crmToken, base64Encode(crmToken),  base64Decode(base64Encode(crmToken)));
+
+                let [queryToken, generatedDate, duration] = [null, null, 0];
+                let isValidatedToken = false;
+                try{
+                    [queryToken, generatedDate, duration] = base64Decode(crmToken).split('$$');
+
+                    const timeDiff = (new Date() - new Date(generatedDate))/3600/24/1000; // Days
+                    if(timeDiff < Number(duration)){
+                        isValidatedToken = true;
+                    };
+                }catch(e){
+                    [queryToken, generatedDate, duration] = [null, null, 0];
+                };
+
+
                 const token = getCookie('crmManualToken');
                 const auth = getCookie('crmManualUser');
                 //console.log('token');
                 //console.log(token);
+                parseToken(isValidatedToken, queryToken, token);
 
                 let language = 'ko';
                 if (window.location.pathname.split('/')[1] === 'en'){

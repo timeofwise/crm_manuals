@@ -6,7 +6,7 @@ export default function StrongTextParser({text}) {
 
 
     const strongText = parsedText.split("**");
-    console.log('strongText',strongText);
+    //console.log('strongText',strongText);
 
 
     

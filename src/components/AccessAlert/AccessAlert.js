@@ -24,7 +24,7 @@ const TEXT = {
 
 export default function AccessAlert({accessibleAgents, language}){
 
-    console.log(accessibleAgents);
+    //console.log(accessibleAgents);
 
     const userText = TEXT[language];
 
