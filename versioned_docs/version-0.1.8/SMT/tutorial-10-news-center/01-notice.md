@@ -17,7 +17,6 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 1. Selectbox의 유형을 선택 후, 원하는 검색어로 검색할 수 있습니다.
 1. [필터] 버튼을 클릭하여 상세 검색을 할 수 있습니다. 
 1. 등록된 공지사항 목록을 볼 수 있으며, [제목]를 클릭하여 [공지사항 상세]페이지로 이동합니다.
-</ValidateTextByToken>
 <br/>
 <br/>
 
