@@ -1,0 +1,8 @@
+{
+  "label": "Service Order",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "We guide you through the process of receiving and processing customer service orders for products."
+  }
+}
