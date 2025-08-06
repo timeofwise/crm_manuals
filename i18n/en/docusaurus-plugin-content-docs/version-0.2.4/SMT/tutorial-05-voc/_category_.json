@@ -1,0 +1,8 @@
+{
+  "label": "VOC",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "This menu registers and manages issues that are difficult to troubleshoot at customer sites."
+  }
+}
