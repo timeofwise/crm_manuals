@@ -30,7 +30,6 @@ Guides you through the Commissioning and Training tabs on the Project Details sc
 
 ## Training
 ![040](./img/040.png)
-
 1. If you have conducted test runs and training related to installation and commissioning, you can enter the man-hours.
     :::info
     ![044](./img/044.png)
@@ -38,6 +37,9 @@ Guides you through the Commissioning and Training tabs on the Project Details sc
     <br/>Orange dot: Appears when a task is completed and requires administrator approval.
     :::
 1. Click the **+**button.
+    :::info
+    The **order creator** and **service manager** can process the work completion.
+    :::
 <br/>
 <br/>
 
@@ -113,7 +115,7 @@ Guides you through the Commissioning and Training tabs on the Project Details sc
 1. You can check the project's activity history in a timeline.
 1. Comments allow engineers and managers to communicate with each other.
     :::tip
-    - [Important] If you check the box and write a comment, an email will be sent to the people registered in the project.
+    If you check the box and write a comment, an email will be sent to the people registered in the project.
     :::
 1. Use this if you need to cancel a project. The button will be disabled once the installation and commissioning tasks are complete.
 1. You can select your favorites.

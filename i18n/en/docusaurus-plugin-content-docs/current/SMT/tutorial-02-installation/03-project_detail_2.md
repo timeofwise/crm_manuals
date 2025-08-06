@@ -39,6 +39,9 @@ This is used when conducting a preliminary meeting with the customer before perf
     :::
 1. If you are performing a pre-meeting, click the + button.
 1. (Engineer) When the pre-meeting is complete, click the Complete Work toggle.
+    :::info
+    The **order creator** and **service manager** can process the work completion.
+    :::
 1. (Admin) Check the pre-meeting details that the engineer has completed and click the Admin Approval toggle.
 <br/>
 <br/>
@@ -119,7 +122,7 @@ This is used when conducting a preliminary meeting with the customer before perf
 1. You can check the project's activity history in a timeline.
 1. Comments allow engineers and managers to communicate with each other.
     :::tip
-    - [Important] If you check the box and write a comment, an email will be sent to the people registered in the project.
+    If you check the box and write a comment, an email will be sent to the people registered in the project.
     :::
 1. Use this if you need to cancel a project. The button will be disabled once the installation and commissioning tasks are complete.
 1. You can select your favorites.

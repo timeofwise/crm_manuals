@@ -122,7 +122,7 @@ This guides you through the Shipment tab on the Project Details screen. This is 
 1. You can check the project's activity history in a timeline.
 1. Comments allow engineers and managers to communicate with each other.
     :::tip
-    - [Important] If you check the box and write a comment, an email will be sent to the people registered in the project.
+    If you check the box and write a comment, an email will be sent to the people registered in the project.
     :::
 1. Use this if you need to cancel a project. The button will be disabled once the installation and commissioning tasks are complete.
 1. You can select your favorites.
