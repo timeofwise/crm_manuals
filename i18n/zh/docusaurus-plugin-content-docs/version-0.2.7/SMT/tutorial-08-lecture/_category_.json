@@ -1,0 +1,8 @@
+{
+  "label": "교육",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "온오프라인 교육 과정을 등록하여 수강자들에게 교육 콘텐츠를 제공합니다."
+  }
+}
