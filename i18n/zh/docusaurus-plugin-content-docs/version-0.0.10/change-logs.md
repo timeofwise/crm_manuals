@@ -5,6 +5,7 @@ sidebar_position: 999
 
 # Change Logs
 
+
 ## 0.x
 
 ### 0.0.10
@@ -13,12 +14,12 @@ sidebar_position: 999
 
 - 메뉴 추가
     - 기술지원
-        - [Q&A](./SMT/tutorial-09-technical-support/01-qna.md) 메뉴 추가
-        - [특수 노즐](./SMT/tutorial-09-technical-support/02-special-nozzle.md) 메뉴 추가
-        - [장착정도 인증서](./SMT/tutorial-09-technical-support/03-cpk-certificate.md) 메뉴 추가
+        - [Q&A] 메뉴 추가
+        - [특수 노즐] 메뉴 추가
+        - [장착정도 인증서] 메뉴 추가
 - 메뉴 보완
     - 사용자인증
-        - [CRM 계정생성(그외사용자)](./SMT/tutorial-01-auth/create-a-acount-non-circle-user.md#일반-사용자-계정-생성-) 페이지 내 일반 사용자 계정 생성 시나리오 부문에 메뉴만 추가해둠
+        - [CRM 계정생성(그외사용자)] 페이지 내 일반 사용자 계정 생성 시나리오 부문에 메뉴만 추가해둠
 
 ### 0.0.9
 
@@ -26,12 +27,12 @@ sidebar_position: 999
 
 - 메뉴 보완
     - 교육
-        - [온라인교육과정](./SMT/tutorial-08-lecture/01-online-lecture.md) 절차 추가
-        - [오프라인교육과정](./SMT/tutorial-08-lecture/02-offline-lecture.md) 절차 추가
+        - [온라인교육과정] 절차 추가
+        - [오프라인교육과정]절차 추가
     - DEMO
-        - [프로젝트 목록](./SMT/tutorial-07-demo/01-demo-list.md) 안내 추가
-        - [프로젝트 생성](./SMT/tutorial-07-demo/02-demo-add.md) 절차 추가
-        - [프로젝트 상세](./SMT/tutorial-07-demo/03-demo-detail.md) 절차 추가
+        - [프로젝트 목록] 안내 추가
+        - [프로젝트 생성]절차 추가
+        - [프로젝트 상세] 절차 추가
 
 
 ### 0.0.8
@@ -42,8 +43,8 @@ sidebar_position: 999
     - 업무메뉴관리
 - 메뉴 보완
     - 업무메뉴관리
-        - [뉴스센터관리](./SMT/tutorial-13-task-management/01-manage-news-center.md) 절차 추가
-        - [교육관리](./SMT/tutorial-13-task-management/02-manage-training.md) 절차 추가
+        - [뉴스센터관리] 절차 추가
+        - [교육관리] 절차 추가
 
 ### 0.0.7
 
@@ -51,11 +52,11 @@ sidebar_position: 999
 
 - 메뉴 보완
     - 뉴스센터
-        - [공지사항](./SMT/tutorial-10-news-center/01-notice.md) 절차 추가
-        - [MSDS](./SMT/tutorial-10-news-center/03-msds.md) 절차 추가
-        - [자료실](./SMT/tutorial-10-news-center/02-archive.md) 절차 추가
+        - [공지사항] 절차 추가
+        - [MSDS] 절차 추가
+        - [자료실] 절차 추가
     - 예방활동
-        - [리트로핏](./SMT/tutorial-06-courtesy-activity/03-retrofit.md) 절차 추가
+        - [리트로핏] 절차 추가
 
 ### 0.0.6
 
@@ -71,8 +72,8 @@ sidebar_position: 999
 
 - 메뉴 보완
     - 스토어
-        - [서비스부품 출고 요청](./SMT/tutorial-04-store/stock-request.md) 절차 추가
-        - [서비스부품 출고 승인 & 관리](./SMT/tutorial-04-store/stock-manage.md) 절차 추가
+        - [서비스부품 출고 요청] 절차 추가
+        - [서비스부품 출고 승인 & 관리] 절차 추가
 
 ### 0.0.4
 
@@ -80,9 +81,9 @@ sidebar_position: 999
 
 - 메뉴 보완
     - VOC
-        - [VOC 개요](./SMT/tutorial-05-voc/overview-voc.md) 현황판 추가
-        - [VOC 생성](./SMT/tutorial-05-voc/create-voc.md) 절차 추가
-        - [VOC 처리](./SMT/tutorial-05-voc/handle-voc.md) 절차 추가
+        - [VOC 개요] 현황판 추가
+        - [VOC 생성] 절차 추가
+        - [VOC 처리] 절차 추가
 
 ### 0.0.3
 
@@ -90,9 +91,9 @@ sidebar_position: 999
 
 - 메뉴 보완
     - 스토어
-        - [주문서 수정](./SMT/tutorial-04-store/edit-a-store-order-buyer.md) 절차 추가 (작성중)
-        - [주문서 작성 - 일반주문(유상PO, 법인용)](./SMT/tutorial-04-store/create-a-store-order-buyer.md#유상po-품의-기본정보-확인-✨) 추가
-        - [주문서 작성 - 무상출고(본사용)](./SMT/tutorial-04-store/create-a-store-order-buyer.md#주문서-생성---무상출고품의본사용-✨) 추가
+        - [주문서 수정] 절차 추가 (작성중)
+        - [주문서 작성 - 일반주문(유상PO, 법인용)] 내용 추가
+        - [주문서 작성 - 무상출고(본사용)] 내용 추가
 
 ### 0.0.2
 
@@ -101,22 +102,22 @@ sidebar_position: 999
 - 매뉴얼 구조 변경
     - 3개 사업부 사이드바 메뉴 구분
 - 메뉴 추가
-    - [VOC](./SMT/tutorial-05-voc/create-voc.md)
-    - [예방활동](./SMT/tutorial-06-courtesy-activity/01-overview.md)
-    - [DEMO](./SMT/tutorial-07-demo/01-demo-list.md)
-    - [교육](./SMT/tutorial-08-lecture/01-online-lecture.md)
-    - [기술지원](./SMT/tutorial-09-technical-support/01-qna.md)
-    - [뉴스센터](./SMT/tutorial-10-news-center/01-notice.md)
-    - [애프터마켓](./SMT/tutorial-11-aftermarket/01-performance.md)
-    - [시스템 관리](./SMT/tutorial-12-system-management/01-task-manage.md)
+    - [VOC]
+    - [예방활동]
+    - [DEMO]
+    - [교육]
+    - [기술지원]
+    - [뉴스센터]
+    - [애프터마켓]
+    - [시스템 관리]
 - 메뉴 보완
     - 사용자 인증
-        - [CRM 계정생성 (비 서클 사용자) 등록 절차](./SMT/tutorial-01-auth/create-a-acount-non-circle-user.md) (95%)
-        - [비밀번호 초기화](./SMT/tutorial-01-auth/initialize-password.md) 추가 (80%)
-        - [아이디(이메일) 찾기](./SMT/tutorial-01-auth/find-email.md) 추가
+        - [CRM 계정생성 (비 서클 사용자) 등록 절차]
+        - [비밀번호 초기화] 추가
+        - [아이디(이메일) 찾기]추가
     - 예방활동 
-        - [개요](./SMT/tutorial-06-courtesy-activity/01-overview.md) 추가
-        - [BS 활동](./SMT/tutorial-06-courtesy-activity/02-bs.md) 추가
+        - [개요]추가
+        - [BS 활동] 추가
 
 
 ### 0.0.1
