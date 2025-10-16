@@ -1,8 +1,8 @@
 {
-  "label": "기술지원",
+  "label": "Technical Support",
   "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "서비스와 관련된 각종 기술적인 문의사항의 등록과 답변을 제공하는 메뉴입니다."
+    "description": "This menu provides registration and answers to various technical inquiries related to the service."
   }
 }

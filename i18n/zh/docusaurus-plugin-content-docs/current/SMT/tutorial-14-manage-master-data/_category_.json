@@ -1,8 +1,8 @@
 {
-  "label": "기준정보 관리",
+  "label": "Master data",
   "position": 14,
   "link": {
     "type": "generated-index",
-    "description": "기준정보 관리"
+    "description": "We will guide you through how to manage your reference information."
   }
 }

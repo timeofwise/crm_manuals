@@ -1,8 +1,8 @@
 {
-  "label": "업무메뉴 관리",
+  "label": "Task management",
   "position": 13,
   "link": {
     "type": "generated-index",
-    "description": "업무 메뉴 관리"
+    "description": "We'll guide you through managing your work menu."
   }
 }

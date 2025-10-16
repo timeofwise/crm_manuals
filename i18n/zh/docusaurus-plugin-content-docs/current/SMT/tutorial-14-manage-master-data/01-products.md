@@ -37,7 +37,7 @@ Guide to managing product and parts data.
 1. Use [**List Filtering**](#list-filtering) to display only customers that meet specific criteria.
 1. Enter [**Search Word**](#search) to search for the desired data.
 1. Enter [**Multiple Filters**](#advanced-search) to search for data.
-1. You can [**Excel Export**](#excel-export) and [**Table Management**](#Table Management).
+1. You can [**Excel Export**](#excel-export) and [**Table Management**](#table-management).
 1. Click [**Product Code**](#detail-page) to view detailed information about the product code.
 <br/>
 <br/>
@@ -180,9 +180,9 @@ This guide explains how to display columns, change their order, and change the c
     :::info
         - Users affiliated with the headquarters will see inventory from all warehouses.
         - Users affiliated with other companies will see inventory from the following:
-            - Inventory for warehouse locations set in [**Center - Storage Location**](./04-centers.md)
-            - Inventory for storage locations manually registered and managed in [**Store - Stock**](./SMT/tutorial-04-store/stock-manage.md)
-            - Inventory for warehouse locations set in [**Center - Material Approval Center**](./04-centers.md)
+            - Inventory for warehouse locations set in **Center - Storage Location**
+            - Inventory for storage locations manually registered and managed in **Store - Stock**
+            - Inventory for warehouse locations set in **Center - Material Approval Center**
     :::
 1. Click the **Refresh** button to update your inventory status.
 1. Click the **gear** button to manage the inventory list table.
