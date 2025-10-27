@@ -6,9 +6,9 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-03-store/01-create-order-buyer.json";
 
-# 주문서 작성 - 구매 품의
+# 주문서 작성 - 구매 품의 (HTS 전용)
 
-법인에서 본사로 부품 주문을 해야하는 경우 주로 사용합니다. <br/>
+중국 법인에서 본사로 부품 주문을 해야하는 경우 주로 사용합니다. <br/>
 기존의 서클에서 발행하던 유상 PO 품의를 CRM에서 생성 할 수 있습니다. 간소해진 CRM에서의 유상 PO 품의 절차를 확인하세요.
 <ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head']} >
 <br/>

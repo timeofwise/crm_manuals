@@ -6,7 +6,7 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 
 # 개요
 
-<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head']}>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
 
 VOC 현황판에서는 VOC 진척 현황을 살펴볼 수 있습니다.
 

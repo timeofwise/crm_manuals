@@ -35,7 +35,7 @@ import asset from "./img/054.png";
 1. 설치시운전 프로젝트에 추가된 설치대상 자산의 보증기간 관리가 가능합니다. 
     :::warning 
     보증기간 관리는 **자산추가** 후 활용이 가능합니다.
-    <br/>[**보증기간 관리**](#보증기간-관리)를 클릭하여 관리방법을 확인 할 수 있습니다.
+    <br/>[**보증기간 관리**](#개요---보증기간-관리)를 클릭하여 관리방법을 확인 할 수 있습니다.
     :::
 <br/>
 <br/>
@@ -53,7 +53,9 @@ import asset from "./img/054.png";
 
 ## 개요 - 납품목록 추가
 ### 판매주문으로 추가하기
-
+:::info
+판매주문으로 추가하기는 **본사 및 법인만 사용** 할 수 있습니다.
+:::
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch']}>
 ![008](./img/008.png)
 
@@ -190,7 +192,7 @@ import asset from "./img/054.png";
     :::tip
     - <StrongTextParser text={text.common03} />
     :::
-1. 프로젝트를 취소해야 할 경우 사용합니다. 설치시운전 작업이 완료되면 버튼이 비활성화 됩니다. 
+1. 프로젝트를 취소해야 할 경우 사용합니다. 설치시운전 작업이 완료되면 프로젝트 취소가 불가합니다.
 1. **즐겨찾기**를 선택 할 수 있습니다.
 </ValidateTextByToken>
 

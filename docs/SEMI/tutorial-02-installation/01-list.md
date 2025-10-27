@@ -10,7 +10,7 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/01-create-project.
 
 설치시운전 프로젝트 목록을 안내합니다.
 
-<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head']}>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![001](./img/001.png)
 

@@ -13,7 +13,7 @@ import Signature from "./img/039.png";
 프로젝트 상세 화면의 개요 탭을 안내합니다.
 
 ## 프로젝트 상세 탭 안내
-<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head']}>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch', 'agent']}>
 
 ![052](./img/052.png)
 1. **개요** : 설치시운전에 대한 기본적인 내용 및 요약, 납품 목록을 입력합니다.
@@ -46,14 +46,17 @@ import Signature from "./img/039.png";
     :::info
     보증 기간 관리가 필요한 자산은 모두 등록해야 합니다. 추가 방법은 다음과 같습니다. 
     :::
+<br/>
+<br/>
 </ValidateTextByToken>
-<br/>
-<br/>
 
 ## 개요 - 납품목록 추가
-### 판매주문으로 추가하기
-
 <ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
+
+### 판매주문으로 추가하기
+:::info
+판매주문으로 추가하기는 **본사**에 제공되는 기능입니다.
+:::
 ![008](./img/008.png)
 
 1. <StrongTextParser text={text.overviewAddAssetBySalesOrder01} />
@@ -66,7 +69,7 @@ import Signature from "./img/039.png";
 <br/>
 
 ### 자산목록에서 추가하기
-<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head']}>
+<ValidateTextByToken dispTargetViewer={false} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ![009](./img/009.png)
 

@@ -6,9 +6,9 @@ import ValidateTextByToken from "/src/utils/getQueryString.js";
 import StrongTextParser from "/src/utils/textParser.js";
 import text from "/src/locale/ko/SMT/tutorial-03-store/01-create-order-buyer.json";
 
-# 주문서 작성 - 구매 품의
+# 주문서 작성 - 구매 품의(HTS 전용)
 
-법인에서 본사로 부품 주문을 해야하는 경우 주로 사용합니다. <br/>
+중국 법인에서 본사로 부품 주문을 해야하는 경우 주로 사용합니다. <br/>
 기존의 서클에서 발행하던 유상 PO 품의를 CRM에서 생성 할 수 있습니다. 간소해진 CRM에서의 유상 PO 품의 절차를 확인하세요.
 <ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch']} >
 <br/>
@@ -66,13 +66,10 @@ import text from "/src/locale/ko/SMT/tutorial-03-store/01-create-order-buyer.jso
 - PO 발행사유 및 특이사항을 입력합니다.
 
 ![020](./img/020.png)
-1. 첨부파일을 첨부합니다.
+1. PO발행과 관련된 파일을 첨부합니다.
 1. 계약서 정보에 입력될 텍스트를 입력합니다.
-    - 입력된 정보는 아래와 같이 문서 생성에 사용됩니다. ![021](./img/021.png) 
-        :::note
-        문서는 PDF 형식으로 출력됩니다.
-        :::
-1. [임시 저장] 또는 [다음] 버튼을 누릅니다.
+    - 입력된 정보는 아래와 같은 문서 생성에 사용되며, PDF 형식으로 출력됩니다.  ![021](./img/021.png) 
+1. **임시 저장** 또는 **다음** 버튼을 누릅니다.
 <br/>
 <br/>
 
@@ -80,5 +77,5 @@ import text from "/src/locale/ko/SMT/tutorial-03-store/01-create-order-buyer.jso
 ![022](./img/022.png)
 1. 결재선을 검색합니다.(서클사용자들이 검색됩니다.)
 1. 품의 상신 의견을 입력합니다.
-1. [완료] 버튼을 눌러 결재문서를 서클로 전송합니다.
+1. **완료** 버튼을 눌러 결재문서를 서클로 전송합니다.
 </ValidateTextByToken>

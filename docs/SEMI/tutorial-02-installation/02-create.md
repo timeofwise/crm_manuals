@@ -10,7 +10,7 @@ import text from "/src/locale/ko/SMT/tutorial-02-installation/01-create-project.
 
 고객사에 인도된 자산의 설치시운전 작업을 수행하기 위한 절차를 안내합니다.
 
-<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head']}>
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch', 'agent']}>
 
 ## 프로젝트 생성 - 1/3
 ![002](./img/002.png)
