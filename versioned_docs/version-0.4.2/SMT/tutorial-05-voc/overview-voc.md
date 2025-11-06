@@ -1,0 +1,23 @@
+---
+sidebar_position: 1
+---
+
+import ValidateTextByToken from "/src/utils/getQueryString.js";
+
+# 개요
+
+<ValidateTextByToken dispTargetViewer={true} dispCaution={true} validTokenList={['head', 'branch', 'seller', 'agent']}>
+
+VOC 현황판에서는 VOC 진척 현황을 살펴볼 수 있습니다.
+
+## 지표 현황
+### 주차별 현황
+![019](./img/019.png) 
+주차별로 VOC 접수 및 처리 현황을 표시합니다.
+<br/>
+<br/>
+
+### 기간 및 유형별 현황
+![020](./img/020.png) 
+기간 또는 유형에 따라 VOC 접수 및 처리 현황을 표시합니다.
+</ValidateTextByToken>

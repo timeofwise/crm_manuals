@@ -1,0 +1,8 @@
+{
+  "label": "DEMO",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Register your DEMO project and manage issues and evaluation metrics."
+  }
+}
