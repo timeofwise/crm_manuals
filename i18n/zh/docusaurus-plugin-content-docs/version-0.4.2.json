@@ -1,0 +1,130 @@
+{
+  "version.label": {
+    "message": "0.4.2",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.SMT": {
+    "message": "SMT",
+    "description": "The label for category SMT in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자 인증": {
+    "message": "用户身份验证",
+    "description": "The label for category 用户身份验证 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.사용자 인증.link.generated-index.description": {
+    "message": "本页面指导您申请和验证用户帐户和系统权限以使用 CRM 系统。",
+    "description": "The generated-index page description for category 사용자 인증 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치시운전": {
+    "message": "安装调试",
+    "description": "The label for category 安装调试 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.설치시운전.link.generated-index.description": {
+    "message": "本页将指导您使用 CRM 创建和执行安装调试。",
+    "description": "The generated-index page description for category 설치시운전 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.서비스 주문": {
+    "message": "服务订单",
+    "description": "The label for category 服务订单 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.서비스 주문.link.generated-index.description": {
+    "message": "此页面指导您注册和处理与销售给客户的产品相关的服务请求。",
+    "description": "The generated-index page description for category 서비스 주문 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.스토어": {
+    "message": "商店",
+    "description": "The label for category 商店 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.스토어.link.generated-index.description": {
+    "message": "此页面将指导您如何搜索服务部件、创建订单以及处理订单。",
+    "description": "The generated-index page description for category 스토어 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VOC": {
+    "message": "VOC",
+    "description": "The label for category VOC in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.VOC.link.generated-index.description": {
+    "message": "本页面提供有关如何联系总部以获得现场难以解决的问题的支持的指导。",
+    "description": "The generated-index page description for category VOC in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.예방활동": {
+    "message": "预防活动",
+    "description": "The label for category 预防活动 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.예방활동.link.generated-index.description": {
+    "message": "本页将指导您完成执行服务活动的过程，以防止 BS 和 Retrofit 等故障。",
+    "description": "The generated-index page description for category Courtesy Service in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DEMO": {
+    "message": "DEMO",
+    "description": "The label for category DEMO in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DEMO.link.generated-index.description": {
+    "message": "本页面将指导您注册和管理您的 DEMO 评估项目。",
+    "description": "The generated-index page description for category DEMO Evaluation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.교육": {
+    "message": "培训",
+    "description": "The label for category 培训 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.교육.link.generated-index.description": {
+    "message": "本页面提供有关如何参加在线和离线技术培训课程的指导。",
+    "description": "The generated-index page description for category Training in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기술지원": {
+    "message": "技术支持",
+    "description": "The label for category 技术支持 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기술지원.link.generated-index.description": {
+    "message": "此页面提供了一种注册和响应与我们的服务相关的各种技术咨询的方法。",
+    "description": "The generated-index page description for category Technical Support in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.뉴스센터": {
+    "message": "新闻中心",
+    "description": "The label for category 新闻中心 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.뉴스센터.link.generated-index.description": {
+    "message": "本页面提供有关如何发布和提供服务相关公告和技术信息的指导。",
+    "description": "The generated-index page description for category News Center in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.애프터마켓": {
+    "message": "售后市场",
+    "description": "The label for category 售后市场 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.애프터마켓.link.generated-index.description": {
+    "message": "本页面将指导您发布服务报价和管理销售业绩。",
+    "description": "The generated-index page description for category Quotation and Performance in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.시스템 관리": {
+    "message": "系统管理",
+    "description": "The label for category 系统管理 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.시스템 관리.link.generated-index.description": {
+    "message": "R本页面将指导您完成系统管理和审批流程。",
+    "description": "The generated-index page description for category System Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.업무메뉴 관리": {
+    "message": "业务菜单管理",
+    "description": "The label for category 业务菜单管理 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.업무메뉴 관리.link.generated-index.description": {
+    "message": "此页面指导您管理 CRM 提供的新闻中心/商店/培训等菜单。",
+    "description": "The generated-index page description for category Content Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기준정보 관리": {
+    "message": "标准信息",
+    "description": "The label for category 标准信息 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.기준정보 관리.link.generated-index.description": {
+    "message": "本页面提供有关如何管理客户/资产信息等标准信息的指导。",
+    "description": "The generated-index page description for category Master Data in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.만족도조사": {
+    "message": "满意度调查",
+    "description": "The label for category 满意度调查 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.만족도조사.link.generated-index.description": {
+    "message": "本页面将指导您创建客户满意度调查并查看结果。",
+    "description": "The generated-index page description for 만족도조사 in sidebar tutorialSidebar"
+  }
+}

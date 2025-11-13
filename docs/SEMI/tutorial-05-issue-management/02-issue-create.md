@@ -13,31 +13,49 @@ import PopUp7 from "./img/048.png";
 import PopUp8 from "./img/049.png";
 import PopUp9 from "./img/050.png";
 import PopUp10 from "./img/051.png";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # 이슈 등록
 고객사에서 일어나는 이슈를 등록하고, 유관부서에 이슈의 심의 요청 방법을 안내합니다.
 <ValidateTextByToken dispTargetViewer={true} dispCaution={false} validTokenList={['head', 'branch']}>
 
 ## 이슈 접수
-
 ![006](./img/006.png)
 1. **신규 등록** 버튼을 클릭합니다. 
 <br/>
 <br/>
 
+### 기본 정보
 ![007](./img/007.png)
-1. 이슈의 기본 정보를 등록합니다. 조치 요청 납기를 제외한 **모든 항목은 필수 입력사항**입니다.
-    - **Pjt No.** (WBS No.) 리스트는 아래와 같습니다. 
-        <br/>RD25M003 / RD25M002 / RD25M001 / RD24M018 / RD24M017 / RD24M016 / RD24M015 / RD24M014 / RD24M013 / RD24M012 / RD24M011 / RD24M010 / RD24M009 / RD24M008 / RD24M007 / RD24M006 / RD24M005 / RD24M004 / RD24M003 / RD24M002 / RD24M001
-
-    - **이슈 발생 장소** (대분류) 리스트는 아래와 같습니다. 
-        <br/>삼성전자(기흥) / 삼성전자(평택) / 본사
-
-    - **이슈 발생 장소** (소분류) 리스트는 아래와 같습니다. 
-        <br/>창원 / NRD-K / P3D / 아산 / 판교
-
-    - **모델명**을 검색합니다. 검색 방법은 다음과 같습니다. 
-        :::info 모델 검색 방법
+1. 이슈의 기본 정보를 등록합니다. 조치 요청 납기를 제외한 **모든 항목은 필수 입력사항**입니다. <br/>각 항목의 리스트 및 입력방법은 다음과 같습니다. 
+    <Tabs>
+    <TabItem value="Pjt No." label="Pjt No." default>
+        - RD25M003_DEMO 3호기 Ti/TiN 운영(2025)
+        - RD25M002_DEMO 2호기 Ti/TiN 운영(2025)
+        - RD25M001_JDEP 1호기 운영(2025)
+        - RD24M016_차세대 DRA向 P-TiN용 JDP 설비 제작
+        - RD24M015_(설비개발 D-1), D0a, Single, P-TiN CH 제작
+        - RD24M011_JDP 2호기 운영(2025)
+        - RD24M008_(설비개발 D-5) D1d, Single, Co
+        - RD24M007_(설비개발_D-2) D0a, Single, Pre-Clean
+        - RD24M005_(수주_JDP 2) D0a, Single, Ti/TiN
+        - RD24M004_(설비개발_D_4) 차세대(베타), 4-Station, SiO/SiN
+    </TabItem>
+    <TabItem value="이슈 발생 장소(대분류)" label="이슈 발생 장소">
+        - 삼성전자(기흥)
+        - 삼성전자(평택)
+        - 본사
+    </TabItem>
+    <TabItem value="이슈 발생 장소 (소분류)" label="이슈 발생 장소 (소분류)">
+        - 창원 
+        - NRD-K 
+        - P3D 
+        - 아산 
+        - 판교
+    </TabItem>
+    <TabItem value="모델명" label="모델명">
+    **모델 검색 방법**은 다음과 같습니다. 
         ![046](./img/046.png)
         1. **검색** 버튼을 클릭합니다. 
         <br/>
@@ -51,30 +69,101 @@ import PopUp10 from "./img/051.png";
         <br/>
         <div><img src={PopUp6} width="50%" alt="047"/></div>
         <br/>**등록이 완료**되면 위 그림과 같이 모델명이 표시됩니다. <br/>**수정**이 필요한 경우 **검색** 버튼을 클릭하여 모델명을 **재선택** 합니다.
-        :::
-    - **설비코드** (고객사) 리스트는 아래와 같습니다. 
-        <br/>SHB7701 / SHBD701
-
-    - **공정명** 리스트는 아래와 같습니다. 
-        <br/>TSN / Etch / PE TiN / CC TiN / DC TiN / MC TiN / DC Ti / MC Ti / SiO/SiN / Prd Clean / Co Pre-clean / Cobalt / SiN / SiO / Ti/TiN / P-TiN / TiN / Ti
-        
-    - **발생 구분** 리스트는 아래와 같습니다. 
-        <br/>필드이슈 / 셋업이슈 / 생산이슈 / 개발이슈
-        
-    - **이슈 구분** 리스트는 아래와 같습니다. 
-        <br/>풀림 / 유량(헌팅/드롭) / 연결 Miss / Uniformity / Leak / 막힘 / 휴먼에러 / 아킹 / 단선/단락 / 파손 / 온도(헌팅/드롭/발열) / 통신오류 / 눈관리 / 오염 / 막질 / Particle / 표준부재(절차/문서) / 표준미흡(절차/문서) / Software / Hardware
+    </TabItem>
+    <TabItem value="설비코드 (고객사)" label="설비코드 (고객사)">
+        - SHC7701
+        - SHB7701 
+        - SHBD701
+    </TabItem>
+    <TabItem value="공정명" label="공정명">
+        - TSN
+        - Etch
+        - PE TiN
+        - CC TiN 
+        - DC TiN
+        - MC TiN 
+        - DC Ti 
+        - MC Ti 
+        - SiO/SiN 
+        - Prd Clean 
+        - Co Pre-clean 
+        - Cobalt 
+        - SiN 
+        - SiO 
+        - Ti/TiN 
+        - P-TiN 
+        - TiN 
+        - Ti
+    </TabItem>
+    <TabItem value="발생 구분" label="발생 구분">
+        - 필드이슈 
+        - 셋업이슈 
+        - 생산이슈 
+        - 개발이슈 
+    </TabItem>
+    <TabItem value="이슈 구분" label="이슈 구분">
+        - 풀림
+        - 유량(헌팅/드롭) 
+        - 연결 Miss 
+        - Uniformity 
+        - Leak 
+        - 막힘 
+        - 휴먼에러 
+        - 아킹 
+        - 단선/단락 
+        - 파손 
+        - 온도(헌팅/드롭/발열) 
+        - 통신오류 
+        - 눈관리 
+        - 오염 
+        - 막질 
+        - Particle 
+        - 표준부재(절차/문서) 
+        - 표준미흡(절차/문서) 
+        - Software 
+        - Hardware 
+    </TabItem>
+    </Tabs>
 <br/>
 <br/>
 
+### 관련부품
 ![008](./img/008.png)
 이슈와 관련하여 부적합 발생 부품 정보를 등록 할 수 있습니다. 
 1. **부품 코드를 검색**하여 등록합니다. 조회가 불가한 부품은 직접 입력합니다.  
 1. **부적합 발생 부품 정보**를 입력합니다. 
 1. 부품의 **Serial Number**가 존재한다면 입력합니다. 
-1. 해당되는 **Module**을 선택합니다. Module 리스트는 다음과 같습니다. 
-    - Sub Module / PM6 / PM5 / PM4 / PM3 / PM2 / PM1 / Platform / System
-1. 해당되는 **Unit**을 선택합니다. Unit 리스트는 다음과 같습니다. 
-    - Sub component / MPB / Gas Line Unit / Vacuum Unit / Elec. Unit / Source Box Unit / Chamber Unit / Lid Unit / Moving Unit / Frame Unit / TM Chamber Unit / L/L Chamber Unit / EFEM Unit / 공통
+1. 해당되는 **Module** 및 **Unit**을 선택합니다. Module 및 Unit 리스트는 아래와 같습니다. 
+<Tabs>
+    <TabItem value="Module" label="Module" default>
+        - Sub Module
+        - PM6 
+        - PM5 
+        - PM4 
+        - PM3 
+        - PM2 
+        - PM1 
+        - Platform 
+        - System
+    </TabItem>
+    <TabItem value="Unit" label="Unit">
+        - Sub component
+        - MPB
+        - Gas Line Unit 
+        - Vacuum Unit 
+        - Elec. Unit 
+        - Source Box Unit  
+        - Gas Box Unit
+        - Chamber Unit 
+        - Lid Unit 
+        - Moving Unit 
+        - Frame Unit 
+        - TM Chamber Unit 
+        - L/L Chamber Unit 
+        - EFEM Unit 
+        - 공통
+    </TabItem>
+</Tabs>
 
 <br/>
 <br/>
@@ -123,13 +212,14 @@ import PopUp10 from "./img/051.png";
 ## 이슈 등록 완료
 <div><img src={PopUp3} width="80%" alt="036"/></div>
 
-1. 이슈 관리자는 상신된 이슈 결재를 확인하고 처리합니다. 
+1. 이슈 관리자는 상신된 결재 내역을 확인하고 결재형태를 선택합니다. 
 :::info
 - 승인 : 문서의 실행을 허락하여 이슈 등록이 완료되고 이슈 심의를 진행 할 수 있는 상태가 됩니다. 
 - 반려 : 문서의 실행이 거부되며 기안자에게 반려 사유가 전달됩니다. 
 - 보류 : 승인 또는 반려 결정을 내리기 어려운 상황에서 결재를 일시적으로 중단시킬 수 있습니다. 보류 상태인 경우 이슈는 등록 중 상태로 유지됩니다. 
 - 전결 : 부득이하게 상위 결재자의 결재를 대신 해야 하는 경우 선택합니다. 
 :::
+1. 필요 시 의견을 작성한 뒤 **확인**을 클릭합니다. 
 <br/>
 <br/>
 
@@ -180,7 +270,7 @@ import PopUp10 from "./img/051.png";
 
 
 ### 이슈 심의 의견 등록 - 유관부서
-:::warning 담당부서
+:::tip 담당부서
 **유관부서**가 이슈에 대한 의견을 등록하는 부분입니다. 
 :::
 ![039](./img/039.png)
@@ -190,8 +280,47 @@ import PopUp10 from "./img/051.png";
 
 ![040](./img/040.png)
 1. 검토 담당자가 **의견**을 작성하는 란 입니다.  
-1. 검토 담당자가 **중요도**를 입력하는 란 입니다. **중요도** 리스트는 아래와 같습니다. 
-   - A / B / C
+1. 검토 담당자는 이슈 현상의 **심각도(Severity)**, **발생도(Occurrence)**, **난이도(Difficulty)** 를 고려하여 A, B, C 등급으로 중요도를 분류합니다.
+    - 심각도 : 장비 성능, 고객 생산, 안전 등에 미치는 영향의 정도 
+    - 발생도 : 동일 또는 유사 이슈가 밣생한 빈도 및 반복성
+    - 난이도 : 문제 해결에 필요한 기술적 복잡성, 시간, 자원 소요 정도
+   :::warning 이슈 등급 분류표
+        <Tabs>
+        <TabItem value="A(상)" label="A(상)" default>
+            - **심각도** : 고객 양산 중단, 장비 운영 불가, 안전사고 가능성 등 치명적 영향 (즉시 대응 필요)
+            - **발생도** : 반복 발생 또는 다수 장비에서 동시 발생
+            - **난이도** : 장시간 분석 및 고난도 기술 필요 
+            <br/>
+            - **이슈현상 예시** 
+                - 주요 모듈 불량으로 장비 작동 불가
+                - 고객사 양산 라인 중단 유발
+                - 반복되는 전원 이상 또는 통신 오류
+                - 전기/화재/가스누출 등 안전 관련 이슈 
+        </TabItem>
+        <TabItem value="B(중)" label="B(중)">
+            - **심각도** : 장비 성능 저하, 일부 기능 오류, 고객 불편 유발 (단기 대응 필요)
+            - **발생도** : 간헐적 발생 또는 특정 모델/조건에서만 발생
+            - **난이도** : 단일 원인 추정 가능, 개선에 일정 시간 소요
+            <br/>
+            - **이슈현상 예시** 
+                - 비정상 동작이나 설정 오류
+                - 반복적인 알람 발생
+                - 고객사 요청에 의한 기능 개선 필요
+                - Setup 및 공정평가 지연 유발 요소
+        </TabItem>
+        <TabItem value="C(하)" label="C(하)">
+            - **심각도** : 장비 운영에는 영향 없음, 단순 불편 또는 개선 제안 (경미/지속적 관리 필요)
+            - **발생도** : 단발성
+            - **난이도** : 원인 명확, 단시간 내 개선 가능
+            <br/>
+            - **이슈현상 예시** 
+                - UI 불편사항
+                - 문서 오류, 매뉴얼(SOP 등) 누락/미흡
+                - 작업 프로세스 비효율/미흡
+                - 단순 오류(작업자, 설계 등)
+        </TabItem>
+        </Tabs>
+   :::
 1. 검토담당자는 해당 이슈의 접수 여부를 **승인**하거나 **Drop**하여야 합니다. 
 1. 의견, 중요도 및 접수 여부를 확정한 뒤 **저장** 버튼을 눌러 입력한 사항을 저장합니다.  
 <br/>
@@ -203,12 +332,51 @@ import PopUp10 from "./img/051.png";
 <br/>
 
 ### 이슈 심의 의견 등록 - 주관부서
-:::warning 담당 부서
+:::tip 담당 부서
 **주관부서**가 이슈에 대한 최종 의견을 등록하는 부분입니다. 검토 담당자들의 의견을 종합하여 **최종 의견을 등록하고 이슈 심의를 완료** 합니다. 
 :::
 ![019](./img/019.png)
-1. 이슈에 대한 종합적인 **중요도**를 선택합니다. **중요도** 리스트는 아래와 같습니다. 
-   - A / B / C
+1. 이슈에 대한 종합적인 **중요도**를 선택합니다. 이슈 현상의 **심각도(Severity)**, **발생도(Occurrence)**, **난이도(Difficulty)** 를 고려하여 A, B, C 등급으로 중요도를 분류합니다.
+    - 심각도 : 장비 성능, 고객 생산, 안전 등에 미치는 영향의 정도 
+    - 발생도 : 동일 또는 유사 이슈가 밣생한 빈도 및 반복성
+    - 난이도 : 문제 해결에 필요한 기술적 복잡성, 시간, 자원 소요 정도
+    :::warning 이슈 등급 분류표
+        <Tabs>
+        <TabItem value="A(상)" label="A(상)" default>
+            - **심각도** : 고객 양산 중단, 장비 운영 불가, 안전사고 가능성 등 치명적 영향 (즉시 대응 필요)
+            - **발생도** : 반복 발생 또는 다수 장비에서 동시 발생
+            - **난이도** : 장시간 분석 및 고난도 기술 필요 
+            <br/>
+            - **이슈현상 예시** 
+                - 주요 모듈 불량으로 장비 작동 불가
+                - 고객사 양산 라인 중단 유발
+                - 반복되는 전원 이상 또는 통신 오류
+                - 전기/화재/가스누출 등 안전 관련 이슈 
+        </TabItem>
+        <TabItem value="B(중)" label="B(중)">
+            - **심각도** : 장비 성능 저하, 일부 기능 오류, 고객 불편 유발 (단기 대응 필요)
+            - **발생도** : 간헐적 발생 또는 특정 모델/조건에서만 발생
+            - **난이도** : 단일 원인 추정 가능, 개선에 일정 시간 소요
+            <br/>
+            - **이슈현상 예시** 
+                - 비정상 동작이나 설정 오류
+                - 반복적인 알람 발생
+                - 고객사 요청에 의한 기능 개선 필요
+                - Setup 및 공정평가 지연 유발 요소
+        </TabItem>
+        <TabItem value="C(하)" label="C(하)">
+            - **심각도** : 장비 운영에는 영향 없음, 단순 불편 또는 개선 제안 (경미/지속적 관리 필요)
+            - **발생도** : 단발성
+            - **난이도** : 원인 명확, 단시간 내 개선 가능
+            <br/>
+            - **이슈현상 예시** 
+                - UI 불편사항
+                - 문서 오류, 매뉴얼(SOP 등) 누락/미흡
+                - 작업 프로세스 비효율/미흡
+                - 단순 오류(작업자, 설계 등)
+        </TabItem>
+        </Tabs>
+    :::
 1. 이슈가 종전 발생 이력이 있는지 **재발여부**를 선택합니다. 
 1. 이슈 **승인** 혹은 **Drop** 여부를 선택합니다. 
 1. 이슈에 대한 **종합 의견**을 입력합니다. 
@@ -218,7 +386,7 @@ import PopUp10 from "./img/051.png";
 <br/>
 
 ### 이슈 심의 승인
-:::tip 이슈 심의 승인
+:::info 이슈 심의 승인
 이슈 심의가 승인된 경우 위와같은 담당자에게 **이메일이 전송**됩니다. 
 :::
 ![020](./img/020.png)
